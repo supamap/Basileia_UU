@@ -32,3 +32,35 @@ supamap_insult_events.1 = { #gold discovered in a state
 		}
 	}
 }
+supamap_insult_events.2 = { #gold discovered in a state
+	type = state_event
+	placement = ROOT
+	title = supamap_insult_events.1.t
+	desc = supamap_insult_events.1.d
+	flavor = supamap_insult_events.2.f
+
+	duration = 3
+
+	event_image = {
+		video = "europenorthamerica_gold_prospectors"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	trigger = {
+	}
+
+	immediate = {
+	}
+
+	option = { #move everyone there
+		name = supamap_insult_events.1.a
+		default_option = yes
+		add_modifier = {
+			name = idiot_modifier
+			months = short_modifier_time
+		}
+	}
+}
