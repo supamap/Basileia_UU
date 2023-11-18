@@ -1,0 +1,665 @@
+﻿#Africa
+
+AGY = {
+	color = { 125  100  170 }
+	
+	country_type = colonial
+	#country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { greek } #aegyptian
+	religion = oriental_orthodox
+	capital = STATE_LOWER_EGYPT
+}
+
+RIC = {
+	color = { 135  100  150 }
+	
+	country_type = colonial
+	#country_type = unrecognized
+	
+	tier = grand_principality
+	
+	cultures = { greek latinoi apoikoi } #aegyptian
+	religion = oriental_orthodox
+	capital = STATE_SINAI #STATE_ERITREA
+}
+
+AOS = {
+	color = { 125  125  150 }
+	country_type = colonial
+	tier = grand_principality
+	capital = STATE_VICTORIA
+	cultures = { apoikoi } #aegyptian
+	religion = oriental_orthodox
+}
+
+NAF = {
+	color = { 125  100  125 }
+	
+	country_type = colonial
+	#country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { greek } #african
+	religion = oriental_orthodox
+	capital = STATE_TUNISIA
+}
+
+CYR = {
+	color = { 105  100  135 }
+	
+	country_type = colonial
+	
+	tier = grand_principality
+	
+	cultures = { greek } #african
+	religion = oriental_orthodox
+	capital = STATE_LIBYA
+}
+
+GAC = {
+	color = { 234 131 110 }
+	
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { colonial_italian }
+	capital = STATE_SOUTH_CAMEROON
+}
+
+VAC = {
+	color = { 193  138  83 }
+	
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { colonial_italian }
+	capital = STATE_SIERRA_LEONE
+}
+
+#Europe/Middle east
+
+ANA = {
+	color = { 200 50 50 }
+	
+	country_type = unrecognized
+
+	tier = grand_principality
+	
+	cultures = { greek }
+	capital = STATE_KONYA
+	is_named_from_capital = yes
+}
+
+PNT = {
+	color = { 205 130 85 }
+	
+	country_type = unrecognized
+
+	tier = grand_principality
+	
+	cultures = { greek }
+	capital = STATE_TRABZON
+	is_named_from_capital = yes
+}
+
+MES = {
+	color = { 170  120  120 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { greek armenian }
+	capital = STATE_DIYARBAKIR
+	is_named_from_capital = yes
+}
+
+ASY = {
+	color = { 178  170  63 }
+	
+	country_type = unrecognized
+
+	tier = grand_principality
+	#religion = sunni
+	cultures = { assyrian }
+	capital = STATE_MOSUL
+	#is_named_from_capital = yes
+}
+
+PAM = {
+	color = { 198  150  63 }
+	
+	country_type = unrecognized
+
+	tier = grand_principality
+	#religion = sunni
+	cultures = { armenian }
+	capital = STATE_ARMENIA
+}
+
+GEN = {
+	color = { 234 131 110 } 
+	country_type = recognized
+	tier = kingdom
+	cultures = { north_italian }
+	capital = STATE_PIEDMONT
+}
+
+PRO = {
+	color = { 20  60  200 }
+	country_type = recognized
+	tier = principality
+	cultures = { francoprovencal } #occitan
+	capital = STATE_PROVENCE
+}
+
+BRG = {
+	color = { 192 70 90 }
+	country_type = unrecognized
+	tier = grand_principality
+	cultures = { french }	
+	capital = STATE_BURGUNDY
+}
+
+LOR = {
+	color = { 142 170 90 }
+	country_type = unrecognized
+	tier = grand_principality
+	cultures = { french }	
+	capital = STATE_LORRAINE
+}
+
+SSI = {
+	color = { 104 190 222 }
+	country_type = unrecognized
+	tier = grand_principality
+	cultures = { saxon polish }
+	capital = STATE_SILESIA
+}
+
+TBZ = {
+	color = { 100 40 190 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { greek }	
+	capital = STATE_TRABZON
+}
+
+EPR = {
+	color = { 254 220 48 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { greek }	
+	capital = STATE_THESSALIA
+}
+
+ATH = {
+	color = { 24 220 248 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { greek }	
+	capital = STATE_ATTICA
+}
+
+MRE = {
+	color = { 254 48 48 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { greek }	
+	capital = STATE_PELOPONNESE
+}
+
+MAC = {
+	color = { 156  157  90 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { greek}	
+	capital = STATE_SKOPIA 
+}
+
+#Russia
+
+PSK = { #Pskov
+	color = { 220  202  96 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { russian }
+	capital = STATE_INGRIA
+}
+
+NOV = { #Novgorod
+	color = { 186 216 224 }
+	
+	country_type = recognized
+	
+	tier = grand_principality
+	
+	cultures = { russian }
+	capital = STATE_NOVGOROD
+	is_named_from_capital = yes
+}
+
+MUS = { #Muscovy
+	color = { 100 181 75 }
+	
+	country_type = recognized
+	
+	tier = grand_principality
+	
+	cultures = { russian }
+	capital = STATE_MOSCOW
+	is_named_from_capital = yes
+}
+
+RUT = { #Ruthenia
+	color = { 139 107 255 }
+	
+	country_type = recognized
+
+	tier = grand_principality
+	
+	cultures = { ukrainian russian }
+	capital = STATE_KIEV
+}
+
+RYA = { #Ryazan
+	color = { 109 109 173 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { russian }
+	capital = STATE_MOSCOW
+	is_named_from_capital = yes
+}
+
+SMO = { #Smolensk
+	color = { 173 109 157 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { russian }
+	capital = STATE_SMOLENSK
+	is_named_from_capital = yes
+}
+
+TVE = { #Yaroslavl
+	color = { 112 178 139 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { russian }
+	capital = STATE_TVER
+	is_named_from_capital = yes
+}
+
+NZH = { #Nizhny Novgorod
+	color = { 173 109 109 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { russian }
+	capital = STATE_KAZAN
+	is_named_from_capital = yes
+}
+
+UGG = { #Galich
+    color = { 216 188 104 }
+    
+    country_type = unrecognized
+    
+    tier = principality
+    
+    cultures = { russian }
+    capital = STATE_GALICH
+    is_named_from_capital = yes
+}
+
+#AFRICA
+
+W01 = {
+	color = { 184 80 52 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { sudanese }
+	religion = oriental_orthodox
+	capital = STATE_DONGOLA
+}
+
+R01 = {
+	color = { 113 53 23 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { sudanese }
+	religion = oriental_orthodox
+	capital = STATE_BLUE_NILE
+}
+
+FRS = { # Formosa
+	color = { 30 65 107 }
+	#color = { 218 234 15 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { min }
+	
+	capital = STATE_FORMOSA
+	is_named_from_capital = yes
+}
+
+FRI = { # Formosa indigenous peoples
+	color = { 18 163 45 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { formosan }
+	
+	capital = STATE_FORMOSA
+	is_named_from_capital = yes
+}
+
+RYU = {
+	color = { 194 53 188 }
+	country_type = unrecognized
+	tier = kingdom
+	cultures = { japanese }
+	capital = STATE_RYUKYU_ISLANDS
+}
+
+KUW = {
+	color = { 129  170  19 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { bedouin }
+	capital = STATE_BASRA
+}
+
+FUN = { # Funj
+	color = { 84  80  152 }
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { sudanese }
+	religion = sunni
+	capital = STATE_KORDOFAN
+}
+
+ARD = {
+	color = { 191 147 79 }
+	
+	country_type = unrecognized
+	tier = principality
+	cultures = { kurdish }
+	religion = sunni
+	capital = STATE_LURISTAN
+}
+
+DLM = {
+	color = { 46  128  188 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { north_italian }
+	capital = STATE_DALMATIA
+}
+
+RAG = {
+	color = { 160  82  128 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { north_italian }
+	capital = STATE_DALMATIA
+}
+
+PIS = {
+	color = { 177  150  109 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	capital = STATE_TUSCANY
+	cultures = { north_italian }
+	is_named_from_capital = yes
+}
+
+
+TB2 = { # Kham
+	color = { 219  206  94 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { tibetan } 
+	capital = STATE_SICHUAN
+}
+
+MG2 = {
+	color = { 250 249 245 }	
+	#color = { 255  224  124 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { mongol }
+	religion = tengri
+	capital = STATE_IRKUTSK
+}
+
+# Jurchens
+
+JNZ = { # Jianzhou
+	color = { 65  32  57 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { manchu } 
+	capital = STATE_SOUTHERN_MANCHURIA
+}
+
+WRK = { # Warka
+	color = { 120 84 37 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { manchu }
+	capital = STATE_SOUTHERN_MANCHURIA
+}
+
+HXI = { # Haixi
+	color = { 152  167  237 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { manchu }
+	capital = STATE_SOUTHERN_MANCHURIA
+}
+
+KHR = { # Khorchin
+	color = { 221  93  170 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { mongol } 
+	capital = STATE_NORTHERN_MANCHURIA
+}
+
+XBO = { # Xibo
+	color = { 16  156  27 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { manchu }
+	capital = STATE_NORTHERN_MANCHURIA
+}
+
+NNI = { # Nanai
+	color = { 250 249 245 }	
+	#color = { 244 148 77 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { manchu }
+	religion = animist
+	capital = STATE_SOUTHERN_MANCHURIA
+}
+
+OCN = { # Orochoni
+	color = { 250 249 245 }	
+	#color = { 244 148 77 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { manchu }
+	religion = animist
+	capital = STATE_OUTER_MANCHURIA
+}
+
+AMU = { # Solon
+	color = { 250 249 245 }	
+	#color = { 244 148 77 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { manchu }
+	religion = animist
+	capital = STATE_OUTER_MANCHURIA
+}
+
+NKH = { # Nivkh
+	color = { 250 249 245 }	
+	#color = { 244 148 77 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { manchu }
+	religion = animist
+	capital = STATE_OUTER_MANCHURIA
+}
+
+CH1 = {
+	color = { 252 185 61 }
+	
+	country_type = unrecognized
+	
+	tier = hegemony
+	
+	cultures = { mongol } #han
+	religion = confucian
+	capital = STATE_BEIJING
+}
+
+QIN = { #Qinghai
+	color = { 56 143 53 }
+	country_type = unrecognized
+	tier = grand_principality
+	cultures = { mongol	}
+	capital = STATE_QINGHAI
+}
+
+#Outer Mongolia
+OMG = {
+	color = { 83 65 167 }
+	country_type = unrecognized
+	tier = grand_principality
+	cultures = { mongol }
+	religion = gelugpa
+	capital = STATE_URGA
+}
+
+#Inner Mongolia
+IMG = {
+	color = { 83 65 167 }
+	country_type = unrecognized
+	tier = grand_principality
+	cultures = { mongol }
+	religion = gelugpa
+	capital = STATE_HINGGAN
+}
+
+KUM = {
+	color = { 56 143 53 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { uighur mongol }
+	religion = sunni
+	capital = STATE_DZUNGARIA
+}
+
+THE = {
+	color = { 62  40  76 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { greek varangian }	
+	capital = STATE_CRIMEA
+}
+
+
+

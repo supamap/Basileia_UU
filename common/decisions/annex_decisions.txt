@@ -1,0 +1,427 @@
+﻿annex_finland = {
+	is_shown = {
+		exists = c:SWE
+		exists = c:FIN
+		c:SWE = ROOT
+		c:FIN = { is_subject_of = c:SWE }
+	}
+
+	possible = {
+		exists = c:SWE
+		exists = c:FIN
+		c:SWE = ROOT
+		c:FIN = { is_subject_of = c:SWE }
+		NOT = { has_law = law_type:law_hereditary_bureaucrats }
+		NOT = { has_law = law_type:law_oligarchy }
+		has_technology_researched = centralization
+		c:FIN = {
+			relations:root >= 45
+		}
+	}
+
+	when_taken = {
+		annex = c:FIN
+		add_primary_culture = cu:finnish
+		change_infamy = 10
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+annex_norway = {
+	is_shown = {
+		exists = c:DEN
+		exists = c:NOR
+		c:DEN = ROOT
+		c:NOR = { is_subject_of = c:DEN }
+	}
+
+	possible = {
+		exists = c:DEN
+		exists = c:NOR
+		c:DEN = ROOT
+		c:NOR = { is_subject_of = c:DEN }
+		NOT = { has_law = law_type:law_hereditary_bureaucrats }
+		NOT = { has_law = law_type:law_oligarchy }
+		has_technology_researched = centralization
+		c:NOR = {
+			relations:root >= 45
+		}
+	}
+
+	when_taken = {
+		annex = c:NOR
+		add_primary_culture = cu:norwegian
+		change_infamy = 10
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+annex_UBD = {
+	is_shown = {
+		exists = c:SWE
+		exists = c:UBD
+		c:SWE = ROOT
+		c:UBD = { is_subject_of = c:SWE }
+	}
+
+	possible = {
+		exists = c:SWE
+		exists = c:UBD
+		c:SWE = ROOT
+		c:UBD = { is_subject_of = c:SWE }
+		NOT = { has_law = law_type:law_hereditary_bureaucrats }
+		NOT = { has_law = law_type:law_oligarchy }
+		has_technology_researched = centralization
+		c:UBD = {
+			relations:root >= 45
+		}
+	}
+
+	when_taken = {
+		annex = c:UBD
+		add_primary_culture = cu:baltic_german
+		change_infamy = 10
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+annex_bedouins = {
+	is_shown = {
+		exists = c:ARA
+		exists = c:JAB
+		exists = c:NEJ
+		c:ARA = ROOT
+	}
+
+	possible = {
+		exists = c:ARA
+		exists = c:JAB
+		exists = c:NEJ
+		c:ARA = ROOT
+		has_technology_researched = civilizing_mission
+
+	}
+
+	when_taken = {
+		annex = c:JAB
+		annex = c:NEJ
+		change_infamy = 10
+	}
+
+	ai_chance = {
+		base = 5
+	}
+}
+
+annex_RIC = {
+	is_shown = {
+		exists = c:BYZ
+		exists = c:RIC
+		c:BYZ = ROOT
+		#c:RIC = { is_subject_of = c:BYZ }
+	}
+
+	possible = {
+		exists = c:BYZ
+		exists = c:RIC
+		c:BYZ = ROOT
+		c:RIC = { is_subject_of = c:BYZ }
+		#has_technology_researched = civilizing_mission
+		OR = {
+			has_law = law_type:law_colonial_resettlement
+			has_law = law_type:law_colonial_exploitation
+		}
+		c:RIC = {
+			relations:root >= 50
+		}
+		ROOT = {
+			navy_size >= 50
+		}
+	}
+
+	when_taken = {
+		annex = c:RIC
+		change_infamy = 10
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+annex_DEI = {
+	is_shown = {
+		exists = c:NET
+		exists = c:DEI
+		c:NET = ROOT
+		#c:RIC = { is_subject_of = c:BYZ }
+	}
+
+	possible = {
+		exists = c:NET
+		exists = c:DEI
+		c:NET = ROOT
+		c:DEI = { is_subject_of = c:NET }
+		#has_technology_researched = civilizing_mission
+		OR = {
+			has_law = law_type:law_colonial_resettlement
+			has_law = law_type:law_colonial_exploitation
+		}
+		c:DEI = {
+			relations:root >= 50
+		}
+	}
+
+	when_taken = {
+		annex = c:DEI
+		change_infamy = 10
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+annex_ATC = {
+	is_shown = {
+		exists = c:NET
+		exists = c:ATC
+		c:NET = ROOT
+	}
+
+	possible = {
+		exists = c:NET
+		exists = c:ATC
+		c:NET = ROOT
+		c:ATC = { is_subject_of = c:NET }
+		#has_technology_researched = civilizing_mission
+		OR = {
+			has_law = law_type:law_colonial_resettlement
+			has_law = law_type:law_colonial_exploitation
+		}
+		c:ATC = {
+			relations:root >= 50
+		}
+	}
+
+	when_taken = {
+		annex = c:ATC
+		change_infamy = 10
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+annex_JSB = {
+	is_shown = {
+		exists = c:JAP
+		exists = c:JSB
+		c:JAP = ROOT
+	}
+
+	possible = {
+		exists = c:JAP
+		exists = c:JSB
+		c:JAP = ROOT
+		c:JSB = { is_subject_of = c:JAP }
+		#has_technology_researched = civilizing_mission
+		OR = {
+			has_law = law_type:law_colonial_resettlement
+			has_law = law_type:law_colonial_exploitation
+		}
+		ROOT = {
+			army_size >= 100
+			navy_size >= 30
+		}
+	}
+
+	when_taken = {
+		annex = c:JSB
+		annex = c:AIN
+		change_infamy = 15
+	}
+
+	ai_chance = {
+		base = 99
+	}
+}
+
+annex_JPI = {
+	is_shown = {
+		exists = c:JAP
+		exists = c:JPI
+		c:JAP = ROOT
+	}
+
+	possible = {
+		exists = c:JAP
+		exists = c:JPI
+		exists = c:RYU
+		c:JAP = ROOT
+		c:JPI = { is_subject_of = c:JAP }
+		c:RYU = { is_subject_of = c:JAP }
+		#has_technology_researched = civilizing_mission
+		OR = {
+			has_law = law_type:law_colonial_resettlement
+			has_law = law_type:law_colonial_exploitation
+		}
+		ROOT = {
+			army_size >= 100
+			navy_size >= 30
+		}
+	}
+
+	when_taken = {
+		annex = c:JPI
+		annex = c:RYU
+		annex = c:FRI
+		change_infamy = 15
+	}
+
+	ai_chance = {
+		base = 99
+	}
+}
+
+annex_NWC = {
+	is_shown = {
+		exists = c:VIN
+		exists = c:NWC
+		c:VIN = ROOT
+	}
+
+	possible = {
+		exists = c:VIN
+		exists = c:NWC
+		c:VIN = ROOT
+		c:NWC = { is_subject_of = c:VIN }
+		#has_technology_researched = civilizing_mission
+		OR = {
+			has_law = law_type:law_colonial_resettlement
+			has_law = law_type:law_colonial_exploitation
+		}
+		c:NWC = {
+			relations:root >= 45
+		}
+	}
+
+	when_taken = {
+		annex = c:NWC
+		annex = c:N14
+		change_infamy = 10
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+annex_russians = {
+	is_shown = {
+		exists = c:MUS
+		exists = c:RYA
+		exists = c:SMO
+		exists = c:NZH
+		exists = c:TVE
+		exists = c:UGG
+		c:MUS = ROOT
+	}
+
+	possible = {
+		exists = c:MUS
+		exists = c:RYA
+		exists = c:SMO
+		exists = c:NZH
+		exists = c:TVE
+		exists = c:UGG
+		c:MUS = ROOT
+		c:TAT = {
+			relations:root >= 45
+		}
+		ROOT = {
+			army_size >= 60
+		}
+
+	}
+
+	when_taken = {
+		annex = c:SMO
+		annex = c:RYA
+		annex = c:NZH
+		annex = c:TVE
+		annex = c:UGG
+		change_infamy = 25
+	}
+
+	ai_chance = {
+		base = 75
+	}
+}
+
+annex_VAC = {
+	is_shown = {
+		exists = c:VEN
+		exists = c:VAC
+		c:VEN = ROOT
+	}
+
+	possible = {
+		exists = c:VEN
+		exists = c:VAC
+		c:VEN = ROOT
+		c:VAC = { is_subject_of = c:VEN }
+		#has_technology_researched = civilizing_mission
+		OR = {
+			has_law = law_type:law_colonial_resettlement
+			has_law = law_type:law_colonial_exploitation
+		}
+	}
+
+	when_taken = {
+		annex = c:VAC
+		change_infamy = 10
+	}
+
+	ai_chance = {
+		base = 99
+	}
+}
+annex_GAC = {
+	is_shown = {
+		exists = c:GEN
+		exists = c:GAC
+		c:GEN = ROOT
+	}
+
+	possible = {
+		exists = c:GEN
+		exists = c:GAC
+		c:GEN = ROOT
+		c:GAC = { is_subject_of = c:GEN }
+		#has_technology_researched = civilizing_mission
+		OR = {
+			has_law = law_type:law_colonial_resettlement
+			has_law = law_type:law_colonial_exploitation
+		}
+	}
+
+	when_taken = {
+		annex = c:GAC
+		change_infamy = 10
+	}
+
+	ai_chance = {
+		base = 99
+	}
+}

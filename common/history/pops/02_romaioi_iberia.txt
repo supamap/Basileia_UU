@@ -1,0 +1,1009 @@
+﻿POPS = {
+	s:STATE_MALTA = {
+		region_state:ANL = {
+			create_pop = {
+				culture = greek
+				size = 1000
+				pop_type = aristocrats
+			}
+			create_pop = {
+				culture = greek
+				size = 500
+				pop_type = clergymen
+			}
+			create_pop = {
+				culture = greek
+				size = 200
+				pop_type = officers
+			}
+			create_pop = {
+				culture = greek
+				size = 200
+				pop_type = bureaucrats
+			}
+			create_pop = {
+				culture = greek
+				size = 4000
+				pop_type = shopkeepers
+			}
+			create_pop = {
+				culture = greek
+				size = 5000
+			}
+			create_pop = {
+				culture = maltese
+				size = 107192
+			}
+			create_pop = {
+				culture = andalusian
+				size = 12792
+			}
+		}
+	}
+	s:STATE_TOLEDO = {
+		region_state:ANL = {
+			create_pop = {
+				culture = spanish
+				size = 268400
+			}
+			create_pop = {
+				culture = andalusian
+				size = 1326400
+				split_religion = {
+					andalusian = {
+						sunni = 0.7
+						catholic = 0.25
+						jewish = 0.05
+					}
+				}
+			}
+		}
+	}
+	s:STATE_GALICIA = {
+		# 840792
+		region_state:CAS = {
+			create_pop = {
+				culture = galician
+				size = 828528
+			}
+			create_pop = {
+				culture = spanish
+				size = 12264
+			}
+		}
+	}
+	s:STATE_ASTURIAS = {
+		# please don't ask for a source
+		region_state:CAS = {
+			create_pop = {
+				culture = spanish
+				size = 614264
+			}
+			create_pop = {
+				culture = basque
+				size = 32000
+			}
+		}	
+	}
+	s:STATE_CASTILE = {
+		region_state:ANL = {
+			create_pop = {
+				culture = spanish
+				size = 250808
+			}
+			create_pop = {
+				culture = andalusian
+				size = 526400
+				split_religion = {
+					andalusian = {
+						sunni = 0.7
+						catholic = 0.25
+						jewish = 0.05
+					}
+				}
+			}
+			create_pop = {
+				culture = basque
+				size = 6000
+			}
+		}
+		region_state:CAS = {
+			create_pop = {
+				culture = spanish
+				size = 320808
+			}
+			create_pop = {
+				culture = basque
+				size = 5000
+			}
+		}
+	}
+	s:STATE_NAVARRA = {
+		region_state:NAV = {
+			create_pop = {
+				culture = spanish
+				size = 79200
+			}
+			create_pop = {
+				culture = catalan
+				size = 32220
+			}
+			create_pop = {
+				culture = basque
+				size = 600060
+			}
+		}
+		region_state:CAS = {
+			create_pop = {
+				culture = spanish
+				size = 459200
+			}
+			create_pop = {
+				culture = basque
+				size = 100060
+			}
+		}
+	}
+	s:STATE_ARAGON = {
+		region_state:CAT = {
+			create_pop = {
+				culture = spanish
+				size = 301200
+			}
+			create_pop = {
+				culture = basque
+				size = 100008
+			}
+			create_pop = {
+				culture = catalan
+				size = 7996
+			}
+		}
+		region_state:ANL = {
+			create_pop = {
+				culture = spanish
+				size = 131200
+			}
+			create_pop = {
+				culture = basque
+				size = 15008
+			}
+			create_pop = {
+				culture = catalan
+				size = 79960
+			}
+			create_pop = {
+				culture = andalusian
+				size = 432640
+				split_religion = {
+					andalusian = {
+						sunni = 0.6
+						catholic = 0.35
+						jewish = 0.05
+					}
+				}
+			}
+		}
+	}
+	s:STATE_CATALONIA = {
+		region_state:CAT = {
+			create_pop = {
+				culture = catalan
+				size = 404308
+			}
+			create_pop = {
+				culture = spanish
+				size = 216804
+			}
+		}
+		region_state:ANL = {
+			create_pop = {
+				culture = catalan
+				size = 304308
+			}
+			create_pop = {
+				culture = spanish
+				size = 116804
+			}
+			create_pop = {
+				culture = andalusian
+				size = 222640
+				split_religion = {
+					andalusian = {
+						sunni = 0.6
+						catholic = 0.35
+						jewish = 0.05
+					}
+				}
+			}
+		}
+	}
+	s:STATE_BALEARES = {
+		region_state:ANL = {
+			create_pop = {
+				culture = catalan
+				size = 135244
+			}
+			create_pop = {
+				culture = andalusian
+				size = 58020
+			}
+			create_pop = {
+				culture = north_italian
+				size = 8020
+			}
+		}
+	}
+	s:STATE_ANDALUSIA = {
+		region_state:ANL = {
+			create_pop = {
+				culture = andalusian
+				size = 2902000
+				split_religion = {
+					andalusian = {
+						sunni = 0.75
+						catholic = 0.17
+						jewish = 0.08
+					}
+				}
+			}
+		}
+	}
+	s:STATE_GRANADA = {
+		region_state:ANL = {
+			create_pop = {
+				culture = andalusian
+				size = 1718404
+				split_religion = {
+					andalusian = {
+						sunni = 0.75
+						catholic = 0.17
+						jewish = 0.08
+					}
+				}
+			}
+		}
+	}
+	s:STATE_BADAJOZ = {
+		region_state:ANL = {
+			create_pop = {
+				culture = andalusian
+				size = 838020
+				split_religion = {
+					andalusian = {
+						sunni = 0.75
+						catholic = 0.17
+						jewish = 0.08
+					}
+				}
+			}
+		}
+	}
+	s:STATE_VALENCIA = {
+		region_state:ANL = {
+			create_pop = {
+				culture = spanish
+				size = 89604
+			}
+			create_pop = {
+				culture = andalusian
+				size = 938020
+				split_religion = {
+					andalusian = {
+						sunni = 0.75
+						catholic = 0.17
+						jewish = 0.08
+					}
+				}
+			}
+			create_pop = {
+				culture = catalan
+				size = 490392
+			}
+		}
+	}
+	s:STATE_BEIRA = {
+		region_state:ANL = {
+			create_pop = {
+				culture = andalusian
+				size = 520800
+				split_religion = {
+					andalusian = {
+						sunni = 0.7
+						catholic = 0.25
+						jewish = 0.05
+					}
+				}
+			}
+			create_pop = {
+				culture = galician
+				size = 382852
+			}
+		}
+	}
+	s:STATE_ESTREMADURA = {
+		region_state:ANL = {
+			create_pop = {
+				culture = andalusian
+				size = 860796
+				split_religion = {
+					andalusian = {
+						sunni = 0.75
+						catholic = 0.17
+						jewish = 0.08
+					}
+				}
+			}
+			create_pop = {
+				culture = galician
+				size = 228528
+			}
+		}
+	}
+	s:STATE_ALENTEJO = {
+		region_state:ANL = {
+			create_pop = {
+				culture = andalusian
+				size = 772508
+				split_religion = {
+					andalusian = {
+						sunni = 0.75
+						catholic = 0.17
+						jewish = 0.08
+					}
+				}
+			}
+			create_pop = {
+				culture = galician
+				size = 182852
+			}
+		}
+	}
+	s:STATE_CAPE_VERDE = {
+		region_state:ANL = {
+			create_pop = {
+				culture = andalusian
+				size = 103532
+			}
+			create_pop = {
+				culture = berber
+				size = 24666
+			}
+		}
+	}
+
+	s:STATE_MADEIRA = {
+		region_state:ANL = {
+			create_pop = {
+				culture = andalusian
+				size = 103532
+			}
+			create_pop = {
+				culture = berber
+				size = 24666
+			}
+		}
+	}
+
+	s:STATE_CANARY_ISLANDS = {
+		region_state:ANL = {
+			create_pop = {
+				culture = andalusian
+				size = 208004
+			}
+		}
+	}
+
+	s:STATE_AZORES = {
+		region_state:ANL = {
+			create_pop = {
+				culture = andalusian
+				size = 103532
+			}
+			create_pop = {
+				culture = berber
+				size = 24666
+			}
+		}
+	}
+
+	s:STATE_MARRAKECH = {
+		region_state:MOR = {
+			create_pop = {
+				culture = maghrebi
+				size = 336700
+				split_religion = {
+					maghrebi = {
+						sunni = 0.8
+						shiite = 0.2
+					}
+				}
+			}
+			create_pop = {
+				culture = sephardic
+				size = 42500
+			}
+			create_pop = {
+				culture = berber
+				size = 493996
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = berber
+				religion = animist
+				size = 156000
+			}
+		}
+	}
+	s:STATE_FEZ = {
+		region_state:MOR = {
+			create_pop = {
+				culture = maghrebi
+				size = 378696
+				split_religion = {
+					maghrebi = {
+						sunni = 0.8
+						shiite = 0.2
+					}
+				}
+			}
+			create_pop = {
+				culture = berber
+				size = 516004
+			}
+			create_pop = {
+				culture = sephardic
+				size = 70504
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = berber
+				religion = animist
+				size = 162000
+			}
+		}
+	}
+	s:STATE_AL_RIF = {
+		region_state:ANL = {
+			create_pop = {
+				culture = andalusian
+				size = 8500
+				pop_type = aristocrats
+			}
+			create_pop = {
+				culture = andalusian
+				size = 12000
+				pop_type = clergymen
+			}
+			create_pop = {
+				culture = andalusian
+				size = 1700
+				pop_type = officers
+			}
+			create_pop = {
+				culture = andalusian
+				size = 1000
+				pop_type = capitalists
+			}
+			create_pop = {
+				culture = andalusian
+				size = 1600
+				pop_type = shopkeepers
+			}
+			create_pop = {
+				culture = andalusian
+				size = 500
+				pop_type = bureaucrats
+			}
+			create_pop = {
+				culture = andalusian
+				size = 1000
+				pop_type = clerks
+			}
+			create_pop = {
+				culture = andalusian
+				size = 3900
+				pop_type = farmers
+			}
+			create_pop = {
+				culture = andalusian
+				size = 15000
+				pop_type = soldiers
+			}
+			create_pop = {
+				culture = maghrebi
+				size = 286400
+				split_religion = {
+					maghrebi = {
+						sunni = 0.8
+						shiite = 0.2
+					}
+				}
+			}
+			create_pop = {
+				culture = berber
+				size = 100000
+			}
+		}
+		region_state:MOR = {
+			create_pop = {
+				culture = maghrebi
+				size = 174188
+				split_religion = {
+					maghrebi = {
+						sunni = 0.8
+						shiite = 0.2
+					}
+				}
+			}
+			create_pop = {
+				culture = sephardic
+				size = 12800
+			}
+			create_pop = {
+				culture = berber
+				size = 222800
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = berber
+				size = 94000
+			}
+		}
+	}
+	s:STATE_INNER_MOROCCO = {
+		region_state:MOR = {
+			create_pop = {
+				culture = berber
+				size = 462000
+			}
+			create_pop = {
+				culture = maghrebi
+				size = 92396
+				split_religion = {
+					maghrebi = {
+						sunni = 0.8
+						shiite = 0.2
+					}
+				}
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = berber
+				religion = animist
+				size = 124000
+			}
+		}
+		region_state:SAH = {
+			create_pop = {
+				culture = berber
+				religion = animist
+				size = 8109
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = berber
+				religion = animist
+				size = 2129
+			}
+		}
+	}
+
+	s:STATE_ALGIERS = {
+		region_state:ALD = {
+			create_pop = {
+				culture = maghrebi
+				size = 4500
+				pop_type = aristocrats
+			}
+			create_pop = {
+				culture = maghrebi
+				size = 24000
+				pop_type = clergymen
+			}
+			create_pop = {
+				culture = andalusian
+				size = 2000
+				pop_type = officers
+			}
+			create_pop = {
+				culture = andalusian
+				size = 400
+				pop_type = capitalists
+			}
+			create_pop = {
+				culture = andalusian
+				size = 800
+				pop_type = shopkeepers
+			}
+			create_pop = {
+				culture = maghrebi
+				size = 10000
+				pop_type = farmers
+			}
+			create_pop = {
+				culture = maghrebi
+				size = 16000
+				pop_type = soldiers
+			}
+			create_pop = {
+				culture = maghrebi
+				size = 121914
+				split_religion = {
+					maghrebi = {
+						sunni = 0.8
+						shiite = 0.2
+					}
+				}
+			}
+			create_pop = {
+				culture = berber
+				size = 603830
+			}
+			create_pop = {
+				culture = sephardic
+				size = 2606
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = berber
+				religion = animist
+				size = 224012
+			}
+		}
+		region_state:ANL = {
+			create_pop = {
+				culture = maghrebi
+				size = 184722
+				split_religion = {
+					maghrebi = {
+						sunni = 0.8
+						shiite = 0.2
+					}
+				}
+			}
+			create_pop = {
+				culture = berber
+				size = 75143
+			}
+			create_pop = {
+				culture = maghrebi
+				size = 8000
+				pop_type = aristocrats
+			}
+			create_pop = {
+				culture = maghrebi
+				size = 13000
+				pop_type = clergymen
+			}
+			create_pop = {
+				culture = andalusian
+				size = 300
+				pop_type = officers
+			}
+			create_pop = {
+				culture = andalusian
+				size = 900
+				pop_type = capitalists
+			}
+			create_pop = {
+				culture = andalusian
+				size = 2000
+				pop_type = shopkeepers
+			}
+			create_pop = {
+				culture = andalusian
+				size = 4000
+				pop_type = bureaucrats
+			}
+			create_pop = {
+				culture = maghrebi
+				size = 18000
+				pop_type = clerks
+			}
+			create_pop = {
+				culture = maghrebi
+				size = 4000
+				pop_type = farmers
+			}
+			create_pop = {
+				culture = maghrebi
+				size = 6000
+				pop_type = soldiers
+			}
+			create_pop = {
+				culture = sephardic
+				size = 7849
+			}
+			create_pop = {
+				culture = berber
+				religion = animist
+				size = 54010
+			}
+		}
+	}
+	s:STATE_CONSTANTINE = {
+		region_state:CAO = {
+			create_pop = {
+				culture = maghrebi
+				size = 1000
+				pop_type = aristocrats
+			}
+			create_pop = {
+				culture = maghrebi
+				size = 30000
+				pop_type = clergymen
+			}
+			create_pop = {
+				culture = andalusian
+				size = 1400
+				pop_type = officers
+			}
+			create_pop = {
+				culture = andalusian
+				size = 100
+				pop_type = capitalists
+			}
+			create_pop = {
+				culture = andalusian
+				size = 800
+				pop_type = shopkeepers
+			}
+			create_pop = {
+				culture = maghrebi
+				size = 11000
+				pop_type = farmers
+			}
+			create_pop = {
+				culture = maghrebi
+				size = 16000
+				pop_type = soldiers
+			}
+			create_pop = {
+				culture = maghrebi
+				size = 55953
+				split_religion = {
+					maghrebi = {
+						sunni = 0.8
+						shiite = 0.2
+					}
+				}
+			}
+			create_pop = {
+				culture = berber
+				size = 904215
+			}
+			create_pop = {
+				culture = sephardic
+				size = 4646
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = berber
+				religion = animist
+				size = 152020
+			}
+		}
+		region_state:ANL = {
+			create_pop = {
+				culture = maghrebi
+				size = 5000
+				pop_type = aristocrats
+			}
+			create_pop = {
+				culture = maghrebi
+				size = 9000
+				pop_type = clergymen
+			}
+			create_pop = {
+				culture = andalusian
+				size = 700
+				pop_type = officers
+			}
+			create_pop = {
+				culture = andalusian
+				size = 300
+				pop_type = capitalists
+			}
+			create_pop = {
+				culture = andalusian
+				size = 600
+				pop_type = shopkeepers
+			}
+			create_pop = {
+				culture = andalusian
+				size = 1600
+				pop_type = bureaucrats
+			}
+			create_pop = {
+				culture = maghrebi
+				size = 5000
+				pop_type = clerks
+			}
+			create_pop = {
+				culture = maghrebi
+				size = 2400
+				pop_type = farmers
+			}
+			create_pop = {
+				culture = maghrebi
+				size = 6000
+				pop_type = soldiers
+			}
+			create_pop = {
+				culture = maghrebi
+				size = 168830
+				split_religion = {
+					maghrebi = {
+						sunni = 0.8
+						shiite = 0.2
+					}
+				}
+			}
+			create_pop = {
+				culture = berber
+				size = 51020
+			}
+			create_pop = {
+				culture = sephardic
+				size = 1778
+			}
+			create_pop = {
+				culture = berber
+				religion = animist
+				size = 45209
+			}
+		}
+	}
+	s:STATE_ORAN = {
+		region_state:OSC = {
+			create_pop = {
+				culture = maghrebi
+				size = 3300
+				pop_type = aristocrats
+			}
+			create_pop = {
+				culture = maghrebi
+				size = 15000
+				pop_type = clergymen
+			}
+			create_pop = {
+				culture = andalusian
+				size = 500
+				pop_type = officers
+			}
+			create_pop = {
+				culture = andalusian
+				size = 800
+				pop_type = shopkeepers
+			}
+			create_pop = {
+				culture = maghrebi
+				size = 16000
+				pop_type = farmers
+			}
+			create_pop = {
+				culture = maghrebi
+				size = 16000
+				pop_type = soldiers
+			}
+			create_pop = {
+				culture = maghrebi
+				size = 52178
+				split_religion = {
+					maghrebi = {
+						sunni = 0.8
+						shiite = 0.2
+					}
+				}
+			}
+			create_pop = {
+				culture = berber
+				size = 500234
+			}
+			create_pop = {
+				culture = sephardic
+				size = 2910
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = berber
+				religion = animist
+				size = 128401
+			}
+		}
+		region_state:ANL = {
+			create_pop = {
+				culture = maghrebi
+				size = 4900
+				pop_type = aristocrats
+			}
+			create_pop = {
+				culture = maghrebi
+				size = 7000
+				pop_type = clergymen
+			}
+			create_pop = {
+				culture = andalusian
+				size = 300
+				pop_type = officers
+			}
+			create_pop = {
+				culture = andalusian
+				size = 300
+				pop_type = capitalists
+			}
+			create_pop = {
+				culture = andalusian
+				size = 600
+				pop_type = shopkeepers
+			}
+			create_pop = {
+				culture = andalusian
+				size = 1600
+				pop_type = bureaucrats
+			}
+			create_pop = {
+				culture = maghrebi
+				size = 5000
+				pop_type = clerks
+			}
+			create_pop = {
+				culture = maghrebi
+				size = 2500
+				pop_type = farmers
+			}
+			create_pop = {
+				culture = maghrebi
+				size = 6000
+				pop_type = soldiers
+			}
+			create_pop = {
+				culture = maghrebi
+				size = 161020
+				split_religion = {
+					maghrebi = {
+						sunni = 0.8
+						shiite = 0.2
+					}
+				}
+			}
+			create_pop = {
+				culture = berber
+				size = 43012
+			}
+			create_pop = {
+				culture = sephardic
+				size = 2604
+			}
+			create_pop = {
+				culture = berber
+				religion = animist
+				size = 35041
+			}
+		}
+	}
+	s:STATE_WEST_SAHARA = {
+		region_state:SAH = {
+			create_pop = {
+				culture = berber
+				size = 40000
+			}
+			create_pop = {
+				culture = berber
+				religion = animist
+				size = 15000
+			}
+			create_pop = {
+				culture = maures
+				size = 14000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = maures
+				religion = animist
+				size = 5000
+			}
+		}
+	}
+}	

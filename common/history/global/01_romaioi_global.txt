@@ -1,0 +1,249 @@
+﻿# Romaioi Mod - This is executed last among all history
+GLOBAL = {
+	every_country = {
+		trigger_event = {
+			id = romaioi_startup_events.1
+		}
+
+		every_scope_state = {
+			limit = { OR = { state_region = s:STATE_EASTERN_THRACE } }
+			add_modifier = {
+				name = romaioi_pentarchy
+				years = -1
+			}
+			add_modifier = {
+				name = city_worlds_desire_state
+				years = -1
+			}
+			add_modifier = {
+				name = merchant_state
+				years = -1
+			}
+		}
+		every_scope_state = {
+			limit = { OR = { state_region = s:STATE_ALEPPO } }
+			add_modifier = {
+				name = patriarch_antioch
+				years = -1
+			}
+		}
+		every_scope_state = {
+			limit = { OR = { state_region = s:STATE_PALESTINE } }
+			add_modifier = {
+				name = patriarch_jerusalem
+				years = -1
+			}
+		}
+		every_scope_state = {
+			limit = { OR = { state_region = s:STATE_LOWER_EGYPT } }
+			add_modifier = {
+				name = patriarch_alexandria
+				years = -1
+			}
+		}
+		every_scope_state = {
+			limit = { OR = { state_region = s:STATE_LAZIO } }
+			add_modifier = {
+				name = patriarch_rome
+				years = -1
+			}
+		}
+
+		every_scope_state = {
+			limit = { OR = { state_region = s:STATE_HOME_COUNTIES state_region = s:STATE_ILE_DE_FRANCE state_region = s:STATE_ANDALUSIA state_region = s:STATE_TUSCANY state_region = s:STATE_LAZIO
+			state_region = s:STATE_LOWER_EGYPT state_region = s:STATE_BAGHDAD state_region = s:STATE_BEIJING state_region = s:STATE_NANJING state_region = s:STATE_KANTO state_region = s:STATE_KANSAI state_region = s:STATE_ICA
+			state_region = s:STATE_MEXICO state_region = s:STATE_DISTRICT_OF_COLUMBIA state_region = s:STATE_PIEDMONT state_region = s:STATE_LOMBARDY
+			state_region = s:STATE_TIMBUKTU
+		} 
+		}
+			add_modifier = {
+				name = great_city_state
+				years = -1
+			}
+		}
+
+#		every_scope_state = {
+#			limit = { OR = { state_region = s:STATE_HEDJAZ } }
+#			add_modifier = {
+#				name = hajj
+#				years = -1
+#			}
+#		}
+
+		every_scope_state = {
+			limit = { OR = { state_region = s:STATE_ZANZIBAR state_region = s:STATE_MADRAS state_region = s:STATE_OMAN
+		} 
+		}
+			add_modifier = {
+				name = merchant_state
+				years = -1
+			}
+		}
+
+	}	
+
+	c:GEN = {
+		every_scope_state = {
+			limit = { OR = { state_region = s:STATE_PIEDMONT } }
+			add_modifier = {
+				name = merchant_state
+				years = -1
+			}
+		}
+	}
+
+	c:VEN = {
+		every_scope_state = {
+			limit = { OR = { state_region = s:STATE_VENETIA } }
+			add_modifier = {
+				name = merchant_state
+				years = -1
+			}
+			add_modifier = {
+				name = venetian_arsenal
+				years = -1
+			}
+			add_modifier = {
+				name = great_city_state
+				years = -1
+			}
+		}
+	}
+
+	c:JAV = {
+		every_scope_state = {
+			limit = { OR = { state_region = s:STATE_EAST_JAVA } }
+			add_modifier = {
+				name = merchant_state
+				years = -1
+			}
+		}
+	}
+
+	c:MUG = {
+		every_scope_state = {
+			limit = { OR = { state_region = s:STATE_DELHI } }
+			add_modifier = {
+				name = great_city_state
+				years = -1
+			}
+		}
+	}
+
+#	every_state = {
+#		limit = {
+#			state_region = s:STATE_LOWER_EGYPT
+#		}
+#		add_modifier = {
+#			name = lepsius_lower_egypt_modifier
+#		}
+#	}
+#	every_state = {
+#		limit = {
+#			state_region = s:STATE_UPPER_EGYPT
+#		}
+#		add_modifier = {
+#			name = lepsius_upper_egypt_modifier
+#		}
+#	}
+#	every_state = {
+#		limit = {
+#			state_region = s:STATE_YUCATAN
+#		}
+#		add_modifier = {
+#			name = lepsius_yucatan_modifier
+#		}
+#	}
+#	every_state = {
+#		limit = {
+#			state_region = s:STATE_BAGHDAD
+#		}
+#		add_modifier = {
+#			name = lepsius_babylonia_modifier
+#		}
+#	}
+#	every_state = {
+#		limit = {
+#			state_region = s:STATE_MOSUL
+#		}
+#		add_modifier = {
+#			name = lepsius_assyria_modifier
+#		}
+#	}
+#	every_state = {
+#		limit = {
+#			state_region = s:STATE_PELOPONNESE
+#		}
+#		add_modifier = {
+#			name = lepsius_argolis_modifier
+#		}
+#	}
+#	every_state = {
+#		limit = {
+#			state_region = s:STATE_CRETE
+#		}
+#		add_modifier = {
+#			name = lepsius_crete_modifier
+#		}
+#	}
+#	every_state = {
+#		limit = {
+#			state_region = s:STATE_ICA
+#		}
+#		add_modifier = {
+#			name = lepsius_peru_modifier
+#		}
+#	}
+
+	if = {
+        limit = {
+            has_game_rule = new_world_natives_game_rule_recognized
+        }
+        c:IRO ?= {
+            set_country_type = unrecognized
+			remove_modifier = native_conscription_8
+        }
+        c:CTF ?= {
+            set_country_type = unrecognized
+			remove_modifier = native_conscription_8
+        }
+		c:CRK ?= {
+            set_country_type = unrecognized
+			remove_modifier = native_conscription_6
+        }
+		c:CHE ?= {
+            set_country_type = unrecognized
+			remove_modifier = native_conscription_12
+        }
+		c:COM ?= {
+            set_country_type = unrecognized
+			remove_modifier = native_conscription_10
+        }
+		c:IRC ?= {
+            set_country_type = unrecognized
+			remove_modifier = native_conscription_8
+        }
+		c:LKT ?= {
+            set_country_type = unrecognized
+			remove_modifier = native_conscription_8
+        }
+    }
+
+	if = {
+        limit = {
+            has_game_rule = recognized_asians_game_rule_unrecognized
+        }
+        c:CHI ?= {
+            set_country_type = unrecognized
+        }
+        c:MUG ?= {
+            set_country_type = unrecognized
+			remove_modifier = inward_perfection
+        }
+		c:JAP ?= {
+            set_country_type = unrecognized
+			remove_modifier = inward_perfection
+        }
+    }
+
+}	

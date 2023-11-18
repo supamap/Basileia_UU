@@ -1,0 +1,131 @@
+﻿CHARACTERS = {
+	c:DEN = {
+		create_character = {
+			# Frederick VI of Denmark
+			first_name = "Frederik"
+			last_name = "Sigurdsson"
+			ruler = yes
+			is_general = yes
+			birth_date = 1668.1.28
+			dna = dna_king_frederick_06
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			#hq_region = sr:region_england
+			traits = {
+				imperious
+				brave
+				innovative
+				resupply_commander
+				mountain_commander
+				surveyor
+				expert_offensive_planner
+				expert_defensive_strategist
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}	
+
+		create_character = {
+			# the future Christian VIII of Denmark, half-first-cousin of Frederick VI
+			first_name = "Christian"
+			last_name = "Sigurdsson"
+			heir = yes
+			birth_date = 1686.9.18
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				cautious
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "Otto"
+			last_name = "von_Moltke"
+			birth_date = 1670.1.1
+			ig_leader = yes
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			traits = {
+				cautious
+			}
+		}
+
+		create_character = {
+			is_general = yes
+			first_name = Olaf
+			last_name = Rye
+			age = 45
+			culture = cu:norwegian
+			interest_group = ig_armed_forces
+			commander_rank = commander_rank_1
+			#hq_region = sr:region_north_sea_coast
+			traits = {
+				wrathful
+				scarred
+				pillager
+				mountain_commander
+				expert_offensive_planner
+				basic_defensive_strategist
+				}
+		}
+
+		create_character = {
+			is_general = yes
+			age = 40
+			interest_group = ig_armed_forces
+			commander_rank = commander_rank_1
+			traits = {
+				resupply_commander
+				surveyor
+				mountain_commander
+				expert_offensive_planner
+				basic_defensive_strategist
+			}
+		}
+
+		create_character = {
+			is_general = yes
+			age = 40
+			interest_group = ig_armed_forces
+			commander_rank = commander_rank_1
+			traits = {
+				resupply_commander
+				surveyor
+				mountain_commander
+				expert_offensive_planner
+				basic_defensive_strategist
+			}
+		}
+		create_character = {
+			is_general = yes
+			age = 40
+			interest_group = ig_armed_forces
+			commander_rank = commander_rank_2
+			traits = {
+			wrathful
+			scarred
+			pillager
+			mountain_commander
+			expert_offensive_planner
+			basic_defensive_strategist
+			}
+		}
+
+		create_character = { 
+			is_admiral = yes
+			interest_group = ig_armed_forces
+			birth_date = 1673.7.25
+			commander_rank = commander_rank_1
+			traits = {
+				dockyard_master
+				basic_naval_commander
+				innovative
+			}
+		}
+
+	}
+}

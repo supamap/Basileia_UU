@@ -1,0 +1,174 @@
+﻿COUNTRIES = {
+	c:PLC = {
+		set_next_election_date = 1737.11.4
+		
+		effect_starting_technology_tier_3_tech = yes
+
+		set_tax_level = medium
+		
+		add_taxed_goods = g:liquor
+		
+		# Laws
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_wealth_voting
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_women_own_property
+		activate_law = law_type:law_hereditary_bureaucrats
+		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_traditionalism #law_agrarianism
+		activate_law = law_type:law_private_schools
+		activate_law = law_type:law_charitable_health_system
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_serfdom
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_censorship # The July Monarchy was already backtracking on promises made in 1830
+		activate_law = law_type:law_national_guard
+		activate_law = law_type:law_migration_controls	
+
+		add_modifier = {
+			name = boyars
+			months = -1
+		}
+		add_modifier = {
+			name = cossacks
+			months = -1
+		}
+		
+		set_institution_investment_level = {
+			institution = institution_police
+			level = 1
+		}
+
+		ig:ig_landowners = { # Victor de Broglie was Prime Minister until February 22, 1836
+			add_ruling_interest_group = yes
+			set_interest_group_name = ig_boyars
+			add_modifier = {
+				name = ig_influence_modifier
+				multiplier = 0.25
+			}
+		}	
+		
+		ig:ig_devout = { 
+			set_interest_group_name = ig_catholic_church 
+		}
+
+
+	}
+	c:PRU = {		
+		effect_starting_technology_tier_3_tech = yes
+		add_technology_researched = dialectics
+		add_technology_researched = norse_mod
+		effect_starting_politics_conservative = yes
+		add_technology_researched = napoleonic_warfare
+		add_technology_researched = percussion_cap
+		add_technology_researched = general_staff
+		
+		add_taxed_goods = g:liquor
+		
+		set_tariffs_export_priority = g:iron
+		set_tariffs_export_priority = g:wood
+		
+		# Laws 
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_oligarchy
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_women_own_property
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_no_workers_rights
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_national_supremacy # Swedish policies regarding the Sami were not terribly enlightened during this period
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_private_schools
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_national_guard
+		activate_law = law_type:law_professional_army
+		
+		ig:ig_armed_forces = {
+			add_ruling_interest_group = yes
+			set_ig_bolstering = yes
+			add_modifier = {
+				name = ig_influence_modifier
+				multiplier = 0.5
+				months = -1
+			}
+		}
+
+		ig:ig_devout = {
+			set_interest_group_name = ig_evangelical_church
+		}
+
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+			add_modifier = {
+				name = ig_influence_modifier
+				multiplier = 0.25
+				years = 100
+			}
+		}
+
+		add_modifier = {
+			name = noble_privileges
+			months = -1
+		}
+		add_technology_researched = defensive_tech_mod
+		add_modifier = {
+			name = defensive_mod
+			months = -1
+		}
+
+	}
+	c:SSI = {		
+		effect_starting_technology_tier_3_tech = yes
+		effect_starting_politics_conservative = yes
+		
+		add_taxed_goods = g:liquor
+		
+		set_tariffs_export_priority = g:iron
+		set_tariffs_export_priority = g:wood
+		
+		# Laws 
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_oligarchy
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_women_own_property
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_no_workers_rights
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_national_supremacy # Swedish policies regarding the Sami were not terribly enlightened during this period
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_private_schools
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_national_guard
+		activate_law = law_type:law_professional_army
+		
+		ig:ig_armed_forces = {
+			add_ruling_interest_group = yes
+			set_ig_bolstering = yes
+		}
+
+		ig:ig_devout = {
+			set_interest_group_name = ig_evangelical_church
+		}
+
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+			add_modifier = {
+				name = ig_influence_modifier
+				multiplier = 0.25
+				years = 100
+			}
+		}
+
+		add_modifier = {
+			name = noble_privileges
+			months = -1
+		}
+
+	}
+}

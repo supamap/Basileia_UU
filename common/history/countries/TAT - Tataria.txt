@@ -1,0 +1,169 @@
+﻿COUNTRIES = {
+	c:TAT = {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		add_technology_researched = napoleonic_warfare
+		add_technology_researched = mandatory_service
+		add_technology_researched = horde_mod
+		add_technology_researched = silk_road
+		add_technology_researched = academia
+		#add_technology_researched = civilizing_mission
+
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_oligarchy 
+		#activate_law = law_type:law_total_separation
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_land_based_taxation	
+		activate_law = law_type:law_hereditary_bureaucrats
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_debt_slavery
+		activate_law = law_type:law_local_police
+		#activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_traditionalism #law_agrarianism
+		#activate_law = law_type:law_no_schools
+		#activate_law = law_type:law_charitable_health_system
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_migration_controls
+		activate_law = law_type:law_national_guard
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_frontier_colonization
+
+		set_tax_level = medium
+		set_military_wage_level = medium
+
+		set_tariffs_export_priority = g:wood
+		set_tariffs_export_priority = g:iron
+		set_tariffs_export_priority = g:fabric
+		set_tariffs_export_priority = g:meat
+		add_taxed_goods = g:liquor
+		add_taxed_goods = g:tobacco
+		add_taxed_goods = g:services
+
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+			add_ideology = ideology_frontier_expansionist
+		}
+
+		ig:ig_armed_forces = {
+			add_ruling_interest_group = yes
+			set_ig_bolstering = yes
+			add_modifier = {
+				name = ig_influence_modifier
+				multiplier = 2
+				years = 100
+			}
+		}
+
+		ig:ig_rural_folk = {
+			remove_ideology = ideology_isolationist
+			add_ideology = ideology_isolationist_expansionism
+		}
+
+		ig:ig_devout = { 
+			set_interest_group_name = ig_sunni_madrasahs 
+		}
+
+		ig:ig_intelligentsia = { 
+			#set_ig_suppression = yes
+		}
+
+		set_institution_investment_level = {
+			institution = institution_police
+			level = 1
+		}
+	
+		change_infamy = 99
+		add_modifier = {
+			name = decentralized_khanate
+			months = -1
+		}
+		add_modifier = {
+			name = latin_privileges
+			months = -1
+		}
+		add_modifier = {
+			name = tribal_warriors
+			months = -1
+		}
+		add_modifier = {
+			name = mongol_religious_tolerance
+			months = -1
+		}
+
+	}
+	c:C01 = {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		add_technology_researched = silk_road
+		add_technology_researched = tribal
+
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_oligarchy 
+
+		ig:ig_armed_forces = {
+			add_ruling_interest_group = yes
+			set_ig_bolstering = yes
+		}
+
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+
+		ig:ig_devout = { 
+			set_interest_group_name = ig_sunni_madrasahs 
+		}
+
+		add_modifier = {
+			name = cizye_tax
+			months = -1
+		}
+		add_modifier = {
+			name = nomad_heritage
+			months = -1
+		}
+		add_modifier = {
+			name = tribal_warriors
+			months = -1
+		}
+
+	}
+	c:C03 = {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		add_technology_researched = silk_road
+		add_technology_researched = tribal
+
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_oligarchy 
+
+		ig:ig_armed_forces = {
+			add_ruling_interest_group = yes
+			set_ig_bolstering = yes
+		}
+
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+
+		ig:ig_devout = { 
+			set_interest_group_name = ig_sunni_madrasahs 
+		}
+
+		add_modifier = {
+			name = cizye_tax
+			months = -1
+		}
+		add_modifier = {
+			name = nomad_heritage
+			months = -1
+		}
+		add_modifier = {
+			name = tribal_warriors
+			months = -1
+		}
+
+	}
+}

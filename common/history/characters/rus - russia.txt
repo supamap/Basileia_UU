@@ -1,0 +1,114 @@
+﻿CHARACTERS = {
+
+	c:MUS = {
+		create_character = {
+			# Tsar Nicholas I of Russia
+			first_name = Ivan
+			last_name = Rurkid
+			interest_group = ig_landowners
+			ideology = ideology_jingoist_leader
+			ruler = yes
+			is_general = yes
+			birth_date = 1696.7.6
+			dna = dna_tsar_nicolas_01
+			traits = {
+				ambitious
+				resupply_commander
+				surveyor
+				expert_defensive_strategist
+				forest_commander
+				pillager
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+		
+		create_character = {
+			# Alexander II of Russia
+			first_name = Konstantin
+			last_name = Rurkid
+			heir = yes
+			birth_date = 1718.4.26
+			is_general = yes 
+			interest_group = ig_landowners
+			ideology = ideology_jingoist_leader
+			traits = {
+				meticulous
+				resupply_commander
+				surveyor
+				expert_defensive_strategist
+				forest_commander
+				pillager
+			}
+		}
+	}	
+
+	c:SMO = {
+
+		create_character = {
+			# Tsar Nicholas I of Russia
+			first_name = Pavel
+			last_name = Rurkid
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			ruler = yes
+			birth_date = 1696.7.6
+			traits = {
+				arrogant
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+		
+		create_character = {
+			# Alexander II of Russia
+			first_name = Yegor
+			last_name = Rurkid
+			heir = yes
+			birth_date = 1718.4.26
+			interest_group = ig_landowners
+			ideology = ideology_moderate
+			traits = {
+				meticulous
+			}
+		}
+
+	}
+
+	c:RYA = {
+
+		create_character = {
+			# Tsar Nicholas I of Russia
+			first_name = Aleksandr
+			last_name = Rurkid
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			ruler = yes
+			birth_date = 1696.7.6
+			traits = {
+				arrogant
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+		
+		create_character = {
+			# Alexander II of Russia
+			first_name = Giorgi
+			last_name = Rurkid
+			heir = yes
+			birth_date = 1718.4.26
+			interest_group = ig_landowners
+			ideology = ideology_moderate
+			traits = {
+				meticulous
+			}
+		}
+
+	}	
+
+
+}

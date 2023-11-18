@@ -1,0 +1,628 @@
+﻿POPS = {
+	s:STATE_SVEALAND = {
+		region_state:SWE = {
+			create_pop = {
+				culture = swedish
+				size = 981208
+			}
+			create_pop = {
+				culture = finnish
+				size = 32000
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 1000
+			}
+		}
+	}
+	s:STATE_GOTALAND = {
+		region_state:SWE = {
+			create_pop = {
+				culture = swedish
+				size = 600208
+			}
+			create_pop = {
+				culture = finnish
+				size = 9000
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 100
+			}
+		}
+		region_state:NOR = {
+			create_pop = {
+				culture = norwegian
+				size = 90208
+			}
+			create_pop = {
+				culture = danish
+				size = 25208
+			}
+			create_pop = {
+				culture = baltic_german
+				size = 1400
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 100
+			}
+		}
+	}
+	s:STATE_NORRLAND = {
+		region_state:SWE = {
+			create_pop = {
+				culture = swedish
+				size = 269400
+			}
+			create_pop = {
+				culture = finnish
+				size = 20000
+			}
+			create_pop = {
+				culture = sami
+				size = 58000
+			}
+		}
+		region_state:NSE = {
+			create_pop = {
+				culture = norwegian
+				size = 50000
+			}
+			create_pop = {
+				culture = sami
+				size = 8000
+			}
+		}
+	}
+	s:STATE_GOTLAND = {
+		region_state:SWE = {
+			create_pop = {
+				culture = swedish
+				size = 30208
+			}
+			create_pop = {
+				culture = danish
+				size = 3208
+			}
+		}
+	}
+	s:STATE_JUTLAND = {
+		region_state:DEN = {
+			create_pop = {
+				culture = danish
+				size = 628908
+			}
+			create_pop = {
+				culture = baltic_german
+				size = 400
+			}
+		}
+	}
+	s:STATE_ZEALAND = {
+		region_state:DEN = {
+			create_pop = {
+				culture = danish
+				size = 927996
+			}
+			create_pop = {
+				culture = baltic_german
+				size = 104400
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 4400
+			}
+		}
+	}
+	s:STATE_SCANIA = {
+		region_state:DEN = {
+			create_pop = {
+				culture = danish
+				size = 672860
+			}
+			create_pop = {
+				culture = baltic_german
+				size = 4400
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 200
+			}
+		}
+	}
+	s:STATE_WESTERN_NORWAY = {
+		region_state:NOR = {
+			create_pop = {
+				culture = norwegian
+				size = 506800
+			}
+		}
+	}
+	s:STATE_NORTHERN_NORWAY = {
+		region_state:NOR = {
+			create_pop = {
+				culture = norwegian
+				size = 244860
+			}
+			create_pop = {
+				culture = sami
+				size = 50000
+			}
+			create_pop = {
+				culture = finnish
+				size = 12400
+			}
+		}
+	}
+	s:STATE_EASTERN_NORWAY = {
+		region_state:NOR = {
+			create_pop = {
+				culture = norwegian
+				size = 305800
+			}
+			create_pop = {
+				culture = finnish
+				size = 7000
+			}
+		}
+	}
+	s:STATE_ICELAND = {
+		region_state:DEN = {
+			create_pop = {
+				culture = icelandic
+				size = 60200
+			}
+			create_pop = {
+				culture = vinlander
+				size = 3590
+			}
+			create_pop = {
+				culture = danish
+				size = 1520
+			}
+		}
+	}
+	s:STATE_GREENLAND = {
+		region_state:N14 = {
+			create_pop = {
+				culture = vinlander
+				size = 320
+			}
+			create_pop = {
+				culture = inuit
+				religion = animist
+				size = 12510
+			}
+		}
+		region_state:NWC = {
+			create_pop = {
+				culture = vinlander
+				size = 8200
+			}
+			create_pop = {
+				culture = inuit
+				religion = animist
+				size = 5010
+			}
+		}
+	}
+	s:STATE_SOUTHERN_FINLAND = {
+		region_state:FIN = {
+			create_pop = {
+				culture = swedish
+				size = 154900
+			}
+			create_pop = {
+				culture = finnish
+				size = 650000
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 400
+			}
+		}
+	}
+	s:STATE_WEST_KARELIA = {
+		region_state:FIN = {
+			create_pop = {
+				culture = finnish
+				size = 177000
+			}
+			create_pop = {
+				culture = swedish
+				size = 5200
+			}
+		}
+	}
+	s:STATE_ALAND = {
+		region_state:SWE = {
+			create_pop = {
+				culture = swedish
+				size = 12000
+			}
+			create_pop = {
+				culture = finnish
+				size = 500
+			}
+		}
+	}
+	s:STATE_OSTROBOTHNIA = {
+		region_state:FIN = {
+			create_pop = {
+				culture = finnish
+				size = 340000
+			}
+			create_pop = {
+				culture = swedish
+				size = 47000
+			}
+			create_pop = {
+				culture = sami
+				size = 48000
+			}
+		}
+	}
+	s:STATE_HOME_COUNTIES = {
+		region_state:ENG = {
+			create_pop = {
+				culture = british
+				size = 1557596
+			}
+			create_pop = {
+				culture = danish
+				size = 5000
+				pop_type = aristocrats
+			}
+			create_pop = {
+				culture = danish
+				size = 5000
+				pop_type = officers
+			}
+			create_pop = {
+				culture = danish
+				pop_type = soldiers
+				size = 20000
+			}
+			create_pop = {
+				culture = british
+				religion = jewish
+				size = 20000
+			}
+			create_pop = {
+				culture = british
+				religion = catholic
+				size = 100000
+			}
+			create_pop = {
+				culture = irish
+				size = 28400
+			}
+		}
+	}
+	s:STATE_LANCASHIRE = {
+		region_state:DEN = {
+			create_pop = {
+				culture = british
+				size = 880570
+			}
+			create_pop = {
+				culture = irish
+				size = 28070
+			}
+			create_pop = {
+				culture = danish
+				size = 25700
+			}
+		}
+	}
+	s:STATE_WALES = {
+		region_state:WLS = {
+			create_pop = {
+				culture = welsh
+				size = 708557
+			}
+			create_pop = {
+				culture = british
+				size = 54639
+			}
+		}
+	}
+	s:STATE_YORKSHIRE = {
+		region_state:DEN = {
+			create_pop = {
+				culture = british
+				size = 926592
+			}
+			create_pop = {
+				culture = irish
+				size = 16000
+			}
+			create_pop = {
+				culture = danish
+				size = 448000
+			}
+		}
+	}
+	s:STATE_HIGHLANDS = {
+		region_state:SCO = {
+			create_pop = {
+				culture = scottish
+				size = 372396
+			}
+		}
+		region_state:DEN = {
+			create_pop = {
+				culture = scottish
+				size = 142396
+			}
+			create_pop = {
+				culture = norwegian
+				size = 42396
+			}
+			create_pop = {
+				culture = danish
+				size = 18000
+			}
+		}
+	}
+	s:STATE_MIDLANDS = {
+		region_state:ENG = {
+			create_pop = {
+				culture = british
+				size = 1843604
+			}
+			create_pop = {
+				culture = danish
+				size = 5000
+				pop_type = aristocrats
+			}
+			create_pop = {
+				culture = danish
+				size = 1000
+				pop_type = officers
+			}
+			create_pop = {
+				culture = danish
+				pop_type = soldiers
+				size = 10000
+			}
+			create_pop = {
+				culture = british
+				religion = catholic
+				size = 24400
+			}
+			create_pop = {
+				culture = irish
+				size = 12000
+			}
+		}
+	}
+	s:STATE_EAST_ANGLIA = {
+		region_state:ENG = {
+			create_pop = {
+				culture = british
+				size = 765208
+			}
+			create_pop = {
+				culture = danish
+				size = 3000
+				pop_type = aristocrats
+			}
+			create_pop = {
+				culture = danish
+				size = 1000
+				pop_type = officers
+			}
+			create_pop = {
+				culture = danish
+				pop_type = soldiers
+				size = 5000
+			}
+			create_pop = {
+				culture = british
+				religion = catholic
+				size = 8000
+			}
+		}
+		region_state:DEN = {
+			create_pop = {
+				culture = british
+				size = 465208
+			}
+			create_pop = {
+				culture = danish
+				size = 80000
+			}
+		}
+	}
+	s:STATE_WEST_COUNTRY = {
+		region_state:ENG = {
+			create_pop = {
+				culture = british
+				size = 969600
+			}
+			create_pop = {
+				culture = danish
+				size = 5000
+				pop_type = aristocrats
+			}
+			create_pop = {
+				culture = danish
+				size = 1000
+				pop_type = officers
+			}
+			create_pop = {
+				culture = danish
+				pop_type = soldiers
+				size = 5000
+			}
+			create_pop = {
+				culture = british
+				religion = catholic
+				size = 12400
+			}
+			create_pop = {
+				culture = irish
+				size = 4400
+			}
+		}
+		region_state:DEN = {
+			create_pop = {
+				culture = british
+				size = 569600
+			}
+			create_pop = {
+				culture = danish
+				size = 32400
+			}
+			create_pop = {
+				culture = irish
+				size = 4400
+			}
+		}
+	}
+	s:STATE_LOWLANDS = {
+		region_state:SCO = {
+			create_pop = {
+				culture = scottish
+				size = 627200
+			}
+			create_pop = {
+				culture = scottish
+				religion = catholic
+				size = 68000
+			}
+			create_pop = {
+				culture = irish
+				size = 2400
+			}
+		}
+		region_state:DEN = {
+			create_pop = {
+				culture = scottish
+				size = 327200
+			}
+			create_pop = {
+				culture = danish
+				size = 22400
+			}
+			create_pop = {
+				culture = scottish
+				religion = catholic
+				size = 68000
+			}
+			create_pop = {
+				culture = irish
+				size = 32400
+			}
+		}
+		
+	}
+	s:STATE_ULSTER = {
+		region_state:IRE = {
+			create_pop = {
+				culture = irish # Catholics
+				size = 173122
+			}
+			create_pop = {
+				culture = danish
+				size = 3122
+			}
+			create_pop = {
+				culture = irish # Anglicans
+				religion = protestant
+				size = 56184
+			}
+		}
+		region_state:DEN = {
+			create_pop = {
+				culture = irish # Catholics
+				size = 623122
+			}
+			create_pop = {
+				culture = danish
+				size = 23122
+			}
+			create_pop = {
+				culture = irish # Anglicans
+				religion = protestant
+				size = 561843
+			}
+			create_pop = {
+				culture = scottish  # Presbyterians and Methodists
+				size = 475084
+			}
+		}
+	}
+	s:STATE_MUNSTER = {
+		region_state:IRE = {
+			create_pop = {
+				culture = irish # Catholics
+				size = 1814388
+			}
+			create_pop = {
+				culture = danish # Anglicans
+				size = 61856
+			}
+			create_pop = {
+				culture = irish # Anglicans
+				religion = protestant
+				size = 40904
+			}
+		}
+	}
+	s:STATE_LEINSTER = {
+		region_state:IRE = {
+			create_pop = {
+				culture = irish # Catholics
+				size = 977581
+			}
+			create_pop = {
+				culture = danish # Anglicans
+				size = 22463
+			}
+			create_pop = {
+				culture = irish # Anglicans
+				religion = protestant
+				size = 68994
+			}
+		}
+		region_state:DEN = {
+			create_pop = {
+				culture = danish 
+				size = 120989
+			}
+			create_pop = {
+				culture = irish 
+				religion = protestant
+				size = 268994
+			}
+			create_pop = {
+				culture = british  # Presbyterians and Methodists
+				size = 50385
+			}
+			create_pop = {
+				culture = scottish  # Presbyterians and Methodists
+				size = 4300
+			}
+		}
+	}
+	s:STATE_CONNAUGHT = {
+		region_state:IRE = {
+			create_pop = {
+				culture = irish # Catholics
+				size = 1019428
+			}
+			create_pop = {
+				culture = danish # Anglicans
+				size = 22463
+			}
+			create_pop = {
+				culture = irish # Anglicans
+				religion = protestant
+				size = 31413
+			}
+		}
+	}
+}

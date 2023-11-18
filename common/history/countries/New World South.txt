@@ -1,0 +1,658 @@
+﻿#Romaioi Mod
+COUNTRIES = {
+	c:TWT = {
+		effect_starting_technology_tier_5_tech = yes
+		effect_starting_politics_traditional = yes
+		add_technology_researched = sunset_invasion
+		add_technology_researched = new_world_tribal
+		activate_law = law_type:law_homesteading
+		add_technology_researched = prospecting
+		add_technology_researched = academia
+		add_technology_researched = international_trade
+
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_right_of_assembly
+		#activate_law = law_type:law_isolationism
+		activate_law = law_type:law_debt_slavery
+		activate_law = law_type:law_censorship
+
+		ig:ig_rural_folk = {
+			remove_ideology = ideology_isolationist
+			add_ideology = ideology_isolationist_expansionism
+		}
+
+	}
+
+	c:BN1 = {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		add_technology_researched = new_world_tribal
+		activate_law = law_type:law_homesteading
+	}
+
+	c:YAA = {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		add_technology_researched = new_world_tribal
+		activate_law = law_type:law_homesteading
+	}
+
+	c:ARW = {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		add_technology_researched = new_world_tribal
+		activate_law = law_type:law_homesteading
+	}
+
+	c:DN1 = {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		add_technology_researched = new_world_tribal
+		activate_law = law_type:law_homesteading
+	}
+
+	c:CM2 = {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		add_technology_researched = new_world_tribal
+		activate_law = law_type:law_homesteading
+	}
+
+	c:KW1 = {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		add_technology_researched = new_world_tribal
+		activate_law = law_type:law_homesteading
+	}
+
+	c:TH1 = {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		add_technology_researched = new_world_tribal
+		activate_law = law_type:law_homesteading
+	}
+
+	c:AR1 = {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		add_technology_researched = new_world_tribal
+		activate_law = law_type:law_homesteading
+	}
+
+	c:JA2 = {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		add_technology_researched = new_world_tribal
+		activate_law = law_type:law_homesteading
+	}
+
+	c:SRI = {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		add_technology_researched = new_world_tribal
+		activate_law = law_type:law_homesteading
+	}
+
+	c:TK2 = {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		add_technology_researched = new_world_tribal
+		activate_law = law_type:law_homesteading
+	}
+
+	c:KOA = {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		add_technology_researched = new_world_tribal
+		activate_law = law_type:law_homesteading
+	}
+
+	c:WPS = {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		add_technology_researched = new_world_tribal
+		activate_law = law_type:law_homesteading
+	}
+
+	c:YN1 = {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		add_technology_researched = new_world_tribal
+		activate_law = law_type:law_homesteading
+	}
+
+	c:MAW = {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		add_technology_researched = new_world_tribal
+		activate_law = law_type:law_homesteading
+	}
+
+	c:NMK = {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		add_technology_researched = new_world_tribal
+		activate_law = law_type:law_homesteading
+	}
+
+	c:GU2 = {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		add_technology_researched = new_world_tribal
+		activate_law = law_type:law_homesteading
+	}
+
+	c:AW2 = {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		add_technology_researched = new_world_tribal
+		activate_law = law_type:law_homesteading
+	}
+
+	c:GTO = {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		add_technology_researched = new_world_tribal
+		activate_law = law_type:law_homesteading
+	}
+
+	c:CH5 = {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		add_technology_researched = new_world_tribal
+		activate_law = law_type:law_homesteading
+	}
+
+	c:KAY = {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		add_technology_researched = new_world_tribal
+		activate_law = law_type:law_homesteading
+	}
+
+	c:XAV = {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		add_technology_researched = new_world_tribal
+		activate_law = law_type:law_homesteading
+	}
+
+	c:OF1 = {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		add_technology_researched = new_world_tribal
+		activate_law = law_type:law_homesteading
+	}
+
+	c:BO1 = {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		add_technology_researched = new_world_tribal
+		activate_law = law_type:law_homesteading
+	}
+
+	c:UKG = {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		add_technology_researched = new_world_tribal
+		activate_law = law_type:law_homesteading
+	}
+
+	c:WY1 = {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		add_technology_researched = new_world_tribal
+		activate_law = law_type:law_homesteading
+	}
+
+	c:TR0 = {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		add_technology_researched = new_world_tribal
+		activate_law = law_type:law_homesteading
+	}
+
+	c:MN1 = {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		add_technology_researched = new_world_tribal
+		activate_law = law_type:law_homesteading
+	}
+
+	c:GJ1 = {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		add_technology_researched = new_world_tribal
+		activate_law = law_type:law_homesteading
+	}
+
+	c:AC1 = {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		add_technology_researched = new_world_tribal
+		activate_law = law_type:law_homesteading
+	}
+
+	c:AP2 = {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		add_technology_researched = new_world_tribal
+		activate_law = law_type:law_homesteading
+	}
+
+	c:AW1 = {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		add_technology_researched = new_world_tribal
+		activate_law = law_type:law_homesteading
+	}
+
+	c:CT1 = {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		add_technology_researched = new_world_tribal
+		activate_law = law_type:law_homesteading
+	}
+
+	c:G1A = {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		add_technology_researched = new_world_tribal
+		activate_law = law_type:law_homesteading
+	}
+
+	c:HP1 = {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		add_technology_researched = new_world_tribal
+		activate_law = law_type:law_homesteading
+	}
+
+	c:CH2 = {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		add_technology_researched = new_world_tribal
+		activate_law = law_type:law_homesteading
+	}
+
+	c:TL4 = {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		add_technology_researched = new_world_tribal
+		activate_law = law_type:law_homesteading
+	}
+
+}

@@ -1,0 +1,818 @@
+﻿POPS = {
+	s:STATE_COLORADO = {
+		region_state:ARP = {
+			create_pop = {
+				culture = navajo
+				size = 1882
+			}
+			create_pop = {
+				culture = paiute
+				size = 5647
+			}
+			create_pop = {
+				culture = siouan
+				size = 11294
+			}
+		}
+		region_state:NVJ = {
+			create_pop = {
+				culture = navajo
+				size = 15801
+			}
+		}
+		region_state:APC = {
+			create_pop = {
+				culture = pueblo
+				size = 7507
+			}
+			create_pop = {
+				culture = apache
+				size = 18500
+			}
+			create_pop = {
+				culture = siouan
+				size = 1094
+			}
+		}
+		region_state:UTE = {
+			create_pop = {
+				culture = paiute
+				size = 24000
+			}
+			create_pop = {
+				culture = apache
+				size = 16000
+			}
+		}
+	}
+	s:STATE_UTAH = {
+		region_state:MPA = {
+			create_pop = {
+				culture = paiute
+				size = 10000
+			}
+		}
+		region_state:NMU = {
+			create_pop = {
+				culture = paiute
+				size = 10000
+			}
+		}
+		region_state:NVJ = {
+			create_pop = {
+				culture = paiute
+				size = 3000
+			}
+			create_pop = {
+				culture = navajo
+				size = 17000
+			}
+		}
+		region_state:UTE = {
+			create_pop = {
+				culture = paiute
+				size = 35000
+			}
+		}
+	}
+	s:STATE_NEVADA = {
+		region_state:MPA = {
+			create_pop = {
+				culture = paiute
+				size = 14000
+			}
+		}
+		region_state:YKT = {
+			create_pop = {
+				culture = hokan
+				size = 12000
+			}
+			create_pop = {
+				culture = paiute
+				size = 1800
+			}
+		}
+		region_state:NMU = {
+			create_pop = {
+				culture = paiute
+				size = 15800
+			}
+		}
+	}
+	s:STATE_ARIZONA = {
+		region_state:MPA = {
+			create_pop = {
+				culture = hokan
+				size = 4000
+			}
+			create_pop = {
+				culture = navajo
+				size = 4000
+			}
+			create_pop = {
+				culture = paiute
+				size = 10000
+			}
+		}
+		region_state:NVJ = {
+			create_pop = {
+				culture = navajo
+				size = 24000
+			}
+			create_pop = {
+				culture = paiute
+				size = 4000
+			}
+		}
+		region_state:WSH = {
+			create_pop = {
+				culture = hokan
+				size = 19091
+			}
+			create_pop = {
+				culture = pueblo
+				size = 2711
+			}
+		}
+		region_state:PUE = {
+			create_pop = {
+				culture = apache
+				size = 8865
+			}
+			create_pop = {
+				culture = pueblo
+				size = 74000
+			}
+			create_pop = {
+				culture = oodham
+				size = 35442
+			}
+			create_pop = {
+				culture = hokan
+				size = 15169
+			}
+		}
+	}
+	s:STATE_NEW_MEXICO = {
+		region_state:APC = {
+			create_pop = {
+				culture = apache
+				size = 47500
+			}
+			create_pop = {
+				culture = pueblo
+				size = 1830
+			}
+		}
+		region_state:NVJ = {
+			create_pop = {
+				culture = navajo
+				size = 22636
+			}
+			create_pop = {
+				culture = pueblo
+				size = 1630
+			}
+		}
+		region_state:PUE = {
+			create_pop = {
+				culture = pueblo
+				size = 152630
+			}
+			create_pop = {
+				culture = oodham
+				size = 13000
+			}
+			create_pop = {
+				culture = navajo
+				size = 2636
+			}
+			create_pop = {
+				culture = apache
+				size = 4500
+			}
+		}
+
+	}
+	s:STATE_CALIFORNIA = {
+		region_state:NAH = {
+			create_pop = {
+				culture = hokan
+				size = 11000
+			}
+			create_pop = {
+				culture = oodham
+				size = 1000
+			}
+		}
+		region_state:CNW = {
+			create_pop = {
+				culture = hokan
+				size = 44000
+			}
+			create_pop = {
+				culture = colonial_chinese
+				size = 75000
+			}
+			create_pop = {
+				culture = athabaskan
+				size = 8000
+			}
+			create_pop = {
+				culture = salish
+				size = 8000
+			}
+		}
+		region_state:MPA = {
+			create_pop = {
+				culture = paiute
+				size = 9000
+			}
+			create_pop = {
+				culture = hokan
+				size = 1900
+			}
+		}
+		region_state:NMU = {
+			create_pop = {
+				culture = paiute
+				size = 8800
+			}
+			create_pop = {
+				culture = hokan
+				size = 1880
+			}
+		}
+		region_state:YKT = {
+			create_pop = {
+				culture = hokan
+				size = 19390
+			}
+		}
+		region_state:SPK = {
+			create_pop = {
+				culture = athabaskan
+				size = 16000
+			}
+			create_pop = {
+				culture = hokan
+				size = 13000
+			}
+		}
+		region_state:MNO = {
+			create_pop = {
+				culture = paiute
+				size = 16000
+			}
+			create_pop = {
+				culture = hokan
+				size = 1200
+			}
+		}
+	}
+	s:STATE_SONORA = {
+		region_state:NAH = {
+			create_pop = {
+				culture = nahua
+				size = 159961
+			}
+			create_pop = {
+				culture = oodham
+				size = 123637
+			}
+			create_pop = {
+				culture = hokan
+				size = 20337
+			}
+		}
+	}
+	s:STATE_CHIHUAHUA = { # total population: 132189 (1830), 147600 (1840)
+		region_state:NAH = {
+			create_pop = {
+				culture = nahua
+				size = 159961
+			}
+			create_pop = {
+				culture = oodham
+				size = 108000
+			}
+			create_pop = {
+				culture = apache
+				size = 26000
+			}
+		}
+	}
+	s:STATE_RIO_GRANDE = { # Coahuila, Nuevo Leon and Tamaulipas. est. pop 182352 in 1830, 266647 in 1840
+		region_state:NAH = {
+			create_pop = {
+				culture = nahua
+				size = 159961
+			}
+			create_pop = {
+				culture = oodham
+				size = 57000
+			}
+			create_pop = {
+				culture = hokan
+				religion = animist
+				size = 68113
+			}
+		}
+	}
+	s:STATE_VERACRUZ = { # 242658 in 1830, 259463 in 1840
+		region_state:NAH = {
+			create_pop = {
+				culture = nahua
+				size = 651061
+			}		
+		}
+	}
+	s:STATE_DURANGO = { # est. total of 156999. 153810 in 1830, 160187 in 1840
+		region_state:NAH = {
+			create_pop = {
+				culture = nahua
+				size = 159961
+			}
+			create_pop = {
+				culture = oodham
+				size = 120000
+			}
+		}
+	}
+	s:STATE_SINALOA = { # est. total of 134941. 122285 in 1830, 147596 in 1840
+		region_state:NAH = {
+			create_pop = {
+				culture = nahua
+				size = 159961
+			}
+			create_pop = {
+				culture = oodham
+				size = 120000
+			}
+		}
+	}
+	# San Luis Potosi:	302390 in 1830, 326559 in 1840, so averaging out to 314475
+	# Guanajuato:		442916 in 1830, 591401 in 1840, so averaging out to 517159
+	# Queretaro:		114437 in 1830, 122962 in 1840, so averaging out to 118699
+	# working total number of 950333
+	s:STATE_BAJIO = {
+		region_state:NAH = {
+			create_pop = {
+				culture = nahua
+				size = 456461
+			}
+			create_pop = {
+				culture = tarascan
+				size = 525162
+			}
+		}	
+	}
+	# Yucatan proper: 	417947 in 1830, 420726 in 1840, so averaging out to 419337
+	# Campeche:			64053 in 1830, 72707 in 1840, so averaging out to 68380
+	# Tabasco:			58518 in 1830, 63919 in 1840, so averaging out to 61219
+	# working total number of 548936
+	s:STATE_YUCATAN = { 
+		region_state:MAY = {
+			create_pop = {
+				culture = nahua
+				size = 29961
+			}
+			create_pop = {
+				culture = mayan
+				size = 588804
+			}
+		}
+	}
+	# Mexico state (incl. Hidalgo): 1050153 in 1830, 1145759 in 1840, so averaging out to 1097956
+	# Puebla: 610950 in 1830, 661524 in 1840, so averaging out to 636237
+	# Tlaxcala: 72271 in 1830, 81524 in 1840, so averaging out to 76897
+	# working total number of 1811090
+	s:STATE_MEXICO = {
+		region_state:NAH = {
+			create_pop = {
+				culture = mixtec
+				size = 299996
+			}
+			create_pop = {
+				culture = nahua
+				size = 2689604
+			}
+			create_pop = {
+				culture = zapotec
+				size = 494004
+			}
+			create_pop = {
+				culture = tarascan
+				size = 25162
+			}
+		}
+	}
+
+	# total of 231319. This number was revealed to me in a dream.
+	# jk. Couldn't find estimates for Guerrero in 1830 or 1840, but they could be found for 1870 onwards, so some math trickery was done. Neighboring Oaxaca's estimated 1835 population is 74.7% of its 1870 population, and 50.61% of its 1900 population, so those percentages were applied to Guerrero's 1870 and 1900 population figures, and the two results were averaged together into the above.
+	s:STATE_GUERRERO = { 
+		region_state:NAH = {
+			create_pop = {
+				culture = zapotec
+				size = 223183
+			}
+			create_pop = {
+				culture = tarascan
+				size = 150846
+			}
+			create_pop = {
+				culture = nahua
+				size = 127381
+			}
+			create_pop = {
+				culture = mixtec
+				size = 203183
+			}
+		}
+	}
+	s:STATE_OAXACA = { # approx 479674. 457504 in 1830, 501844 in 1840.
+		region_state:NAH = {
+			create_pop = {
+				culture = zapotec
+				size = 480532
+			}
+			create_pop = {
+				culture = tarascan
+				size = 187073
+			}
+			create_pop = {
+				culture = nahua
+				size = 124182
+			}
+			create_pop = {
+				culture = mixtec
+				size = 203183
+			}
+		}
+	}
+	# Jalisco: 656881 in 1830, 691397 in 1840, so averaging out to 674139
+	# Michoacan: 435281 in 1830, 497537 in 1840, so averaging out to 466409
+	# Colima: 45838 in 1830, 53389 in 1840, so averaging out to 49614
+	# working total of 1190162
+	# 1.5858
+	s:STATE_JALISCO = {
+		region_state:NAH = {
+			create_pop = {
+				culture = nahua
+				size = 375961
+			}
+			create_pop = {
+				culture = oodham
+				size = 92078
+			}
+			create_pop = {
+				culture = tarascan
+				size = 525162
+			}
+		}
+	}
+	# Zacatecas: 222918 in 1830, 274380 in 1840, so averaging out to 248649
+	# Aguascalientes: 57125 in 1830, 72193, so averaging out to 64659
+	# working total of 313308
+	s:STATE_ZACATECAS = {
+		region_state:NAH = {
+			create_pop = {
+				culture = nahua
+				size = 175961
+			}
+			create_pop = {
+				culture = tarascan
+				size = 525162
+			}
+		}
+	}
+	# 121424 in 1830, 138595 in 1840
+	# working total of 130010
+	s:STATE_CHIAPAS = {
+		region_state:MAY = {
+			create_pop = {
+				culture = mayan
+				size = 272164
+			}
+			create_pop = {
+				culture = nahua
+				size = 35961
+			}
+		}
+	}
+	s:STATE_BAJA_CALIFORNIA = {
+		region_state:NAH = {
+			create_pop = {
+				culture = nahua
+				size = 39961
+			}
+			create_pop = {
+				culture = oodham
+				size = 26300
+			}
+			create_pop = {
+				culture = hokan
+				size = 8000
+			}
+		}
+	}
+	s:STATE_SAN_SALVADOR = {
+		region_state:MAY = {
+			create_pop = {
+				culture = mayan
+				size = 228204
+			}
+			create_pop = {
+				culture = nahua
+				size = 15961
+			}
+			create_pop = {
+				culture = miskito # Cape of Gracias a Dios Miskito
+				size = 6000
+			}
+		}
+	}
+	s:STATE_GUATEMALA = {
+		region_state:MAY = {
+			create_pop = {
+				culture = mayan
+				size = 412000
+			}
+			create_pop = {
+				culture = nahua
+				size = 15961
+			}
+			create_pop = {
+				culture = miskito # Cape of Gracias a Dios Miskito
+				size = 6000
+			}
+		}
+		region_state:VCA = {
+			create_pop = {
+				culture = mayan
+				size = 41200
+				pop_type = slaves
+			}
+			create_pop = {
+				culture = colonial_italian
+				size = 9904
+			}
+			create_pop = {
+				culture = miskito # Cape of Gracias a Dios Miskito
+				pop_type = slaves
+				size = 6000
+			}
+		}
+	}
+	s:STATE_HONDURAS = {
+		region_state:MAY = {
+			create_pop = {
+				culture = mayan
+				size = 385204
+			}
+			create_pop = {
+				culture = nahua
+				size = 15961
+			}
+			create_pop = {
+				culture = miskito # Cape of Gracias a Dios Miskito
+				size = 36000
+			}
+		}
+		region_state:GCA = {
+			create_pop = {
+				culture = mayan # Tawira Miskito
+				size = 20000
+				pop_type = slaves
+			}
+			create_pop = {
+				culture = colonial_italian
+				size = 9904
+			}
+			create_pop = {
+				culture = miskito # Miskito pop. across the 'borders'
+				size = 6000
+				pop_type = slaves
+			}
+		}
+	}
+	s:STATE_NICARAGUA = {
+		region_state:MAY = {
+			create_pop = {
+				culture = mayan
+				size = 284000
+			}
+			create_pop = {
+				culture = nahua
+				size = 15961
+			}
+			create_pop = {
+				culture = miskito # Miskito pop. across the 'borders'
+				size = 44000
+			}
+		}
+	}
+	s:STATE_COSTA_RICA = {
+		region_state:MAY = {
+			create_pop = {
+				culture = mayan
+				size = 83992
+			}
+			create_pop = {
+				culture = miskito # Cape of Gracias a Dios Miskito
+				size = 36000
+			}
+			create_pop = {
+				culture = nahua
+				size = 15961
+			}
+		}
+		region_state:ACA = {
+			create_pop = {
+				culture = colonial_andalusian
+				size = 9904
+			}
+			create_pop = {
+				culture = guajiro
+				size = 3004
+				pop_type = slaves
+			}
+			create_pop = {
+				culture = miskito # Cape of Gracias a Dios Miskito
+				size = 6000
+				pop_type = slaves
+			}
+		}
+	}
+	s:STATE_FLORIDA = {
+		region_state:VCA = {
+			create_pop = {
+				culture = colonial_italian
+				size = 22904
+			}
+			create_pop = {
+				culture = muskogean
+				size = 12000
+				pop_type = slaves
+			}
+		}
+		region_state:SML = {
+			create_pop = {
+				culture = muskogean
+				size = 22000
+			}
+		}
+		region_state:LOU = {
+			create_pop = {
+				culture = colonial_french
+				size = 15904
+			}
+			create_pop = {
+				culture = muskogean
+				size = 8000
+				pop_type = slaves
+			}
+		}
+	}
+	s:STATE_HAITI = {
+		region_state:GCA = {
+			create_pop = {
+				culture = colonial_italian
+				size = 13904
+			}
+			create_pop = {
+				culture = guajiro
+				size = 18004
+				pop_type = slaves
+			}
+			create_pop = {
+				culture = cariban
+				size = 22004
+				pop_type = slaves
+			}
+		}
+	}
+	s:STATE_SANTO_DOMINGO = {
+		region_state:ACA = {
+			create_pop = {
+				culture = colonial_andalusian
+				size = 29904
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = berber
+				size = 2904
+			}
+			create_pop = {
+				culture = guajiro
+				size = 19004
+				pop_type = slaves
+			}
+			create_pop = {
+				culture = cariban
+				size = 18004
+				pop_type = slaves
+			}
+		}
+	}
+	s:STATE_PUERTO_RICO = {
+		region_state:ACA = {
+			create_pop = {
+				culture = colonial_andalusian
+				size = 19904
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = berber
+				size = 2904
+			}
+			create_pop = {
+				culture = guajiro
+				size = 18004
+				pop_type = slaves
+			}
+			create_pop = {
+				culture = cariban
+				size = 18004
+				pop_type = slaves
+			}
+		}
+	}
+	s:STATE_BAHAMAS = {
+		region_state:VCA = {
+			create_pop = {
+				culture = colonial_italian
+				size = 12904
+			}
+			create_pop = {
+				culture = muskogean
+				size = 8000
+				pop_type = slaves
+			}	
+			create_pop = {
+				culture = cariban
+				size = 22004
+				pop_type = slaves
+			}	
+		}
+	}
+	s:STATE_WEST_INDIES = {
+		region_state:ACA = {
+			create_pop = {
+				culture = colonial_andalusian
+				size = 32904
+			}	
+			create_pop = {
+				pop_type = slaves
+				culture = berber
+				size = 2904
+			}
+			create_pop = {
+				culture = guajiro
+				size = 16004
+				pop_type = slaves
+			}	
+			create_pop = {
+				culture = cariban
+				size = 18004
+				pop_type = slaves
+			}
+		}
+	}
+	s:STATE_JAMAICA = {
+		region_state:GCA = {
+			create_pop = {
+				culture = colonial_italian
+				size = 13904
+			}
+			create_pop = {
+				culture = guajiro
+				size = 17004
+				pop_type = slaves
+			}
+			create_pop = {
+				culture = cariban
+				size = 22004
+				pop_type = slaves
+			}
+		}
+	}
+	s:STATE_CUBA = {
+		region_state:VCA = {
+			create_pop = {
+				culture = colonial_italian
+				size = 63904
+			}
+			create_pop = {
+				culture = cariban
+				size = 22004
+				pop_type = slaves
+			}
+			create_pop = {
+				culture = guajiro
+				size = 22004
+				pop_type = slaves
+			}		
+		}
+	}
+}

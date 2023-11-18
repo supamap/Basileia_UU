@@ -1,0 +1,100 @@
+﻿
+
+#New Romaioi Modifiers 
+
+merchant_state = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	country_prestige_add = 5
+	building_trade_center_throughput_add = 0.1
+	#building_group_bg_trade_throughput_add = 0.1
+	building_shipyards_throughput_add = 0.1
+	building_port_throughput_add = 0.1
+	state_building_port_max_level_add = 2
+	state_building_naval_base_max_level_add = 10
+	state_market_access_price_impact = 0.05
+}	
+
+venetian_arsenal = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	#building_shipyards_throughput_add = 0.25
+	building_military_shipyards_throughput_add = 0.25
+	#country_navy_power_projection_mult = 0.25
+	state_building_naval_base_max_level_add = 25
+	state_building_port_max_level_add = 2
+	#country_military_goods_cost_mult = -0.25
+}
+
+great_city_state = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
+	country_prestige_add = 10
+	#building_throughput_add = 0.05
+	building_group_bg_manufacturing_throughput_add = 0.1
+	#building_urban_center_throughput_add = 0.1
+	building_group_bg_service_throughput_add = 0.1
+	#state_infrastructure_mult = 0.1
+	state_infrastructure_add = 25
+	state_pop_qualifications_mult = 0.25
+	#state_education_access_add = 0.05
+	#state_education_access_wealth_add = 0.005
+	#state_population_growth_rate_add=0.01 
+	state_minimum_wealth_add = 1
+	state_dependent_wage_mult = 0.25
+}
+
+city_worlds_desire_state = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
+	#state_greek_standard_of_living_add = 2
+	country_prestige_add = 10
+	#building_throughput_add = 0.1
+	building_group_bg_manufacturing_throughput_add = 0.1
+	building_trade_center_throughput_add = 0.25
+	building_urban_center_throughput_add = 0.25
+	state_infrastructure_add = 25
+	state_pop_qualifications_mult = 0.25
+	#state_education_access_add = 0.05
+	#state_education_access_wealth_add = 0.005
+	#state_population_growth_rate_add=0.01 
+	state_minimum_wealth_add = 1
+	state_dependent_wage_mult = 0.25
+}
+
+romaioi_pentarchy = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_clergymen_pol_str_mult = 0.05
+	state_conversion_mult = 0.05
+	tax_heathen_add = 0.05
+}
+
+patriarch_rome = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_clergymen_pol_str_mult = 0.05
+	state_conversion_mult = 0.05
+	tax_heathen_add = 0.05
+}
+
+patriarch_alexandria = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_clergymen_pol_str_mult = 0.05
+	state_conversion_mult = 0.05
+	tax_heathen_add = 0.05
+}
+
+patriarch_jerusalem = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_clergymen_pol_str_mult = 0.05
+	state_conversion_mult = 0.05
+	tax_heathen_add = 0.05
+}
+
+patriarch_antioch = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_clergymen_pol_str_mult = 0.05
+	state_conversion_mult = 0.05
+	tax_heathen_add = 0.05
+}
+
+bulgarian_resistance = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds
+	state_radicals_from_discrimination_mult = 0.25
+	#state_bulgarian_standard_of_living_add = -1
+}

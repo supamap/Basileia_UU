@@ -1,0 +1,13 @@
+﻿namespace = german_unification
+
+# North/South German Confederation
+#Removed NGF SGF
+
+#Removed German Unification
+
+# Annex a German country
+
+# Bismarck
+
+
+# German Unification

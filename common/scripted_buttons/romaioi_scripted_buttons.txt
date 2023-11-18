@@ -1,0 +1,56 @@
+
+je_insult_machine_plc_button = {
+	name = "je_insult_machine_insult_poland_button"
+	desc = "je_insult_machine_insult_poland_button_desc"
+
+	visible = {
+	}
+
+	possible = {
+		
+	}
+
+	ai_chance = {
+		base = -99
+	}
+
+	effect = {
+		random_country = {
+			limit = {
+				country_has_primary_culture = cu:polish
+			}
+			trigger_event = {
+				id = supamap_insult_events.1
+				days = 1
+			}
+		}
+	}
+}
+
+je_insult_machine_ita_button = {
+	name = "je_insult_machine_insult_italy_button"
+	desc = "je_insult_machine_insult_italy_button_desc"
+
+	visible = {
+	}
+
+	possible = {
+		
+	}
+
+	ai_chance = {
+		base = -99
+	}
+
+	effect = {
+		random_country = {
+			limit = {
+				country_has_primary_culture = cu:north_italian
+			}
+			trigger_event = {
+				id = supamap_insult_events.1
+				days = 1
+			}
+		}
+	}
+}

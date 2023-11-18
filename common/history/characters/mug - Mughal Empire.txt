@@ -1,0 +1,231 @@
+﻿CHARACTERS = {
+	c:MUG = {
+		create_character = {
+			# Dost Mohammad Khan
+			#role = politician # Remove this line
+			first_name = "Humayun"
+			last_name = "Gurkani"
+			culture = cu:mughal
+			ruler = yes
+			age = 56
+			dna = dna_abdulaziz
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				ambitious
+			}
+		}	
+
+		create_character = {
+			# Wazir Akbar Khan
+			#role = politician # Remove this line
+			first_name = "Babur"
+			last_name = "Gurkani"
+			culture = cu:mughal
+			heir = yes
+			age = 20
+			interest_group = ig_armed_forces
+			ideology = ideology_traditionalist
+			traits = {
+				ambitious
+			}
+		}
+
+		create_character = {
+			is_general = yes
+			first_name = Akbar
+			last_name = Gurkani
+			culture = cu:mughal
+			age = 43
+			traits = {
+		#		stalwart
+		#		debutante
+			}
+		}
+	}
+
+	c:BGL = {
+		create_character = {
+			culture = cu:mughal
+			ruler = yes
+			age = 45
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				
+			}
+		}	
+
+		create_character = {
+			culture = cu:mughal
+			heir = yes
+			age = 20
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				
+			}
+		}
+	}
+	c:ORI = {
+		create_character = {
+			culture = cu:mughal
+			ruler = yes
+			age = 45
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				
+			}
+		}	
+
+		create_character = {
+			culture = cu:mughal
+			heir = yes
+			age = 20
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				
+			}
+		}
+	}
+	c:AWA = {
+		create_character = {
+			culture = cu:mughal
+			ruler = yes
+			age = 45
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				
+			}
+		}	
+
+		create_character = {
+			culture = cu:mughal
+			heir = yes
+			age = 20
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				
+			}
+		}
+	}
+	c:KAS = {
+		create_character = {
+			culture = cu:mughal
+			ruler = yes
+			age = 45
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				
+			}
+		}	
+
+		create_character = {
+			culture = cu:mughal
+			heir = yes
+			age = 20
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				
+			}
+		}
+	}
+	c:SIN = {
+		create_character = {
+			culture = cu:mughal
+			ruler = yes
+			age = 45
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				
+			}
+		}	
+
+		create_character = {
+			culture = cu:mughal
+			heir = yes
+			age = 20
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				
+			}
+		}
+	}
+	c:BER = {
+		create_character = {
+			culture = cu:mughal
+			ruler = yes
+			age = 45
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				
+			}
+		}	
+
+		create_character = {
+			culture = cu:mughal
+			heir = yes
+			age = 20
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				
+			}
+		}
+	}
+	c:IND = {
+		create_character = {
+			culture = cu:mughal
+			ruler = yes
+			age = 45
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				
+			}
+		}	
+
+		create_character = {
+			culture = cu:mughal
+			heir = yes
+			age = 20
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				
+			}
+		}
+	}
+	c:MEW = {
+		create_character = {
+			culture = cu:mughal
+			ruler = yes
+			age = 45
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				
+			}
+		}	
+
+		create_character = {
+			culture = cu:mughal
+			heir = yes
+			age = 20
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				
+			}
+		}
+	}
+}

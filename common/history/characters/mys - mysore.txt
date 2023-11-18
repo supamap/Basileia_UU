@@ -1,0 +1,22 @@
+﻿CHARACTERS = {
+	c:MYS = {
+		create_character = {
+			is_general = yes
+			first_name = "Krishnaraja"
+			last_name = "Wodeyar"
+			ruler = yes
+			age = 42
+			interest_group = ig_armed_forces
+			ideology = ideology_traditionalist
+			traits = {
+				meticulous
+				brave
+				resupply_commander
+				surveyor
+				expert_offensive_planner
+			}
+		}	
+
+		# Krishanaja's heir was not born until 1863. Yes, Krishanaja took his sweet time, didn't he?
+	}
+}

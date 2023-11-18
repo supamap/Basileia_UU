@@ -1,0 +1,170 @@
+﻿DIPLOMACY = {
+	c:TAT = {
+		create_diplomatic_pact = {
+			country = c:MUS	
+			type = tributary #tributary
+		}
+		create_diplomatic_pact = {
+			country = c:C01
+			type = tributary #tributary
+		}
+		create_diplomatic_pact = {
+			country = c:C03
+			type = tributary #tributary
+		}
+		create_diplomatic_pact = {
+			country = c:C02
+			type = tributary #Moved from Persia
+		}
+		create_diplomatic_pact = {
+			country = c:PRM
+			type = tributary #Moved from Persia
+		}
+		set_relations = { country = c:PER value = -25 }
+		set_relations = { country = c:BYZ value = -25 }
+		set_relations = { country = c:MOL value = -25 }
+		set_relations = { country = c:WAL value = -25 }
+		set_relations = { country = c:BUK value = -25 }
+		set_relations = { country = c:KHI value = -25 }
+		set_relations = { country = c:HUN value = -50 }
+		set_relations = { country = c:HRE value = -35 }
+		set_relations = { country = c:C02 value = -45 }
+		set_relations = { country = c:GEO value = -25 }
+		set_relations = { country = c:PLC value = -75 }
+		set_relations = { country = c:GEN value = 50 }
+		set_relations = { country = c:VEN value = 50 }
+
+		create_truce = {
+			country = c:MUS
+			months = 120
+		}
+		create_truce = {
+			country = c:SMO
+			months = 120
+		}
+		create_truce = {
+			country = c:RYA
+			months = 120
+		}
+		create_truce = {
+			country = c:NZH
+			months = 120
+		}
+		create_truce = {
+			country = c:UGG
+			months = 120
+		}
+		create_truce = {
+			country = c:TVE
+			months = 120
+		}
+	}
+
+c:MUS = {
+
+	create_diplomatic_pact = {
+		country = c:SMO	
+		type = tributary #tributary
+	}
+	create_diplomatic_pact = {
+		country = c:RYA
+		type = tributary #tributary
+	}
+	create_diplomatic_pact = {
+		country = c:NZH
+		type = tributary #tributary
+	}
+	create_diplomatic_pact = {
+		country = c:UGG
+		type = tributary #tributary
+	}
+	create_diplomatic_pact = {
+		country = c:TVE
+		type = tributary #tributary
+	}
+
+	set_relations = { country = c:TAT value = -75 }
+	set_relations = { country = c:NOV value = -75 }
+	set_relations = { country = c:PLC value = -75 }
+	set_relations = { country = c:BYZ value = 75 }
+}
+
+c:SMO = {
+	set_relations = { country = c:TAT value = -75 }
+	set_relations = { country = c:MUS value = -35 }
+	set_relations = { country = c:NOV value = 25 }
+	set_relations = { country = c:BYZ value = 75 }
+	set_relations = { country = c:PLC value = -75 }
+}
+
+c:UGG = {
+	set_relations = { country = c:TAT value = -75 }
+	set_relations = { country = c:MUS value = -35 }
+	set_relations = { country = c:NOV value = 25 }
+	set_relations = { country = c:BYZ value = 75 }
+	set_relations = { country = c:PLC value = -75 }
+}
+
+c:TVE = {
+	set_relations = { country = c:TAT value = -75 }
+	set_relations = { country = c:MUS value = -35 }
+	set_relations = { country = c:NOV value = 25 }
+	set_relations = { country = c:BYZ value = 75 }
+	set_relations = { country = c:PLC value = -75 }
+}
+
+c:NZH = {
+	set_relations = { country = c:TAT value = -75 }
+	set_relations = { country = c:MUS value = -35 }
+	set_relations = { country = c:NOV value = 25 }
+	set_relations = { country = c:BYZ value = 75 }
+	set_relations = { country = c:PLC value = -75 }
+}
+
+c:RYA = {
+	set_relations = { country = c:TAT value = -75 }
+	set_relations = { country = c:MUS value = -35 }
+	set_relations = { country = c:NOV value = 25 }
+	set_relations = { country = c:BYZ value = 75 }
+	set_relations = { country = c:PLC value = -75 }
+}
+
+c:NOV = {
+	set_relations = { country = c:TAT value = -75 }
+	set_relations = { country = c:SWE value = 75 }
+	set_relations = { country = c:PLC value = -75 }
+}
+
+c:PSK = {
+	set_relations = { country = c:TAT value = -75 }
+	set_relations = { country = c:MUS value = -75 }
+	set_relations = { country = c:NOV value = 75 }
+	set_relations = { country = c:SWE value = 75 }
+	set_relations = { country = c:PLC value = -75 }
+}
+
+c:C02 = {
+	set_relations = { country = c:C01 value = 75 }
+	set_relations = { country = c:C03 value = 75 }
+	set_relations = { country = c:GEO value = 75 }
+	set_relations = { country = c:ARM value = 75 }
+	set_relations = { country = c:PAM value = 75 }
+	set_relations = { country = c:PER value = 75 }
+}
+
+c:C01 = {
+	set_relations = { country = c:C03 value = 75 }
+	set_relations = { country = c:GEO value = 75 }
+	set_relations = { country = c:ARM value = 75 }
+	set_relations = { country = c:PAM value = 75 }
+	set_relations = { country = c:PER value = 75 }
+}
+
+c:C03 = {
+	set_relations = { country = c:GEO value = 75 }
+	set_relations = { country = c:ARM value = 75 }
+	set_relations = { country = c:PAM value = 75 }
+	set_relations = { country = c:PER value = 75 }
+}
+
+}

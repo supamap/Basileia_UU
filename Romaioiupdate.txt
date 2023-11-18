@@ -1,0 +1,940 @@
+﻿Mod is inspired by history, not dictated by it.
+
+***
+- You can revert to an older versions of the mod at the official Paradox site https://mods.paradoxplaza.com/mods/51849/Any There's a menu to select version of the mod to play.
+
+******
+0.39.1 for 1.5.8
+
+- Formations
+	- Basileia Romaion now has the intended sized formations
+	- New Custom Formations for:
+		- HRE
+		- PLC
+		- Aztec
+		- Hungary
+		- Bulgaria
+		- Illyrikon
+		- Wallachia
+		- Moldova
+		- Tranysalvania
+		- Serbia
+		- Epirios
+		- Morea
+		- Armenia
+		- Georgia
+		- Syria
+		- Aegypt
+		- Afrika
+		- Kyrencia
+		- Mesopotamia
+		- Arabia
+		- Persia
+		- Tataria
+
+
+	- Journal Entries
+		- Modified the new PLC JE to only require 5 Ruthenian states instead of 7.
+	- Events
+		- Modifired Greater PLC event to include Ruthenian and Lithuanan.
+
+0.39 for 1.5.7
+
+- Further refinement on Basileia Romaion military formations. (Further work still needed formations larger than intended for some reason)
+- Added Market price impact modifiers to various state traits and modifiers. 
+
+- Bug fixes
+	- Fixed Chinese colony being named Cornwall
+	- Fixed Pentarchy event spam.
+	- Fix for Moldova event
+	- Various other fixes
+
+
+@everyone
+0.38
+for 1.5
+
+- Military formations for Basileia Romaion. Rest of the great powers still being worked on.
+- New Game options - These options can be turned on before starting a new game
+	- By default Ming, Japan and Mughals start off as reconized powers but this can be turned off in the options
+	- There is also a option to turn some of the North American tribal nations into unreconized from decentralised. 
+- Merged and reworked the Exarchate journal entries and events into the Palaiologos Reforms.
+- New and reworked/reblanced events
+	- Improved the Chariot racing events.
+	- Improved the Pentiachy events.
+	- Improved the Exarchate events.
+	- Other Misc events tweaked/added
+- New and reworked/rebalanced decisions
+- Doubled the minium birthrate from the very low 1.5 standard. 
+- New and reworked/rebalced Buildings, Momuments, Production methods etc.
+- New State traits
+- New Resources
+- New Companies for Basileia Romaion, Venice, Genoa, Aegypt and more.
+- New Politcal Parties for Romaíoi culture nations.
+- Reworked History
+	- Changes thoughout the World map.
+	- Adjusted starting buildings, pops, trade routes
+	- further decreased population in some areas. 
+- Infamy changes
+	- Higher thesshold before negative effects but lower decay.
+- Map Graphics
+	- Slightly adjusted the Map to be a bit less white and darker.
+	- Gave Decentralized nations a cleaner darker look.
+ -New Flags and Country names for Basileia Romaion depending on Government form.
+- New countries and formables
+
+- This has been WIP since start of 1.5 beta and includes many tweaks and bug fixes not mentioned above. 
+
+Removed from the beta version to be worked on later - Now Integrated Archaeology, Astronomy & Expeditions from the amazing Morgenröte mod!
+
+
+0.36 Change notes.
+- New Nations added
+	- Aniu Mosir, Ryukyu Kingdom, Buryats, Uyghuirstan, Manchuria, Outer Mongolia, Inner Mongolia, Qinghai, Dzungaria, Kham, Jianzhou, Warka, Haixi, Xibo, Nanai, Orochoni, Solon, Nivkh, Khorchin, Chukchi, Kamchatka, Evenks,
+- New Modifiers
+	- War for China, Righteous Cuase, Inward Perfection
+- New Religions
+	- Confucian, Taoist, Shenist
+- New Celestial Empire Government form.
+- New Decree Romanization. 
+- Few Decentralized nations in Africa moved to Unrecognized.
+- HRE/France
+	- Removed the Revolution decision 
+	- Reworked the DLC monarchy event so if you get Napoleon as your ruler your laws, government and name should change at the same time.
+- China revamp.
+	- Yuan broken up into many vassals.
+	- Ming Starts off in a revolutionary war against Yuan.
+	- Ming has new temporary modifiers to make them able to defeat Yuan (Observe games has Ming win about 70% of the time so its a close war)
+	- Outer Manchuria is mostly tribal with small amounts of Japanese colonial control. 
+- ERE
+	- New journal entries related to centralizing the Balkans and Anatolia.
+	- New ERE event to happen when passing any form of economy changes away from traditionalism. 
+- Italy
+	- Venice puppet Dalmatia
+	- Genoa Puppet Pisa
+- Sakhalin/Outer Manchurian Hubs given their Japanese names.
+- Laws/Politics changed in various countries. 
+	- Agarininism changed to traditionalism as starting default agraininism leads the ai to passing Homesteading and never aspiring for Interventenalism.
+- Added Mughals, Tatars and Persians to Japanese, Han and Mongol of cultures that will not join customs unions.
+
+- Looking for help coming up with Latin/Greek themed names for the hubs/states in Elysium and Australis. Elysium more Latin themed and Australis bit more Greek themed but with some overlap as both are settled by a mix of Greek and Italians.
+
+0.35
+
+- Added a new Ideology called Frontier Expansionist. Which is in favor of colonial exploitation and added it too dozens of nations Landowners and Merchant guilds to encourage them to pass that law.
+- Added Colonial Fervor modifier to most colonial nation to it gives 25% Colonial Growth Speed and 25% Migration attraction for 10 years.
+- Colonial Subsidies now only gives slight income.
+- DEI and EET are now Chartered Companies.
+- Venice and Genoa will annex their African colonies if they pass any form of colonialism.
+- Re-added Italy as a formable nation.
+- Add Journal Entries and events related to Vlachian unification and a path to do it peacefully for Wallachia and militarily for Moldova.
+- Landowners renamed to Boyars from Commonwealth, Moldova, Wallachia
+- New Modifiers added thoughout the game some have decesions related to their removal.
+- New Modifiers
+	- Jihad, Cossack's, Tribal Warriors, Shah of Shahs, Satraps.
+- Map changes
+	- Adjusted Navara/Asturias Borders
+	- Changed Florida making an independent Seminole tribe and giving the North to Louisiana.
+	- Suakin split from Red Sea dessert
+	- South Africa adjusted
+	- Cyrenaica added as a puppet of Aegpyt.
+- Decreased the amount of infamy reduction from Palaiologos Reforms.
+- Culture/Religion
+	- Misri and Berber changed to majority Shiite as they were part of the Fatimid Empire before their reconquest.
+- Fixed negative aged Napoleon taking over the HRE and other negative aged characters related to the DLC.
+- Removed the requirement for the AI nation to have a navy of at least 25 Navy to pursue colonialism
+- Lowered the annex subject decision to require +75 relations from +150 as max relations are only 100 not 200 like I thought.
+- Fixed the Suez canel journal entry
+- New DNA for Aurelia Palaiologos
+- New characters for Cyrenaica, Aegpyt, Africa.
+- More First/Last name for Romaioi culture. 
+- Other changes I probably am forgetting to mention
+
+0.34.1
+
+- Fixes the society tech tree being misplaced. 
+- Added a Boyars Modifier to the Commonwealth.
+- Added Tithe Modifier to Papal States
+
+0.34 "Break the Yoke"
+Continuing the work of 0.10 "Under the Tatar Yoke" to further enhance the Russo-Tatar region.
+
+- Map changes
+	- Ruthenia starts of split between Commonwealth and Ryazan.
+	- Perm has been expanded along the Novgorod border.
+	- Tver, Galich, Nizhny Novgorod, Transylvania, Galacia-Volyynia and Ardalen added to the map.
+- Diplomacy changes
+	- protectorates now pay 0.20% of their income to their overlord up from zero. tributaries now pay 0.35% up from 0.20%.
+	- Novgorod moved from Golden Horde tributary to Sweden protectorate.
+	- Serbia, Wallachia and Moldova start off as protectorate of Hungary
+	- Most of the other minor Russian princes now pay their tribute to Muscovy on behalf of the Khan in the Golden Horde.
+- Pop changes
+	-Ruthenian pops are much more rebellious as they stive for their own country fighting Pole, Russian, Magyar and Tatar.
+- Decisions
+	- New Decision for Muscovy. 
+- Modifiers
+	- Changed the HRE modifer and moved some effects to a new modifer called Noble Privileges.
+- Releasable nations
+	- The various ERE themes are able to be released
+- Many European Autocraticies changed into Oligarchies to (Feudal).
+- Other laws changes thoughout the game mostly some serfdom changed to either tenant farming or homestead law.
+- Other changes and Bug fixes
+
+0.33 The Spice Must flow
+
+- New Good "Spices"
+	- Produced by new building type spice plantation which by default produces 15 spice per level.
+	- Is a luxury food wealth 20-99 but also used in Food Industries.
+	- Food Industries produce more groceries than before but require 5 spice per level.
+- Levant.
+	- Syria created from ERE/Aegypt levant. Made them another rebellious Exarchate.
+	- Palaiologos Reform to retake Syria adjusted to Include Antiochia but removed Damascus and Transjordon from the requirement.
+- Ming, Yuan and Japan will no longer join custom unions idea from "China Refuses Customs Unions" Mod as well as from feedback here. 
+- New State Traits.
+	- Added Anatolian Plateau, Pannonian Plains & Cold Water Port State traits idea from "More State Traits" Mod and "Cold Water Harbours" Mod.
+- Added in Kuwait and Arbil as a new Persian Subjects.
+- Latinoi added as a primary culture of EET.
+- Added new Modifiers
+	- Spice Trade profits modifier to EET,DEI,OMEN,Java and Ceylon.
+	- EET Dividends to Genoa and Venice as they are investors in the EET.
+	- Removed the hidden Abbasid buffs (was an invisable tech called arab_mod) They have been replaced with 3 new National Modifiers Caliphate, Hajj and Holy Warriors.
+- Economy pass
+	- Decreased the large amount of unprofitable iron,coal,lead and sulfur mines in Western Europe.
+	- Adjusted starting trade routes removing unprofitable ones and added new ones as needed. Venice and Genoa now start off much stronger economically. 
+	- New Trade routes to get Spice from Java, India, Dutch East Indies to Europe and Asia.
+- Balance adjustments
+	- Decreased Service Production to make it more profitable.
+	- Added very slight innovation to Arts Academies and slight education access to universities similar to Arts Academies Produce A Little Innovation Mod though my values are a bit lower.
+	- Private construction can now only build in incorporated states though government can build in unincorporated.
+- Map
+	- Integrated More Rivers Mod.
+- Localisation
+	- Nahuatl & Quechua now use their proper native names instead of the base games spanish thanks to Kuorio Paradinight.
+- Fixes
+	- Fixed not working Palaiologos Reform events that were supposed to happen while passing laws not happening should now currently happen while passing more progressive laws.
+	- Fixed the HRE french monarchism journal entry not working since last 1.3.6 
+- Many more small tweaks/fixes.
+
+0.32 for 1.3.4 / 1.3.5
+
+- ERE
+	- Rewrote the Palaiologos Reform opening event and changed the graphic for it and the associated Journal entry.
+	- Exarchates of Illyrikon and Bulgaria starts out in revolt. Rumor has it Venice is behind this rebellion.
+	- Adjusted the border between ERE, Serbia and Hungary.
+	- Re-added "Treaty Ports" within the ERE for Genoa and Venice. 
+	- Renamed various cities in Serbia/Bosnia to Greek names.
+	- Added a few Themata subjects Epirus, Trebizond and Morea.
+
+- Hungary
+	- Serbia used the turmoil within the ERE to fully break off from Konstantinoples authority, though without the protection of the ERE there is little chance they can hold back the Hungarians.
+	- Hungary starts off with a war to subjugate Serbia.
+	- Greatly Improved Hungary they are now a major power and a strong opponent for the ERE. Will need to compete to dominate the Balkans.
+
+- New World North
+	- New Flag for Elysium
+	- Lowered Arable land a tad bit in some locations.
+	- Gave Elysium a tiny foothold in West Virginia so they have a permanent interest in Mid West. This will fix them not colonizing the mid west. (Note they still have truces stopping them from colonizing certain areas until the truces expire).
+	- Gave Louisiana a tiny foothold in Arkansas for similar reasons.
+
+- Aegypt and North Africa
+	- Added in the Klysma (Suez) Canal into the game at start. In order to make trade correctly flow though the red sea towards Aegypt instead of going all the way around Afrika. Think of it as the more modern version of Pharaohs Canal or even just the basic trade unloading in Pelosion then travelling by road and reloading in Klysma. Did some other canal changes based on the various canal mods to make it profitable.
+	- EET - Emporía Erythrás Thálassas (Red Sea Company in greek) Owns the Canal and its profits.
+	- Renamed all of Aegypt and most of North Africa & the Levant to their Greco-Roman names.
+	- Adjusted Siwa, Mut, Farafra's borders.
+	- Increased the territories EET controls in Madagascar.
+	- Also increased Dutch East Indies Holdings in this region and gave Zanzibar and small foot hold.
+	- Increased Zanzibar up the Kenyan Coast.
+	- Broke Algeria up into 3 main Berber Emirates and other smaller decentralized tribes.
+
+- Added New independent (In Aegypts Custom Union so their trade flows back towards the red sea) colonial Nation in Oceania with the new culture Apoikoi (Settler or Colonist in Greek)
+	- Settlers throughout the ERE and Italy looking for a new home are getting on ships in the Aegyptos port of Klysma sailing though the red sea into the vast Indian ocean and making land fall in hostile but unspoiled new lands.
+
+- HRE changes
+	- New vassals Burgundy, Flanders, Franconia and Swabia. Their AI will work to consolidate by annexing these vassals then move on to further subjugate their surroundings but this makes them a tad weaker early on but still a big blue blob end game boss to overcome if your playing one of their neighbors. 
+	- Adjusted the borders of Franconia and Saxony.
+	- Burgundy starts off in rebellion.
+	- re-added Flemish back in for the primary culture of Flanders.
+
+- Italy
+	- Milan has been given the eastern most of Piedmont. 
+	- Savoy-Piedmont renamed to just Savoy.
+	- Renamed some Venice controlled cities from Croatian to Italian names.
+
+- Diplomacy/Relation changes
+	- Added colonial and other expansion wars at game start.
+	- DEI, EET, Oman and Lan are all rivals with each other at game start as their battle it out for trade in the Indian ocean and beyond.
+
+- Graphics
+	- New flags for Elysium, Austalis and Savoy-Piedmont.
+	- Changed new World city graphics, European south american colonies will now use generic European city graphics instead of the "Latin" ones as they are reserved for Mediterranean and Elysium.
+
+- Other Balance Changes
+	- removed the eastern_german culture that I put in the game and replaced the scattered German pops in eastern lands to Saxons.
+	- Lowered Elysiums SOL buff to lower immigration attraction a slight bit.
+	- Certain nations can bypass Hostile terrain colonization speed debuff without the mission to civilize tech.
+	- Various bug fixes
+
+0.31.0
+- Adjusted releasable nations. 
+- Increased the amount of radicals within the HRE at game start.
+- Added Silestia and Prussia as Commonwealth Duchies.
+- Changed renamed cultures to brand new cultures in the backend.
+- Added new East German Culture for Germans in Silestia, Commonwealth, Hungary.
+- Added infamy reduction to each Palaiologos Reform Journal entry to help with infamy gained from the various revolts that happen during the reform progress along with a big one at the end.
+- Intrergrated the Italian Beauty mod https://steamcommunity.com/sharedfiles/filedetails/?id=2985958302 Give his content a like and favorite. He also has a Italian Beauty Ultimate https://steamcommunity.com/sharedfiles/filedetails/?id=2988185092 if you subsribe to it just put it under BR in the load order. I personally recomend playing with Miniature World and Miniature Roads mods as well.
+
+0.30.2
+
+- Voice of the People content
+	- Added in the new French monarchy journal entry to the HRE
+	- Added in the new conquest of Algeria journal entry to Andalusia. 
+	- Frances new characters/events added to HRE
+	- Fixed HRE flag should only switch to France flag is goes Republic or liberal Monarchy.
+- Lowered Constuction cost by about 33%
+
+
+0.30.1
+
+- Fixed a interest group bug that caused "Barricades" to be placed all over the map.
+- Adjusted the HRE/Italian border regions states/pops/buildings added Provence and increasing Milan, Venice and Savoy-Piedmonts borders further into the Alps.
+- Minor Adjustments in North Africa.
+- Other 1.3 related bug fixes.
+
+0.30
+
+- Updated every thing touched by the 1.3 update to be compatible.
+- Bug fixes to the Palaiologos Reforms.
+- Created many new decentralized nations in north africa and adjusted the borders of many more.
+- Decided to continue with what I had done previously in the New World by making all decentralized nations of the same culture the same color.
+- Testing out a few new flags
+
+0.29.1
+
+- Fixed ERE loading Sickman journal entries instead of Palaiologos Reforms.
+- Renamed Adana to Cilicia
+
+0.29 'Heirs of Hardrada'.
+
+- Reverted the mods tech tree from to 0.25 back to later version as it did not fix the lens CTD.
+- Reverted innovation and constuction to back to base game levels and instead progressively increased the cost of tech and increased the amount of construction buildings cost. 
+- Toned down the factors that made immigrants flood into elysium and italy. 
+- I am getting closer to isolating/fixing the lens CTD, believe its related to the States and or a file dependant on the states file. 
+	- Currently is mostly only affects europe and more so at start of game. Current Workaround is to avoid the building construction lens especially zooming in and out while on the lens and building via other paths until a year into the game then the lens system should function fine.
+- Reworked the startscreen and removed the loadscreens for now as they are WIP if you want them back there is a sunmod available on steam that includes them.
+- Don't think Thumbnail properly updated last upload should now be changed.
+- Few other bug fixes.
+- Reverted Africa's state borders to how they were in 0.25 let me know if it fixes the CTD.
+
+0.28 'Heirs of Hardrada' Should fix the lens CTD. Fingers crossed and or Prayers.
+
+- Reverted the mods tech tree to 0.25 to fix the lens CTD.
+- Adjusted Romaioi and Elysian culture decsions to fix non ERE countries causing revolts within the ERE for taking decesions. Now ERE's decesions are seperate from a more generic version of other nations in the Romaioi/Elysian cultures. 
+- slightly lowered all souces of innovation as it was quite possible to max tech by the early 1800s.
+- slightly lowered all sources of Construction this should help with game slowing down as the world fills with buildings.
+- Continued renaming various colonies this includes all of Japans colonies, Vineland and New Angland as well as some North Sea Empire holdings. thanks to Valksend.
+- Updated Thumbnail and screenshots
+
+0.27.3 'Heirs of Hardrada' Another small update to try and address CTD. Fingers crossed and or Prayers.
+
+- Discovered a significant error max colonial growth was set to a lower level than minimum colonial.
+- Removed German and Italian nation formation as possible cause of a crash.
+- Renamed States and Hubs in Vineland and missed ones in New Angland. Thanks to Valksend.
+
+0.27.2 'Heirs of Hardrada'
+
+- American Colonies renamed to New Angland
+- Colonial British renamed New Anglander.
+- New Angland states and cities renamed to Anglo Saxon names thanks to Valksend.
+- New Ruler for New Angland, changed from Republican government to Monarchy and new flag based on the Medieval English Flag.
+- Starts off as a Protectorate of North Sea Empire. They are very unloyal and should revolt once they are strong enough this is to encourage migration from England.
+- Continued renaming the british isles to a mix of Norse or Anglo Saxon names.
+- Vinland and Elysium given total seperation law for church in state this allows migration to flow to them within any market they are part of.
+- Elysium starts off in the ERE Market. This is also to encourage migration. ERE AI is supposed to try and fully subjugate them and they will try and breakway further once they are more populated.
+
+
+0.27.1 'Heirs of Hardrada'
+
+- Renamed some states in Britan with Norse/Anglo-Saxon. thanks to Valksend.
+- Renamed English to Anglo-Saxon
+- Added new decisions to intergrete Personal Unions and certain other subjects peacefully if certain criteria is met. 
+	- North Sea Empire can integrate Norway.
+	- Swedan can intergrate Finland and Baltic Duchies.
+	- Abbasid can integrate Tribal Bedouins.
+	- ERE can integrate Etaireía Indía.
+	- Dutch can integrate Dutch East Indies and Dutch West Indies.
+	- Japan can integrate Shiberia and Pashifikku
+- Adjusted some borders in Scananavia
+- Adjusted some Borders in Indonesia/Oceania
+
+- In additon streamlined some AI processes possibly fixing potential errors. 
+
+0.27 'Heirs of Hardrada'
+
+- New Countries England, Wales, Scotland, Ireland & North Sea Empire.
+- North Sea Empire
+	- Replaces Great Briton as the dominate power in the british isles created from the Denmark tag.
+	- Starts off with an English rebellion.
+	- Scotland, Wales, Ireland are disloyal protectorates. 
+	- Danish culture renamed to Dane.
+	- Rulers dynasty is Sigurdsson 
+	- New generals, admrirals and other characters.
+	- New religion decesion that allows you to convert to the norse faith
+	- Decesion to accept English as a primary culture after the rebellion is crushed.
+
+- Golden Horde/Tartaria/Khazar Khaganate
+	- Khazer Khanate renamed to Khazar Khaganate	
+	- AI change to take the decesion to go Jewish and Sunni were both 5% previous update were 0% jewish 5% jewish seeing the Khazar Khaganate form is fun but its happening to often. I changed the change to go sunni to 10% keeping the jewish at 5% to make it happen about half as often.
+	- added relation buff/debuff depending on what religion is taken going Sunni will improve relations with other Sunnis but upset the Yuan. Going Jewish will upset Yuan less upset Sunni nations and make ERE ai like you more. As they were often allied against the Caliphate historically.
+	
+- Japan changes
+	- Market Changed to Kanto
+	- Changed ai to focus on nationalism 
+	- Renamed IGs
+	- Added new modifiers to IGs and national
+	- Changed Shogunate map color from green to deafult red.
+	- Removed quinine technology at start as I did not intend for them to go on colonization blitz.
+
+- Adjusted trade routes, removing unprofitable ones etc.
+- Changed the Caspin Sea modifier
+- Added relation debuff to other change religion decisions.
+
+- Crash caused by zooming in and out while on the building lens should be fixed. Believe it was caused by one of the below changes.
+	- Reverted the fishing buildings I added to the Caspin Sea last update.
+	- Reverted Formosa border/object changes for now.
+
+- Fixed bugs related to achievements. All base game achievements are possible even if the base game nation related to the achievement doesn't exist. When the nation doesn't exist I made the nation that is in the location able to earn the achievement. Achievment descriptions has not yet been updated though.
+- Many more bugs fixed and other changes.
+
+
+0.26
+
+- Added the Academia technology to Golden Horde & Mughalstan
+- Added starting a university to Astakhan & Delhi
+- Made it so Arts Academies can only be built in incorporated states. 
+- Adjusted innovation from universities from 2/3/4 to 1/2/3.
+- Northern Italians given dialectics technology allowing them to use Philosophy Department and keep that Renaissance vibe going. 
+- Further colonization speed adjustments
+- Minimum colonization speed increased from 0.05 to 0.2 progress a month. Maximum Speed lowered from 2.0 to 0.35 a month. It is possible to get above the "maximum" with modifers.
+- May seem low but with a few more nations starting the game with colonization active it is still possible for the worlds "open space" to get colonized earlier than historically in most areas.
+- Added the form Germany and Form Italy mechanics back into the mod.
+- Forming Germany only possible if the French HRE doesn't exist anymore or has become France and lost the frankish territory.
+- Forming Italy only includes the Northern Italian states. 
+- Many improvements to the AI, lots more objectives behind the scenes pushing nations to wage war and persue realistic goals.
+- Added 5 new state traits Caspin Sea, Pontic Forests, Hyrcanian Forests, Ispahan Mines, Mesopotamian Floodplain.
+- Added decision for Persia to switch relgion to Zorosatrian for real this time.
+- Quite a  few Map/state adjustments Africa and Asia/Pacific.
+- Japan given a couple new colonial subjects as well as new leaders/flags for all subjects.
+- Genonese Africa Company added a new Chartered Company along the African coast.
+- Al-Andalus given some strips of land along the coast.
+- Dutch East indies given some islands in eastern Indonesia and outpost on Australia, Formosia and Madagascar.
+- Romaioi India Company (RIC) given a outpost on Madagascar
+- Formosa split between Ming/DEI and indigenous peoples on the eastern side.
+- lots more work planned for Africa.
+
+
+0.25
+
+-Reorganized all new world native tribes.
+	-Created dozens of new tags in South America breaking up the huge tribal kingdoms.
+	-All tribes that are related by culture currently share a common map culure. (Orginally I haden't created colors for south america yet but felt it was such a clean look I extended it to north america.)
+- New Mughal Culture they are a iranian/central asian culture that rules over their indian empire. Currently make up less than a percent of Mughalstan but control 75% of the power. 
+- Adjusted colonization speed. This adjustment lowers the max speed without touching the minimum speed. So shoulden't affect small nations under 5million population but will slow down huge nations with millions of pops from colonizing so fast.
+- Some further tweaks to the Great Palace and Palace Complex. Now require appointed or elected burecrats to change to burecratic prodution method.
+	- Andalusians indian ocean territory has been given to the remade tag of dutch east indies to tone down their economic power a bit as they are a bit too strong right now.
+- Made dozens of new rulers for nations that currently had random rulers which could lead to the ruler not being the main culture or religion of their kingdom tribe etc if it had multiple cultures.
+- Fixed a crash caused by the HRE forming Germnay. Forming Germany/Italy is currently disabled, will look at restoring later under more unique parameters.
+
+0.24
+
+- New Colonial Cultures: Colonial French, Colonial Italian, Colonial German, Colonial Dutch, Colonial British, Colonial Andalusian, Colonial Japanese & Colonial Chinese
+- Renamed Chinese, Japanese and Italian new world Colonies Hubs/States.
+- Moved the new monuments from infastucture to government.
+- Added new production methods to Great Palace and Palace Complex allowing the player to nerf the power of the Aristrocrats well strengthing the Bureaucrats.
+- Map adjustments in the New World, Africa and Arabia.
+	- Few new tribal nations in North America and adjusted a few others.
+	- New Dutch Atlantic Company Colonial Tag.
+	- Adjusted to Nedj tribes borders
+	- Slighly Adjusted Exarchate of Africa's borders to be smoother and nicer looking.
+- Adjusted new world and african colonial nations starting politics.
+- Some fixes for the Default AI.
+- New Monarchy flags for Mali, Milan, Hungary, Bavaria
+- Merged Bambara culture into Mande. 
+
+0.23
+
+- Fixed a broken HRE decision that caused a crash.
+- Map adjustments
+	- Moldova given most of Besserabia.
+	- New Vassal of Mughals between them and Tibet.
+	- Adjustments in Central Asia, Bukhara expanded, Kokand removed, Persia expanded along the Baluchi coast and now control Herat in western most Afganistan. Pashtunstan given back to Mughals from Afganistan.
+
+
+
+0.22
+
+- New Thumbnail Image
+- Set up 10-20 year truces between certain colonial tags and decentralized tribal nations to prevent colonizing certain areas too quickly.
+- Added thoughput bonus to literacy. This was a feature in Victoria 1 and 2 left out of Vicky 3 some reason. 50% Literacy would equal about 10% thoughput bonus.
+- Slightly lowered literacy for tribal nations
+- Slight literacy bonus on capital.
+- Removed the great city stait trait as I now have a local state modifier for that effect.
+- Adjusted arable land so it similar to 1.2 base with some slight adjustments.
+
+
+0.21 'Steam Renaissance'
+https://en.wikipedia.org/wiki/Aeolipile
+
+- Added new Characters and adjusted the politics of the Northern Italian Countries, Iberia, Russia, ERE and thoughout the world to fit in more with their national flavor. 
+- Lombardy, Florence, Modena and Parma are now ruled by enlightened constitual Monarchs based on famous Renaissance Dynasties
+- New Flag for Florence.
+
+- Balance/map changes
+	- Added logging buildings especially states that have a bonus to production to south east asia, southern india, south america, central amercia, europe and a few in africa to help boost the worlds supply.
+
+
+
+0.20
+
+- New "Monument"
+	- Great Port is a special building I have been toying with since version 0.1 but instead just increased starting ports in the states I had been trying it. Well in 1.2 the AI is now obsessed with downsizing ports in their capitals and dispite weeks of trying to prevent it I coulden't get the ai to stop which caused issues with immersion with these great ports turning into minor anchorages. So I introduced new Momument "Great Port" in Genoa, Venice and Konstantinople it is equivilent to a level 5 port with some extra bonuses. 
+
+- Balance
+	- Adjusted trade routes thoughout the game removing unprofitable ones and creating new more profitable ones.
+	- Improved starting economies thoughout the game making sure nations started with most profitable production methods and removing/adding buildings where it made sense.
+	- Adjusted starting relations to be less extreme example -150 in 0.19 will be -90 etc. 
+	- Removed the more aggressive ai modifications I believe 1.2 is more agressive as is.
+	- Did a balance pass at the mods unique techs and modifiers making use of new 1.2 mechanics.
+
+- Fixed errors and bugs from the error/debug logs.
+
+- Map changes
+	- Antarctique control extended along the coast at game start.
+
+
+
+0.19
+
+- Map adjustments
+	- Increased Danish control of all coastal land near the danish straits
+	- Andalus now has control of Zaragoza.
+	- Croatia has been given some of Bosnia
+	- Andalusian adjustments in east africa.
+	- Two new decentralized bedouin nations in the arabian dessert to repisent land not controled by any central government. Only Abbasids are allowed to colonize it. 
+	- Emirate of Damascus and Oman new subjects of Abbasids
+	- Kashmir, Bengal, Ladakah, Sindh, Rajputana, Indore, Orissa, Manipur and Gujarat new subjects of Mughals.
+	- Many changes in Indian ocean. Islands split between Oman, Al-Andalus, Dutch and 'Etaireía Indías' a new Colonial Company which is a subject of Aegypt controling the Red Sea trade and a small outpost on India.
+
+- Balance
+	- Elysium has had its starting economy improved.	
+
+- Diplomacy
+	- Bosnia and Montenagro start as protectorates of Serbia.	
+
+- Localisation
+	- Colonial nations will now be called Colonial Administration or Chartered Company.
+
+1.2.2 Bug fixes
+	- Fixes a endless looping error related to the British India Company in 1.2.2	
+
+0.18
+
+- Modifier adjustments:
+	- New state modifiers Magnificent City, Grand City & City of Worlds Desire added.
+	- The Pentarchy modifiers are now tied to their specfic states instead of showing up on the country modifiers..
+- Asia
+	- Ming Emperor's Surname changed to the historical Surname of the Ming Emperors "Zhu".
+	- Ming now start with Claims on all Yuans provinces with Han primary culture.
+	- Ming and Yuan now start as rivals
+	- Yunnan starts as a substate of Yuan and Han is now a primary culture.
+	- Adjusted Javan Empires Borders.
+- Tartaria/Russia
+	- Adjusted Perms Borders and switched them from a Vassal to a tributary.
+	- Novgorods borders expanded given naval access.
+	- Adjusted starting buildings and pops in many states thoughout the region.
+	- Circassia and Dagastan added as tributaries of the Golden Horde.
+- Euope	
+	- Increased the Papal States borders south a wee bit to match their Medieval borders.
+- Africa.
+	- Zanzibars has at its borders extended south down the Africa coast including a few small islands off of Madagascar.
+	- Adal and Abyssinia's borders have been adjusted.
+	- Madagascar broken up into 5 decentralized nations.
+	- New flags for Alodia and Makuria
+- New World
+	- Adjusted many tribal nations though-out the new world
+	- Added claims to colonial nations to make use of the new 1.2 feature that blocks nations from colonizing states that are already claimed. Should lead create less border gore!	
+- New state traits to make it harder and slower to colonize the Sahara, Western Australia, Siberia and Northern Canada similar to how malaria works in function once you have the tech can colonize full speed.
+- Consolidated the unique agressive expansion ai back into base game territorial expansion now that 1.2 ai is more aggressive.
+- Consolidated the less attrition modifications now that 1.2 has less attrition.
+- Consolidated the unique ERE subject types. They may be brought back later for now they are handled via the unique governments of EREs subjects. Greater Principality or Kingdom will be a Exarchate and City State or Principaility will be a Themata. All subjects are now Puppet or Protectorates.
+
+
+
+0.17
+
+- Fixes the missing base values for pop investment for 1.2
+- Fixes broken diplomatic plays for 1.2
+- Revolt events now tied to decisions and won't happen seemingly at random.
+- Started work on redrawing the borders of Africa so far have complted egypt and the sudan.
+- Ming China properly named.
+- Adjusting starting set up for balance. Goal is for more indepdent nations less subjects at the start.
+	- ERE changes:
+		- Vlach principalities now indepdent at start. Romaíon, Hungary, Golden Horde and Commonwealth all have the goal to subjugate them.
+		- Serbian principalities also start off indepdent.
+	- Persia changes:
+		- The central asian khanates start off independent.
+		- No longer starts with a war to annex Afganistan but has claims to do so.
+		- Dagastan switched to a tributary of the Golden Horde.
+	- Abbasids vassals switched to tributaries.
+	- Abbasids no longer start with a Jihad to take Syria but instead start with it.
+		- Removed their starting Jihad Buff.
+		- Plan is to refine arabia with it staying mostly Abbasid but with some tribal areas. 
+	- HRE changes:
+		- Annexed Swabia and Franconia.
+		- Frankish is an accepted culture.
+		- Puppets changed into Protectorates
+		- Dutch borders altered but they start off indepdent.
+		- Aquiteine adjusted.
+
+0.16
+
+- Compatible with 1.1 and 1.2 Beta
+- Re did all of the boundries in the new world creating mulyiple new colonial tags and 100s of new decentralized tribals.
+- Re activated native uprisings.
+- Lowered attrition by 75% from base levels.
+- More Aggressive AI.
+- Added Malaria to the Amazon rainforest to make it less colonizible early on.
+- Updates and localisation fixes for the Palaiologos reforms.
+	- Must complete the Syria conquest before you can do the other conquest journal entries.
+	- Added a Naval reforms.
+	- Added new modifiers for completing the reforms.
+- Added a start up event with the games lore.
+- Tweaks to India 
+- Bug Fixes
+	- Fixes various coat of arms having hot pink eyes
+	- Changes all the uprisings/revolts to subject annexation wars from native uprisings due to native uprising wars no longer a annex war in 1.2
+	- lots more 
+
+
+0.15.1
+
+- Added three new Palaiologos reforms related to reconquest 
+- Added required Palaiologos reforms from 4 to 6.
+- Mali has annexed Sussa and now have acess to the world market!
+- Ming China now properly ruled by the Ming Dynasty!
+- Elections Fixed the half dozen nations who were not set to have elections until the 1830s to now have their elections in the 1730s.
+- Fixed the final referance to the Tanzimat reforms.
+- Fixed the Yuan's Mongol provinces starting as unincoperated.
+
+- Earlier hotpatch removed Vlach rebellion events which are not finished will be in next big update.
+
+0.15 'Palaiologos Renaissance'
+
+- Basileía Romaíon Update:
+	- Added 10 new Journal entires similar to the base games Ottoman Sick Man and Tanzimat reforms.
+	- Dozens of new events related the these reforms. 
+	- Basileía Romaíon has now starts with Hereditary Bureaucrats and Peasant Levies as they start with the Themata system. They now need pass Appointed Bureaucrats and Professionak Army to get the Tagmata Decision.
+	- Basileía Romaíon now needs to pass the laws Inteventionism and Protectionism before ending Latin Trade rights.
+	- Basileía Romaíon's scripted rebellions now only happen if you take take certain decision. (The rebellions are hidden so you don't know which decision will give you what rebellion but they generally happen a week or two after taking a decision)
+	- Fixed the Exarchate of Africa Journal entry and event, fixed various typos from these events.
+	- Replaced North Italian pops in the ERE with Latínoi. Latínoi are a new culture made to reprisent all catholic latin speakers in the ERE italian french etc whom primarily live work in the major port cities.
+
+- Asia:
+	- China split between Mongol Yuan Dynasty in the north and Ming Chinese in the south.
+	- Ming China starts with Mandate of Heaven Modifier.
+	- Great Yuan starts with decentralized Khanate Modifier.
+	- Majapahit (Java Empire) replaces dutch east indies.
+
+- HRE
+	- HRE Can turn into Revolutionary France if they turn into a republic (Their is a decision if the player wants to speed this along)
+
+- Further adjustments related to the earlier time-line
+	- Lowered worlds population by around 15%
+	- Changed the Swedish rulers Surname as the napoleonic wars have not happened (yet)
+	- Further adjustments to starting laws, tech and literacy.
+	- Dutch own South Africa.
+
+- Balance/ Other Chnages
+	- Changed Northern Italian republics and the papal states now start with poor laws and Garunteed Liberties. Have also made other adjustments to make them more econimically and politcally stable.
+	- More National modifiers added/adjusted. Including making more unique images for the ones in current use.
+	- Rebalanced Secessionist revolts by lowering required turmoil to 35% from 50% increased base chance when at the turmoil from 0.0001 t0 0.0005, changed limit from once every 5 years to once every 10 years.
+	- Changed Golden Hordes Vassals into tributaries, moved Novgorod from Swedish protectorate to Golden Horde tributary
+	- Fixed bug that caused Abyssinia and Nubia to revert back to their base game names Ethiopia and Sudan.
+	- Added a decision for the player to switch state religion to Zorosatrian as Persia.
+	- Gave the Golden Horde a 5% chance of changing their state Religion to Jewish and restoring the Khazer Khanate
+	
+- Many more minor tweaks / changes	
+
+0.14 'Rebellion'
+
+- Adds dozens of new events some tied to decisions that deal with adding regional, noble, cultural and military revolts to ERE and HRE that should fire over your campaign. It woulden't really be a ERE mod without General/Nobles revolting and possibly making a claim for the purple themselves would it?
+- Adds many new releasable countries and adjusts many others some of these new countries may be ones that revolt.
+- Many new national modifiers and adjustments to nearly all others.
+- Adjusted the Great Palace, Hippodrome and St Sophia modifiers.
+- Lots more steamlining in the way the mod loads.
+- Adjustments to literacy and research speed making it slightly faster than before.
+	- Removed all Public and Religious schools at game start the later just because it led to starting literacy higher than I intended now Private schools much more prevelant at start.
+- Undid my earlier change that made all subject types able to engage in diplomacy that is an Exarchate unique feature.
+- Fixed dozens of localization bugs
+- Fixed the final remaining provinces that did not have the correct starting population
+- Japan once again starts as still being Shogunate.
+- New coat of arms for a few nations.
+- Exarchates now always use their own flag.
+- Improved Cultural Migration hopefully Elysium start recieving much needed Immigrants earlier. Game tip would be to join the ERE or HRE market as that will get you a ton of pops migrating over.
+- and much more. Also set up the Mod on Github so feel free to follow the mod over there where you can see all the changes or download directly. https://github.com/AndHope/Basileia-Romaion
+
+0.13.1 (VER27 on PDX)
+
+- Small update primarily focused on fixing the Bulgarian Rebellion bug. (There was a line of code that made it fire any time there was a Bulgarian Secession movement this caused a endless loop once turmoil hit a certain level.)
+- I rewrote the event from scratch it now has options to deal with the revolt.
+- Other tweaks to HRE pops
+- Next Update will focus on revolts in all the major empires.
+
+0.13 Saracen Update
+
+"By the 12th century, "Saracen" had become synonymous with "Muslim" in Medieval Latin literature. Such an expansion in the meaning of the term had begun centuries earlier in the Basileía Romaíon, as evidenced in documents from the 8th century. Before the 16th century, "Saracen" was commonly used in Western languages to refer to Arab Muslims, and the terms "Muslim" and "Islam" were generally not used, with a few isolated exceptions."
+
+- Update rebalances technology, literacy and greatly improves Al-Andalus and Persia's economies and AI.
+
+- Lowered starting literacy & technology for most nations.
+- Improved Al-Andalus's starting production methods/trade routes.
+- Adjusted Italy & the HRE's starting buildings.
+- Improved starting trade routes for Mughalstan and Japan.
+- Adjusted starting regions of interest for many nations.
+- Improved Persia's starting buildings and trade routes.
+- Re-did all the screenshots on steam/PDX
+
+0.12.0 Antea Saeculum Update (A Century Earlier)
+
+- Game start date rolled back to 1736
+ - All characters birthdate rolled back 100 years so every one is same age as before
+- All Subject types can now engage in diplomacy 
+- More HRE changes
+ - New HRE Subjects Aquiteine & Brittany other subjects changed to puppet from Dominion as puppets can now engage in their own wars alliances etc.
+- German culture revamp
+ - Replaced Wallonian, Flemish North/South German with Frankish, Bavarian, Saxon & Baltic. 
+- Improvements to Denmark and Sweden: Buildings and Starting trade routes so their economy should start off functional.  
+- Elysium improvements: more european minorities communities and higher literacy
+- Fixes various missing pops and other bugs.
+
+
+
+0.11.2
+
+- Removed a outdated work-in-progress folder as it turns out the unfished events within were firing.
+ - This fixes the Bulgarian rebellion loop. This event should only happen once now. 
+- Turned Saxony's New World colony into a new colonial tag Klein-Venedig. https://en.wikipedia.org/wiki/Klein-Venedig
+ - Eventually will turn all the New World coastal areas into new Colonial tags 
+- Adjusted HRE, Al-Andalus, Venice and Genoa tech.
+- New world colonial tags have national miltia instead of professional army.
+- Golden Horde and Abbasid bumped down to unreconized. Golden Horde player can easily smash their way to get reconized. Abbasids should be able to.
+
+0.11.1
+
+- Adds missing pops from Venetian Croatia
+- Fixes Veiled Exarchate Journal Entries
+- Changes the Abbasid Jihad to only take Jordan and Damascus
+
+0.11.0 HRE III & Mughal Empire update
+
+- Rearchitextured the way the mod loads. The game will no longer load the tens of thousands of history files twice base game and mod and instead only load them from the mod leading to a much faster start up, less bugs and faster run times.
+- Adjusted all modifiers and buffs as well as added new ones to certain nations.
+- New HRE setup inspired by the Carolingian HRE. 
+- HRE Dominion subjects include Swabia, Savoy, Bavaria, Franconia.
+- HRE starts off in a war to subjugate the Dutch.
+- HRE turns into france if it's government changes from monarchy
+- HRE ai should try and subjugate up to it's fullest traditional borders.
+- Basileía Romaíon and HRE are rivals. Actually Basileía Romaíon has few friends so good luck.
+- Further improvements to Italy In my scenario Italy is where the industrial revelution starts. 
+- Mughal Empire is now the dominant power in India
+- Lowered Golden Horde literacy and gave them a new trait that has some buffs/debuffs to make them feel more unique.
+- Moved the hidden buffs that Venice/Genoa had to trade to a modifier so you can tell they are a unique experiance to play.
+- Continue to adjust starting trade routes as the map changes so every one starts with a functional stable economy.
+- Japan starts with the "Meiji Restoration" started but not complete. They are also start with a good army/navy and industrial base so that they may rise to a GP.
+- Commonwealth, Hungary and Bohemia start in a Customs Union and Defensive Pact and good relations with the HRE.
+- Saxony is friendly with Denmark but hates the HRE.
+- Franconia has claims to saxony.
+- Hungary has claims to the parts of Croatia it doesn't start with as well as Bosnia
+- Australia has been decentralized
+
+0.10.2
+
+Government legitimacy Hotfix for today patch.
+I was halfway though the new HRE Changes but decided to patch before I was fully ready because today's patch broke the game.
+Anyway please test and enjoy every thing should work but I be aware I am not done in the HRE.
+
+Discuss this update in the discussions section.
+0.10.1 Hotfix
+- Fixes HRE flag
+- HRE should not absorb the Commonwealth or united Baltic Duchies on formation
+- Adjusted Russian subjects of the Golden Horde to now all be Dominions of the Golden Horde and all have a Defensive Pact with each other.
+
+
+0.10 "Under the Tatar Yoke"
+This update is inspired by a period of russian history termed "Under the Tatar Yoke"
+"Having joined Central Asia, China, Khoresm and Transcaucasia to his empire, Genghis Khan aimed for Russian lands. In 1223 the armies of Genghis Khan defeated Russians on the River Kalka. After the battle Tatars devastated the towns in the outskirts of Chernigov but soon retreated to the Volga steppes. In the late 1237 the union of Mongolian tribes, the Golden Horde, headed by Batu (1208 – 1255), the grandson of Genghis Khan, invaded Ryazan. Afterwards Mongols conquered Moscow and moved to Vladimir. In February 1238 Vladimir was besieged and taken by storm. Novgorod was left unprotected. But Tatars were exhausted and they returned to the steppe. In autumn 1239 Batu resumed his attacks. Now his aim was to conquer southern principalities. The first to fall was Chernigov. In a year’s time Batu’s armies approached Kiev’s walls. After lasting siege and fierce fight Kiev was taken. That period marked the beginning of Tatar Yoke. Russian lands were devastated. The citizens were annihilated or enslaved. Most of the ruined cities never rose again. Russian knayzes accepted the superior power of the Khan and agreed to pay tribute (yasak) to the conquerors. They also had to ask for new Russian rulers appointment approval. Russian knyazes strove to get rid of vassal dependence on the Golden Horde. However, they were not strong enough to fight."
+
+- Adds missing characters to Mesopotamia Phokas
+- New Nations:
+ - United Baltic Duchies Dominion under Sweden
+ - Pommeria Dominion under Sweden
+ - Novgorod Dominion of Sweden
+ - Pskov Dominion of Sweden
+ - Commonwealth aka Polish-Lithuanan Commonwealth
+ - Tartaria aka Golden Horde 
+  - Muscovy - Dominion of Golden Horde (Rebellious)
+   - Smolesk Dominion of Muscovey
+   - Ryzan Dominion of Muscovy
+  - Ruthenia Dominion of Golden Horde (Rebellious)
+  - Perm Dominion of Golden Horde
+ - Siberia and Yakut are new decentralized nations
+- New Dynamic names for a couple nations 
+- Base name of Arabia reverted back to Arabia from Abbasid Caliphate. Instead I set up a dynamic name to Abbasid Caliphate as long as its a monarchy or Theocracy.
+- Tartaria named Golden Horde as long as its a Monarchy and Mongol is a primary culture.
+- Tartaria can be have it's name changed to Khazer Khanate via decision.
+- New Religion Tengri added. 
+- Tartaria starts with state Religion as Tengri but a decision to change religion to Sunni or Jewish or of course continue to follow the great Sky Father.
+- Changing religion to Jewish restores the Khazer Khanate. 
+- Switched Tatar/Mongol states to use asian city graphics instead of some using european and others using arabic. 
+- Improvements to the Italian states starting buildings
+- Improvements to the Italian starting trade routes/supply chains.
+- Starting literacy lowered globally 
+
+
+0.9 Legacy of the Seljuks.
+- Seljuk dynasty is now the rulers of Persia.
+- New Flag for Seljuk Persia.
+- Persia and Abbasid have been switched from unreconized to Reconized.
+- added Mespotamia as a subject of Basileía Romaíon
+- added Assyria as a subject of Persia.
+- further adjusted pops in Persia and their neighbors 
+- Persia and Abbasids now start with line infantry and cannons.
+- Abbasids start with a "Jihad" Buff that lasts a few years.
+- Abbasid can annex both Africa and Aegypt Exarchates during the first war.
+- New Bulgarian Revolt event for Basileía Romaíon
+- New decision to add Armenian as an accepted culture for Basileía Romaíon
+- New decision to add Azerbaijani as accepted culture in Persia
+- Bosnia and Montengro have been made to be subjects of Serbia. 
+- Armenia and Georigia start off in a Defensive pact
+- Wallachia and Moldova start off in a Defensive pact
+- Subject changes are to make it harder to annex them, as well as increase likelyhood of an indepdence play. 
+- Removed invisible minting buff from Inca, Aztec and Mali. I instead added more gold fields to the map in those countries. 
+- In addition to the countries above added some gold fields to Nubia and Gold mines to Macedonia, Southern Serbia and Sardinia. These are areas which historically had gold mines.
+- Added unique religion icons for totemism, inti, nahuatl and Mayan.
+- Mexico City renamed to Tenochtitlan
+- Natives less likely to rise in rebellion (This is to slow down colonization)
+- Fixes various bugs
+
+***Conlidated some cultures and religions.
+ - Apostolic, Iconoclast & Nestorian consolidated back into Oriential Orthadoxy
+ - Pontic, Anatolian, Cappadocian, African, Aegyptian consolidated back into Romaioi.
+ - Yemenite, Mashriqi & Bedouin consolidated into Arabic
+Mod already has less overall pops than the base game due to the Americas starting with 1/20th the population of base game but by consolidating these similar cultures it will greatly improve late game performance further. May split them off again later on.
+
+
+Scramble for the New World - Ver.0.8
+0.8 New World Update.
+- Completely revamps the new world based on the alternative history world this mod takes place in.
+	- This includes many new indgenious nations, including two large empires based on the Aztec and Inca Empires. (Note I have tried to use the names the orginal inhabitants called themselves whenever possible) If I have any native tribs in the incorrect location etc please let me know on discord forums or on here and I will try to correct it.
+	- New World Religions including Totemism, Nahuatl, Inti and Mesoamerican.
+	- New World Colonial cultures.
+	- Romaíoi settlers founded Elysium in the new world though as a consequence of being separated and often blockaded by the various latin powers in control of the straits of Heracles Elysium has really gone it's own way. Finding similarities between the local deities and Hellenic Deities of the past the Elysians have mostly embraced the old Hellenic ways and integrated with the local natives really creating a very unique culture.
+	- Vinland was founded by Norse settlers whom rejected the Abrahamic God instead holding true to the Gods of their ancestors.
+	- New Decisions, Elysium can decide to convert back to Orthadoxy and or then switch back to Hellenic (This event causing most people of the relgion your switching from to become radical and the religion your switching to become loyalist.) and other large temporary maluses. A new hidden decision available to Basileía Romaíon.
+	- Fixed it so all new Government and Ruler title are working as intended. Thanks to https://steamcommunity.com/sharedfiles/filedetails/?id=2895012465
+	- Many fixes and tweaks.
+
+0.7 Update. Mali Empire update.
+- Adds a new diplomatic AI. Aggressive expanion, This AI is over twice as aggressive as Territorial Expansion. Persia and Abbasid start with it and nations have a chance to get it thoughout the game based on similar factors as Territorial expansion.
+- Further further restirctions on Italy forming. Increased the tech required for the journal entry to Mass_Propaganda, made it so you can only absorb puppets not custom union members and forming Italy only absorbs North Italians not South Italians.
+- Adds the Mali Empire.
+- Adds the Adal Sultanate
+- Improved Abbasid starting buildings and trade they now have access to guns and cannons and Hedjez has Line Infantry and Cannons. Every where else still irregular infantry no cannons you'll need to import more weapons to switch all over. Should make the starting war easier though.
+- Splits off Zanzibar from Abbasid they are a vassal of Abbasid ruled over by a upper class of Arabs.
+- Removes Andalusian Control of Mozambique and Angola and gave control to local decentralized nations.
+- Improved Persian starting trade.
+- Improved Basileía Romaíon starting Trade.
+- Added new "Silk Road" invisable buff to AGY,ZAN ARA and PER. This gives them a small discount to trade cost. Merchant Republics also have a similar but better buff to trade.
+- Persia has less infamy from it's war to annex Afganistan.
+- Did not like how the western Persian/Arevelyan border looked so started Arevelyan off in a rebellion giving persia the chance to annex them at the start.
+- Fixes bug that prevented you from returning to Themata primacy if you switched to Tagmata Primacy.
+
+
+0.6 update Abbasid Caliphate.
+- Arabia has recently reunited under a new ambitious Abbasid Caliph in Mecca detirmined to reclaim the rightful lands of the Caliph from the infidel. Abbasids should be a fun nation to play as or against.
+- Adds Themata and Tagmata primacy modifiers and decisions to switch between the two.
+- Adds an Eastern Armenian nation named Arevelyan as a vassal of Persia. (Name means Eastern in Armenian). Might nativize more names in the future.
+- Adjusted the borders of Armenia and Persia. Might tweak more in the future.
+- Renamed all the IGs of Basileía Romaíon to better reflect their historical names and adjusted their politics.
+- Further restictions on Italy forming.
+- Pontikoí renamed to Pontíoi. Turns out that Pontikoí means "little mice" in Greek whoops! :S
+- Anatolikós renamed to Kappadokikí.
+- Illyrian renamed to Albanoí. This is what the Romaíoi called the native inhabitants of that region during the 1000s.
+- Bulgarian renamed to Boulgaroí. Once again this is based on the name the Romaíoi used.
+- Increased the amount of Arable land and base infastucture in North Italy, Mespotamia and Aegpyt.
+- Balanced the resources and discoverable resources within South Europe, Middle East and North Africa based on Paradox's 1.1 rebalance. 
+
+
+Latest Version Update 0.5 Al-Andalus II & HRE II.
+- New Modifiers & Decisions for Basileía Romaíon, Al-Andalus, Aegypt & North Africa.
+- Tons of small pop adjustments.
+- Hungary and Galicia are now Personal unions under Austria. (This creates prettier borders when Austria forms HRE)
+- Austria is now more likely to annex Prussia when forming HRE.
+- Austria and HRE have claims to Northern Italy, Belgium, Holstein and Alsace Loraine.
+- Venice and Genoa now use their CK3 colors.
+- Atlantide no longer a Subject of Venice, it didn't make sense with Al-Andalus controlling both sides of the straits.
+- Atlantide starts off in a war of Survival against Al-Andalus. During my observe games Atlantide wins the war against the Andalusian AI about 50% of the time though I imagine an Andalusian player would win easily.
+
+Update 0.4 Al-Andalus Update.
+- Added new nations in Iberia with new flags, cultures, characters and more including Al-Andalus, Asturias, Aragon and Navara.
+- Started work on the new world by adding New Granada as a colonial subject of Al-Andalus and Atlantide as a colonial subject of Venice. Many other temporary changes, next update will be a major overhaul of south america.
+- Lot's of ai adjustments to new and old nations.
+- Tons of small tweaks throughout the world.
+
+- If the update broke your save game you can revert to an older version of the mod at the Paradox Mod site https://mods.paradoxplaza.com/mods/51849/Any Theres a menu to select version of the mod to play.
+
+Version alpha 0.3.0 HRE & Merchant Republic Update
+
+- Can now centralize the HRE into a singular nation (This replaces the form Germany).
+- Renamed two sicilies to Katepaníkion Italías, they are ruled by a Katepanō. This is not a subject nation but a nation that is influenced culturally by Basileía Romaíon.
+- Basileía Romaíon Ruler now properly displays the title of Basileus or Basilissa.
+- Merchant Republics now have the correct name for their Government which is "Merchant Republic" and ruled by a Doge.
+- Subjects of Basileía Romaíon now properly have the government form Exarchate and are ruled by a Exarchos
+- Basileía Romaíon now has a custom ruler which I made by just blindly meshing random genes together but I like how it turned out Long Live Basileus Augustinos Palaiologos our Roman SteamPunk Emperor!
+- Fixed dozens of bugs and other random stuff.
+
+Current version Phase three Alpha 0.2.2 ( Holy Roman & Merchant Republic Update)
+
+Added in the Holy Roman Empire. This is only my first pass on the region I wanted something that was functional and Fun in the future will spend more time creating a more unique HRE set up.
+Fixed the unique Romaíoi monuments to correctly be government buildings so they won'y go out of business if they don'y make a profit.
+Further fixes and tweaks to Italy and the Merchant Republics.
+Fixed Exarchate subjects so they are now available for annexation via diplomatic plays.
+Fixed a bunch of other stuff I lost track of
+Enjoy :)
+
+Improved italian AI to focus more on trade and economic dominance.
+
+Updated meta data to display the proper game name and version in the mod selection in game.
+
+Current version Phase three Alpha 0.2.1 ( Merchant Republic Update)
+
+Small fix to Genoa and Venice Ai and starting relations with their trade partners so they ai doesn't cancel all their trade routes.
+
+Current version Phase three Alpha 0.2.0 ( Merchant Republic Update)
+- Latest update adds in the small but very wealthy Merchant Republics of Venice and Genoa.
+
+Current version Phase two Alpha 0.1.2
+
+- Added new decentralized nations in North Africa. Ai Aegypt and North Africa Excachates will Colonize within 20-30 years
+- Tweaked Persia a bit
+- Bunch of other bug fixes and tweaks.
+- New Screenshots
+
+Current version Phase two Alpha 0.1.1 (Veiled Exachate Update)
+
+- Added the Chi Rho to the doubled headed eagle :)
+- Bunch more tweaks, balance changes and bug fixes.
+- Updated description and screenshots
+
+Translation Sub-Mods (Not maintained by me, message authors for more information)
+<a class="bb_link" href="steam://openurl/https://steamcommunity.com/sharedfiles/filedetails/?id=2886387759">Chinese translation</a>
+<a class="bb_link" href="steam://openurl/https://steamcommunity.com/sharedfiles/filedetails/?id=2885193735">Korean translation</a>

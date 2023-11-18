@@ -1,0 +1,60 @@
+﻿CHARACTERS = {
+	c:GEN = {
+		create_character = {
+			is_admiral = yes
+			first_name = "Alfonso"
+			last_name = "Sacchetti"
+			age = 56
+			ruler=yes
+			dna = dna_manuel_2
+			ideology = ideology_market_liberal
+			interest_group = ig_intelligentsia # 
+			traits = {
+				innovative
+				masterful_diplomat
+				inspirational_orator
+				explorer
+				celebrity_commander
+				expert_naval_commander
+			}
+		}
+		create_character = {
+				culture = cu:north_italian
+				religion = rel:catholic
+				interest_group = ig_intelligentsia
+				ig_leader = no
+				female = no
+				age = 40
+				traits = {
+					tactful
+					erudite
+					pious
+					honorable
+				}
+			}
+		create_character = {
+			is_general = yes
+			first_name = Benito
+			last_name = Massimo
+			age = 40
+			interest_group = ig_petty_bourgeoisie
+			traits = {
+			resupply_commander
+			defense_in_depth_specialist
+			}
+		}
+		create_character = { # Sea
+		    is_admiral = yes
+			first_name = Enrico 
+			last_name = d_Azeglio
+			interest_group = ig_petty_bourgeoisie
+			age = 40
+			traits = {
+			expert_naval_commander
+			traditionalist_commander
+		 }
+		}
+		
+	}
+
+}

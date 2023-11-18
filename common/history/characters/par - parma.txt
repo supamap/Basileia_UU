@@ -1,0 +1,33 @@
+﻿CHARACTERS = {
+	c:PAR = {
+		create_character = {
+			# Marie Louise, Duchess of Parma
+			#role = politician # Remove this line
+			first_name = "Maria_Luisa"
+			last_name = "Sforza"
+			female = yes
+			ruler = yes
+			birth_date = 1691.12.12
+			interest_group = ig_intelligentsia
+			ideology = ideology_moderate
+			traits = {
+				tactful
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+	
+
+		create_character = {
+			is_general = yes
+			first_name = Wilhelm
+			last_name = Albrecht
+			age = 17
+			traits = {
+		#		indifferent
+		#		uncommonly_young
+			}
+		}
+	}
+}

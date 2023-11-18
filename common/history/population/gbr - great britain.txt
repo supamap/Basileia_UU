@@ -1,0 +1,14 @@
+﻿POPULATION = {
+	c:ENG = {
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_low = yes
+	}
+	c:SCO = {
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_low = yes
+	}
+	c:IRE = {
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_low = yes
+	}
+}

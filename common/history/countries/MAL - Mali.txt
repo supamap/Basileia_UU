@@ -1,0 +1,48 @@
+﻿COUNTRIES = {
+	c:MAL	= {
+		effect_starting_technology_tier_5_tech = yes
+		effect_starting_politics_traditional = yes
+		add_technology_researched = tribal
+		#activate_law = law_type:law_homesteading
+		add_technology_researched = silk_road
+		add_technology_researched = prospecting
+		add_technology_researched = academia
+		add_technology_researched = international_trade
+		#add_technology_researched = civilizing_mission
+
+		add_modifier = {
+			name = tribal_warriors
+			years = -1
+		}
+
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_autocracy 
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_hereditary_bureaucrats
+		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_traditionalism #law_agrarianism
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_no_schools
+		activate_law = law_type:law_charitable_health_system
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_migration_controls
+		activate_law = law_type:law_frontier_colonization #0.34 test
+
+		activate_law = law_type:law_debt_slavery
+		
+		ig:ig_landowners = { 
+			add_ideology = ideology_frontier_expansionist
+		}
+
+		add_modifier = {
+			name = cizye_tax
+			months = -1
+		}
+
+		ig:ig_devout = {
+			set_interest_group_name = ig_sunni_madrasahs
+		}
+
+	}
+}

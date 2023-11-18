@@ -1,0 +1,190 @@
+﻿revive_khazer_khanate_decision = {
+	is_shown = {
+		country_has_state_religion = rel:tengri
+		NOT = { country_has_state_religion = rel:jewish }
+	}
+
+	possible = {
+		country_has_state_religion = rel:tengri
+		has_law = law_type:law_monarchy
+	}
+
+	when_taken = {
+		set_state_religion = rel:jewish
+		remove_primary_culture = cu:mongol
+		#ig:ig_devout = {
+		#	set_interest_group_name = ig_neo_hellenes
+			#remove_ideology = ideology_buddhist_moralist
+			#add_ideology = ideology_shinto_moralist
+		#}
+		random_scope_state = {
+			limit = {
+				owner = ROOT
+				is_capital = yes
+			}
+			convert_population = {
+				target = rel:jewish
+				value = 0.25
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { is_capital = yes }
+			}
+			convert_population = {
+				target = rel:jewish
+				value = 0.15
+			}
+		}
+		if = {
+			limit = {
+				any_scope_pop = { 
+					religion = rel:jewish 
+				}
+			}
+			add_loyalists = {
+				religion = rel:jewish
+				value = 0.75
+			}
+		}
+		if = {
+			limit = {
+				any_scope_pop = { 
+					religion = rel:tengri 
+				}
+			}
+			add_radicals = {
+				religion = rel:tengri
+				value = 0.25
+			}
+		}
+		c:VEN = {
+			change_relations = { 
+				country = c:TAT 
+				value = 50 
+			}
+		}
+		c:GEN = {
+			change_relations = { 
+				country = c:TAT 
+				value = 50 
+			}
+		}
+		c:BYZ = {
+			change_relations = { 
+				country = c:TAT 
+				value = 150 
+			}
+		}
+		c:CH1 = {
+			change_relations = { 
+				country = c:TAT 
+				value = -50 
+			}
+		}
+		c:PER = {
+			change_relations = { 
+				country = c:TAT 
+				value = -50 
+			}
+		}
+	}
+
+	ai_chance = {
+		base = 5
+	}
+}
+
+sunni_decision = {
+	is_shown = {
+		country_has_state_religion = rel:tengri
+		NOT = { country_has_state_religion = rel:sunni }
+	}
+
+	possible = {
+		country_has_state_religion = rel:tengri
+		has_law = law_type:law_monarchy
+	}
+
+	when_taken = {
+		set_state_religion = rel:sunni
+		#ig:ig_devout = {
+		#	set_interest_group_name = ig_orthodox_patriarch 
+			#remove_ideology = ideology_buddhist_moralist
+			#add_ideology = ideology_shinto_moralist
+		#}
+		random_scope_state = {
+			limit = {
+				owner = ROOT
+				is_capital = yes
+			}
+			convert_population = {
+				target = rel:sunni
+				value = 0.25
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { is_capital = yes }
+			}
+			convert_population = {
+				target = rel:sunni
+				value = 0.15
+			}
+		}
+		if = {
+			limit = {
+				any_scope_pop = { 
+					religion = rel:sunni 
+				}
+			}
+			add_loyalists = {
+				religion = rel:sunni
+				value = 0.5
+			}
+		}
+		if = {
+			limit = {
+				any_scope_pop = { 
+					religion = rel:tengri 
+				}
+			}
+			add_radicals = {
+				religion = rel:tengri
+				value = 0.25
+			}
+		}
+		c:CH1 = {
+			change_relations = { 
+				country = c:TAT 
+				value = -200 
+			}
+		}
+		c:PER = {
+			change_relations = { 
+				country = c:TAT 
+				value = 100 
+			}
+		}
+		c:ARA = {
+			change_relations = { 
+				country = c:TAT 
+				value = 200 
+			}
+		}
+		c:MUG = {
+			change_relations = { 
+				country = c:TAT 
+				value = 100 
+			}
+		}
+	}
+
+	ai_chance = {
+		base = 25
+	}
+}

@@ -1,0 +1,818 @@
+﻿POPS = {
+	s:STATE_LOMBARDY = {
+		region_state:LOM = {
+			create_pop = {
+				culture = north_italian			
+				size = 2576996
+			}
+			create_pop = {
+				culture = north_italian
+				religion = jewish
+				size = 5396
+			}
+		}
+	}
+	s:STATE_PIEDMONT = {
+		region_state:SAR = {
+			create_pop = {
+				culture = north_italian
+				size = 1067188
+			}
+			create_pop = {
+				culture = francoprovencal
+				size = 193996
+			}
+			create_pop = {
+				culture = north_italian
+				religion = jewish
+				size = 2804
+			}
+		}
+		region_state:LOM = {
+			create_pop = {
+				culture = north_italian
+				size = 767188
+			}
+			create_pop = {
+				culture = francoprovencal
+				size = 193996
+			}
+			create_pop = {
+				culture = north_italian
+				religion = jewish
+				size = 2804
+			}
+		}
+		region_state:GEN = {
+			create_pop = {
+				culture = north_italian
+				size = 1167188
+				#working_adult_ratio = 0.45
+			}
+			create_pop = {
+				culture = greek
+				size = 1000
+				pop_type = aristocrats
+			}
+			create_pop = {
+				culture = greek
+				size = 500
+				pop_type = clergymen
+			}
+			create_pop = {
+				culture = greek
+				size = 200
+				pop_type = officers
+			}
+			create_pop = {
+				culture = greek
+				size = 200
+				pop_type = bureaucrats
+			}
+			create_pop = {
+				culture = greek
+				size = 9000
+				pop_type = shopkeepers
+			}
+			create_pop = {
+				culture = north_italian
+				religion = jewish
+				size = 2804
+			}
+		}
+	}
+	s:STATE_SARDINIA = {
+		region_state:GEN = {
+			create_pop = {
+				culture = south_italian
+				size = 484084
+			}
+			create_pop = {
+				culture = greek
+				size = 1000
+				pop_type = aristocrats
+			}
+			create_pop = {
+				culture = greek
+				size = 500
+				pop_type = clergymen
+			}
+			create_pop = {
+				culture = greek
+				size = 200
+				pop_type = officers
+			}
+			create_pop = {
+				culture = greek
+				size = 200
+				pop_type = bureaucrats
+			}
+			create_pop = {
+				culture = greek
+				size = 4000
+				pop_type = shopkeepers
+			}
+			create_pop = {
+				culture = greek
+				size = 5000
+			}
+		}
+		region_state:ANL = {
+			create_pop = {
+				culture = south_italian
+				size = 324084
+			}
+			create_pop = {
+				culture = andalusian
+				size = 1000
+				pop_type = aristocrats
+			}
+			create_pop = {
+				culture = andalusian
+				size = 500
+				pop_type = clergymen
+			}
+			create_pop = {
+				culture = andalusian
+				size = 200
+				pop_type = officers
+			}
+			create_pop = {
+				culture = andalusian
+				size = 200
+				pop_type = bureaucrats
+			}
+			create_pop = {
+				culture = andalusian
+				size = 4000
+				pop_type = shopkeepers
+			}
+			create_pop = {
+				culture = berber
+				size = 15000
+			}
+		}
+	}
+
+	s:STATE_UMBRIA = {
+		region_state:PAP = {
+			create_pop = {
+				culture = south_italian
+				size = 451000
+			}
+		}
+	}
+	s:STATE_CORSICA = {
+		region_state:GEN = { # est. total 196476
+			create_pop = {
+				culture = south_italian
+				size = 279146
+			}
+			create_pop = {
+				culture = north_italian
+				size = 37330 # pls don't ask where this number comes from
+			}
+		}
+	}
+	s:STATE_CAMPANIA = {
+		region_state:PAP = {
+			create_pop = {
+				culture = greek
+				size = 1500
+				pop_type = aristocrats
+			}
+			create_pop = {
+				culture = greek
+				size = 500
+				pop_type = clergymen
+			}
+			create_pop = {
+				culture = greek
+				size = 200
+				pop_type = officers
+			}
+			create_pop = {
+				culture = greek
+				size = 200
+				pop_type = bureaucrats
+			}
+			create_pop = {
+				culture = greek
+				size = 9000
+				pop_type = shopkeepers
+			}
+			create_pop = {
+				culture = greek
+				size = 3600
+				pop_type = clerks
+			}
+			create_pop = {
+				culture = south_italian
+				size = 357396
+			}
+		}
+		region_state:SIC = {
+			create_pop = {
+				culture = greek
+				size = 15000
+				pop_type = aristocrats
+			}
+			create_pop = {
+				culture = greek
+				size = 5000
+				pop_type = clergymen
+			}
+			create_pop = {
+				culture = greek
+				size = 2000
+				pop_type = officers
+			}
+			create_pop = {
+				culture = greek
+				size = 2000
+				pop_type = bureaucrats
+			}
+			create_pop = {
+				culture = greek
+				size = 9000
+				pop_type = shopkeepers
+			}
+			create_pop = {
+				culture = greek
+				size = 3600
+				pop_type = clerks
+			}
+			create_pop = {
+				culture = greek
+				size = 50000
+			}
+			create_pop = {
+				culture = south_italian
+				size = 2057396
+			}
+		}
+	}
+	s:STATE_CALABRIA = {
+		region_state:SIC = {
+			create_pop = {
+				culture = greek
+				size = 15000
+				pop_type = aristocrats
+			}
+			create_pop = {
+				culture = greek
+				size = 5000
+				pop_type = clergymen
+			}
+			create_pop = {
+				culture = greek
+				size = 2000
+				pop_type = officers
+			}
+			create_pop = {
+				culture = greek
+				size = 2000
+				pop_type = bureaucrats
+			}
+			create_pop = {
+				culture = greek
+				size = 9000
+				pop_type = shopkeepers
+			}
+			create_pop = {
+				culture = greek
+				size = 3600
+				pop_type = clerks
+			}
+			create_pop = {
+				culture = greek
+				size = 50000
+			}
+			create_pop = {
+				culture = south_italian
+				size = 882848
+			}
+		}
+	}
+	s:STATE_APULIA = {
+		region_state:SIC = {
+			create_pop = {
+				culture = greek
+				size = 20000
+				pop_type = aristocrats
+			}
+			create_pop = {
+				culture = greek
+				size = 10000
+				pop_type = clergymen
+			}
+			create_pop = {
+				culture = greek
+				size = 2000
+				pop_type = officers
+			}
+			create_pop = {
+				culture = greek
+				size = 2000
+				pop_type = bureaucrats
+			}
+			create_pop = {
+				culture = greek
+				size = 9000
+				pop_type = shopkeepers
+			}
+			create_pop = {
+				culture = greek
+				size = 3600
+				pop_type = clerks
+			}
+			create_pop = {
+				culture = greek
+				size = 75000
+			}
+			create_pop = {
+				culture = south_italian
+				size = 1284392
+			}
+		}
+	}
+	s:STATE_ABRUZZO = {
+		region_state:PAP = {
+			create_pop = {
+				culture = greek
+				size = 1000
+				pop_type = aristocrats
+			}
+			create_pop = {
+				culture = greek
+				size = 500
+				pop_type = clergymen
+			}
+			create_pop = {
+				culture = greek
+				size = 200
+				pop_type = officers
+			}
+			create_pop = {
+				culture = greek
+				size = 200
+				pop_type = bureaucrats
+			}
+			create_pop = {
+				culture = greek
+				size = 9000
+				pop_type = shopkeepers
+			}
+			create_pop = {
+				culture = south_italian
+				size = 360448
+			}
+		}
+		region_state:SIC = {
+			create_pop = {
+				culture = greek
+				size = 1000
+				pop_type = aristocrats
+			}
+			create_pop = {
+				culture = greek
+				size = 500
+				pop_type = clergymen
+			}
+			create_pop = {
+				culture = greek
+				size = 200
+				pop_type = officers
+			}
+			create_pop = {
+				culture = greek
+				size = 200
+				pop_type = bureaucrats
+			}
+			create_pop = {
+				culture = greek
+				size = 9000
+				pop_type = shopkeepers
+			}
+			create_pop = {
+				culture = greek
+				size = 30000
+			}
+			create_pop = {
+				culture = south_italian
+				size = 260448
+			}
+		}
+	}
+	s:STATE_SAVOY = {
+		region_state:SAR = {
+			create_pop = {
+				culture = francoprovencal
+				size = 287600
+			}
+			create_pop = {
+				culture = north_italian
+				size = 181200
+			}
+		}
+	}
+	s:STATE_PROVENCE = {
+		region_state:SAR = {
+			create_pop = {
+				culture = north_italian
+				size = 151200
+			}
+			create_pop = {
+				culture = francoprovencal
+				size = 20379
+			}
+		}
+	}
+	s:STATE_EMILIA = {
+		region_state:PAR = {
+			create_pop = {
+				culture = north_italian
+				size = 472004
+				
+			}
+		}
+		region_state:LUC = {
+			create_pop = {
+				culture = north_italian
+				size = 108408
+				
+			}
+		}
+		region_state:MOD = {
+			create_pop = {
+				culture = north_italian
+				size = 648400
+				
+			}
+		}
+	}
+	s:STATE_TUSCANY = {
+		region_state:TUS = {
+			create_pop = {
+				culture = north_italian
+				size = 1625400
+			}
+			create_pop = {
+				culture = north_italian
+				religion = jewish
+				size = 6996
+			}
+		}
+		region_state:PIS = {
+			create_pop = {
+				culture = north_italian
+				size = 425400
+			}
+			create_pop = {
+				culture = greek
+				size = 1000
+				pop_type = aristocrats
+			}
+			create_pop = {
+				culture = greek
+				size = 500
+				pop_type = clergymen
+			}
+			create_pop = {
+				culture = greek
+				size = 200
+				pop_type = officers
+			}
+			create_pop = {
+				culture = greek
+				size = 200
+				pop_type = bureaucrats
+			}
+			create_pop = {
+				culture = greek
+				size = 2000
+				pop_type = shopkeepers
+			}
+			create_pop = {
+				culture = greek
+				size = 2000
+			}
+			create_pop = {
+				culture = north_italian
+				religion = jewish
+				size = 4996
+			}
+		}
+	}
+	s:STATE_ROMAGNA = {
+		region_state:PAP = {
+			create_pop = {
+				culture = greek
+				size = 15000
+				pop_type = aristocrats
+			}
+			create_pop = {
+				culture = greek
+				size = 5000
+				pop_type = clergymen
+			}
+			create_pop = {
+				culture = greek
+				size = 2000
+				pop_type = officers
+			}
+			create_pop = {
+				culture = greek
+				size = 2000
+				pop_type = bureaucrats
+			}
+			create_pop = {
+				culture = greek
+				size = 9000
+				pop_type = shopkeepers
+			}
+			create_pop = {
+				culture = greek
+				size = 50000
+			}
+			create_pop = {
+				culture = north_italian
+				size = 803600
+				
+			}
+		}
+	}
+	s:STATE_LAZIO = {
+		region_state:PAP = {
+			create_pop = {
+				culture = greek
+				size = 15000
+				pop_type = aristocrats
+			}
+			create_pop = {
+				culture = greek
+				size = 5000
+				pop_type = clergymen
+			}
+			create_pop = {
+				culture = greek
+				size = 2000
+				pop_type = officers
+			}
+			create_pop = {
+				culture = greek
+				size = 2000
+				pop_type = bureaucrats
+			}
+			create_pop = {
+				culture = greek
+				size = 9000
+				pop_type = shopkeepers
+			}
+			create_pop = {
+				culture = greek
+				size = 50000
+			}
+			create_pop = {
+				culture = south_italian
+				size = 1833868
+			}
+			create_pop = {
+				culture = south_italian
+				religion = jewish
+				size = 5596
+			}
+		}
+	}
+	s:STATE_VENETIA = {
+		region_state:VEN = {
+			create_pop = {
+				culture = north_italian
+				size = 2455196
+				#working_adult_ratio = 0.45
+			}
+			create_pop = {
+				culture = greek
+				size = 5000
+				pop_type = aristocrats
+			}
+			create_pop = {
+				culture = greek
+				size = 5000
+				pop_type = clergymen
+			}
+			create_pop = {
+				culture = greek
+				size = 2000
+				pop_type = officers
+			}
+			create_pop = {
+				culture = greek
+				size = 2000
+				pop_type = bureaucrats
+			}
+			create_pop = {
+				culture = greek
+				size = 35000
+				pop_type = shopkeepers
+			}
+			create_pop = {
+				culture = north_italian
+				religion = jewish
+				size = 2000
+			}
+		}
+	}
+	s:STATE_SICILY = {
+		region_state:ANL = {
+			create_pop = {
+				culture = andalusian
+				size = 15000
+				pop_type = aristocrats
+			}
+			create_pop = {
+				culture = andalusian
+				size = 5000
+				pop_type = clergymen
+			}
+			create_pop = {
+				culture = andalusian
+				size = 2000
+				pop_type = officers
+			}
+			create_pop = {
+				culture = andalusian
+				size = 2000
+				pop_type = bureaucrats
+			}
+			create_pop = {
+				culture = andalusian
+				size = 9000
+				pop_type = shopkeepers
+			}
+			create_pop = {
+				culture = andalusian
+				size = 3600
+				pop_type = clerks
+			}
+			create_pop = {
+				culture = berber
+				size = 50000
+			}
+			create_pop = {
+				culture = south_italian
+				size = 847596
+			}
+		}
+		region_state:SIC = {
+			create_pop = {
+				culture = greek
+				size = 15000
+				pop_type = aristocrats
+			}
+			create_pop = {
+				culture = greek
+				size = 5000
+				pop_type = clergymen
+			}
+			create_pop = {
+				culture = greek
+				size = 2000
+				pop_type = officers
+			}
+			create_pop = {
+				culture = greek
+				size = 2000
+				pop_type = bureaucrats
+			}
+			create_pop = {
+				culture = greek
+				size = 9000
+				pop_type = shopkeepers
+			}
+			create_pop = {
+				culture = greek
+				size = 3600
+				pop_type = clerks
+			}
+			create_pop = {
+				culture = greek
+				size = 50000
+			}
+			create_pop = {
+				culture = south_italian
+				size = 647596
+			}
+		}
+	}
+	s:STATE_DALMATIA = {
+		region_state:DLM = {
+			create_pop = {
+				culture = croat
+				size = 297796
+			}
+			create_pop = {
+				culture = greek
+				size = 1000
+				pop_type = aristocrats
+			}
+			create_pop = {
+				culture = greek
+				size = 500
+				pop_type = clergymen
+			}
+			create_pop = {
+				culture = greek
+				size = 200
+				pop_type = officers
+			}
+			create_pop = {
+				culture = greek
+				size = 200
+				pop_type = bureaucrats
+			}
+			create_pop = {
+				culture = greek
+				size = 2000
+				pop_type = shopkeepers
+			}
+			create_pop = {
+				culture = albanian
+				size = 65000
+			}
+			create_pop = {
+				culture = serb
+				size = 80000
+			}
+			create_pop = {
+				culture = north_italian
+				size = 80004
+			}
+		}
+	}
+	s:STATE_CROATIA = {
+		region_state:DLM = {
+			create_pop = {
+				culture = croat
+				size = 253592
+			}
+			create_pop = {
+				culture = north_italian
+				size = 130396
+			}
+			create_pop = {
+				culture = serb
+				size = 26000
+			}
+		}
+	}
+	s:STATE_ISTRIA = {
+		region_state:VEN = {
+			create_pop = {
+				culture = north_italian
+				size = 397800
+			}
+			create_pop = {
+				culture = hungarian
+				size = 4000
+			}
+			create_pop = {
+				culture = greek
+				size = 1000
+				pop_type = aristocrats
+			}
+			create_pop = {
+				culture = greek
+				size = 500
+				pop_type = clergymen
+			}
+			create_pop = {
+				culture = greek
+				size = 200
+				pop_type = officers
+			}
+			create_pop = {
+				culture = greek
+				size = 200
+				pop_type = bureaucrats
+			}
+			create_pop = {
+				culture = greek
+				size = 400
+				pop_type = shopkeepers
+			}
+			create_pop = {
+				culture = slovene
+				size = 344504
+			}
+			create_pop = {
+				culture = bavarian
+				size = 39792
+			}
+			create_pop = {
+				culture = croat
+				size = 124000
+			}
+		}
+	}
+}

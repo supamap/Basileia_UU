@@ -1,0 +1,69 @@
+﻿CHARACTERS = {
+	c:VIN = {
+		create_character = {
+			first_name = "Johan"
+			last_name = "Eriksson"
+			ruler = yes
+			is_general = yes # Both general and IG leader
+			birth_date = 1715.6.1
+			dna = dna_leopold_2
+			interest_group = ig_armed_forces
+			ideology = ideology_moderate
+			traits = {
+				brave
+				ambitious
+				imperious
+				pillager
+				celebrity_commander
+				expert_offensive_planner
+				explorer
+				forest_commander
+				expert_colonial_administrator
+			}
+		}
+		create_character = {
+			age = 30
+			ig_leader = yes # Both general and IG leader
+			is_general = yes # Both general and IG leader
+			interest_group = ig_armed_forces
+			commander_rank = commander_rank_1
+			ideology = ideology_jingoist_leader
+			traits = {
+				brave
+				innovative
+				pillager
+				celebrity_commander
+				resupply_commander
+				surveyor
+				expert_offensive_planner
+			}
+			#character_popularity_add = 50
+		}
+		create_character = { 
+		    is_admiral = yes
+			ig_leader = yes # Both general and IG leader
+			interest_group = ig_petty_bourgeoisie
+			commander_rank = commander_rank_1
+			age = 30
+			traits = {
+			meticulous
+			pillager
+			resupply_commander
+			traditionalist_commander
+			explorer
+		 	}
+		}
+		create_character = {
+			is_general = yes
+			age = 30
+			interest_group = ig_armed_forces
+			commander_rank = commander_rank_1
+			traits = {
+			wrathful
+			scarred
+			pillager
+			experienced_offensive_planner
+			}
+		}
+	}
+}

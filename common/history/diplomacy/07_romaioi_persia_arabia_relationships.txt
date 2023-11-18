@@ -1,0 +1,88 @@
+﻿DIPLOMACY = {
+	c:PER = {
+		create_diplomatic_pact = {
+			country = c:PAM
+			type = tributary
+		}
+		create_diplomatic_pact = {
+			country = c:ASY
+			type = tributary
+		}
+		create_diplomatic_pact = {
+			country = c:KUR
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:ARD
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:KHI
+			type = tributary
+		}
+		create_diplomatic_pact = {
+			country = c:BUK
+			type = tributary
+		}
+		create_diplomatic_pact = {
+			country = c:AFG
+			type = tributary
+		}
+		create_diplomatic_pact = {
+			country = c:KUW
+			type = tributary
+		}
+		set_relations = { country = c:ANL value = 35 }
+		set_relations = { country = c:HRE value = 35 }
+		set_relations = { country = c:HUN value = 45 }
+		set_relations = { country = c:BYZ value = -75 }
+		set_relations = { country = c:MUG value = -95 }
+		set_relations = { country = c:AFG value = -75 }
+		set_relations = { country = c:OMA value = -95 }
+
+		create_diplomatic_pact = {
+			country = c:BYZ
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:MUG
+			type = rivalry
+		}
+
+	}
+
+	c:BUK = {
+		create_diplomatic_pact = {
+			country = c:KOK
+			type = tributary
+		}	
+
+	}
+
+	c:ARA = {
+		create_diplomatic_pact = {
+			country = c:ZAN
+			type = tributary
+		}	
+		create_diplomatic_pact = {
+			country = c:MJT
+			type = tributary
+		}
+		create_diplomatic_pact = {
+			country = c:EOT
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:OMA
+			type = puppet
+		}
+
+		set_relations = { country = c:BYZ value = -75 }
+		set_relations = { country = c:AGY value = -50 }
+		set_relations = { country = c:PER value = -50 }
+		set_relations = { country = c:NAF value = -25 }
+		set_relations = { country = c:ANL value = -35 }
+
+	}
+
+}

@@ -1,0 +1,168 @@
+﻿#North
+ELY = {
+	color = { 147  35  113 } #147  82  173 old color
+	
+	country_type = colonial
+
+	#tier = hegemony
+	tier = kingdom
+	
+	cultures = { elysian }	
+	capital = STATE_DISTRICT_OF_COLUMBIA
+}
+
+VIN = {
+	color = { 235 196 128 }
+	
+	country_type = colonial
+	
+	tier = grand_principality
+	
+	cultures = { vinlander }
+	capital = STATE_QUEBEC
+}
+
+NWC = {
+	color = { 235 196 128 }
+	
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { vinlander }
+	capital = STATE_GREENLAND
+}
+
+LOU = {
+	color = { 53 52 144 }
+	
+	country_type = colonial
+	
+	tier = grand_principality
+	
+	cultures = { colonial_french }
+	capital = STATE_LOUISIANA
+}
+
+FAZ = {
+	color = { 53 52 144 }
+	
+	country_type = colonial
+	
+	tier = grand_principality
+	
+	cultures = { colonial_french }
+	capital = STATE_RIO_GRANDE_DO_NORTE
+}
+
+#South
+
+NAH = {
+	color = hsv360{ 130 100 52 }
+	
+	country_type = unrecognized
+	
+	tier = empire
+	
+	cultures = { nahua } #mixtec zapotec tarascan
+	capital = STATE_MEXICO
+}
+
+TWT = { # Tawantinsuyu
+	color = { 125 92 110 }
+	
+	country_type = unrecognized
+	
+	tier = empire
+	
+	cultures = { quechua } #aimara
+	
+	capital = STATE_ICA
+}
+
+VCA = {
+	color = { 54 167 156 } 
+
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { colonial_italian }
+	capital = STATE_CUBA
+}
+
+GCA = {
+	color = { 234 131 110 } 
+
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { colonial_italian }
+	capital = STATE_JAMAICA
+}
+
+ACA = {
+	color = { 119  181  88 } 
+	
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { colonial_andalusian } #renamed Granadian
+	capital = STATE_ZULIA
+}
+
+KLV = {
+	color = { 155  147  180 }
+
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { colonial_german }
+	capital = STATE_GUAYANA
+}
+
+ATC = {
+	color = hsv360{ 20  80  80 }
+
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { colonial_dutch }
+	capital = STATE_PARA
+}
+
+JNW = {
+	color = { 155 65 65 }
+	country_type = colonial
+	tier = kingdom
+	cultures = { colonial_japanese }
+	capital = STATE_WASHINGTON
+}
+
+CNW = {
+	color = { 255  224  124 }
+	country_type = colonial
+	tier = kingdom
+	cultures = { colonial_chinese }
+	capital = STATE_CALIFORNIA
+}
+
+JPI = {
+	color = { 155 65 65 }
+	country_type = colonial
+	tier = kingdom
+	cultures = { colonial_japanese }
+	capital = STATE_WEST_MICRONESIA
+}
+
+JSB = {
+	color = { 155 65 65 }
+	country_type = colonial
+	tier = kingdom
+	cultures = { colonial_japanese }
+	capital = STATE_OUTER_MANCHURIA
+}

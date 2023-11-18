@@ -1,0 +1,79 @@
+﻿CHARACTERS = {
+	c:VEN = {
+		create_character = {
+			is_admiral = yes
+			first_name = "Scipione"
+			last_name = "Borghese"
+			age = 44
+			ruler=yes
+			dna = dna_gioacchimo_3 #dna_amadeo_1
+			interest_group = ig_intelligentsia
+			ideology = ideology_market_liberal
+			traits = {
+				innovative
+				masterful_diplomat
+				inspirational_orator
+				explorer
+				celebrity_commander
+				expert_naval_commander
+			}
+		}
+		create_character = {
+			is_general = yes
+			first_name = Massimo
+			last_name = Torelli
+			age = 40
+			interest_group = ig_petty_bourgeoisie
+			traits = {
+			resupply_commander
+			defense_in_depth_specialist
+			brave
+			innovative
+			celebrity_commander
+			resupply_commander
+			surveyor
+			expert_offensive_planner	
+			}
+		}
+		create_character = {
+			historical = yes
+			culture = cu:north_italian
+			religion = rel:catholic
+			interest_group = ig_intelligentsia
+			ig_leader = no
+			female = no
+			age = 40
+			traits = {
+				tactful
+				erudite
+				pious
+				honorable
+			}
+		}
+		create_character = {
+			culture = cu:north_italian
+			religion = rel:catholic
+			interest_group = ig_intelligentsia
+			ig_leader = no
+			female = no
+			age = 40
+			traits = {
+				explorer
+				meticulous
+			}
+		}
+		
+		create_character = { # Sea
+		    is_admiral = yes
+			first_name = Angelo 
+			last_name = Capodilista
+			interest_group = ig_petty_bourgeoisie
+			age = 40
+			traits = {
+			expert_naval_commander
+			traditionalist_commander
+		 }
+		}
+	}
+
+}

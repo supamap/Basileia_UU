@@ -1,0 +1,690 @@
+﻿POPS = {
+	s:STATE_HEDJAZ = {
+		region_state:ARA = {
+			create_pop = {
+				culture = bedouin
+				religion = sunni
+				size = 602000
+				
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = sudanese
+				religion = animist
+				size = 48000
+
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = north_caucasian
+				size = 8000
+
+			}
+			create_pop = {
+				culture = sephardic # Najran Jews
+				religion = jewish
+				size = 5000
+
+			}
+		}
+	}
+	s:STATE_HAIL = {
+		region_state:ARA = {
+			create_pop = {
+				culture = bedouin
+				size = 58496
+			}
+			create_pop = {
+				culture = bedouin
+				religion = shiite
+				size = 32000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = north_caucasian
+				size = 4000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = sudanese
+				size = 8300
+			}
+		}
+		region_state:JAB = {
+			create_pop = {
+				culture = bedouin
+				size = 12496
+			}
+			create_pop = {
+				culture = bedouin
+				religion = shiite
+				size = 19000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = north_caucasian
+				size = 1400
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = sudanese
+				size = 1830
+			}
+		}
+		region_state:PER = {
+			create_pop = {
+				culture = bedouin
+				size = 2496
+			}
+			create_pop = {
+				culture = bedouin
+				religion = shiite
+				size = 15000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = north_caucasian
+				size = 1400
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = sudanese
+				size = 1830
+			}
+		}
+		region_state:KUW = {
+			create_pop = {
+				culture = bedouin
+				size = 41996
+			}
+			create_pop = {
+				culture = bedouin
+				religion = shiite
+				size = 22004
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = north_caucasian
+				size = 1400
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = sudanese
+				size = 1830
+			}
+		}
+	}
+	s:STATE_NEJD = {
+		region_state:ARA = {
+			create_pop = {
+				culture = bedouin
+				size = 93996
+			}
+			create_pop = {
+				culture = bedouin
+				religion = shiite
+				size = 32000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = north_caucasian
+				size = 4000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = sudanese
+				religion = animist
+				size = 12000
+			}
+		}
+		region_state:NEJ = {
+			create_pop = {
+				culture = bedouin
+				size = 23996
+			}
+			create_pop = {
+				culture = bedouin
+				religion = shiite
+				size = 2000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = north_caucasian
+				size = 400
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = sudanese
+				religion = animist
+				size = 1200
+			}
+		}
+	}
+	s:STATE_ABU_DHABI = {
+		region_state:ARA = {
+			create_pop = {
+				culture = bedouin
+				religion = sunni
+				size = 52900
+				
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = sudanese
+				religion = animist
+				size = 4200
+
+			}
+			create_pop = {
+				culture = bedouin
+				religion = shiite
+				size = 22000
+				
+			}
+			create_pop = {
+				culture = bedouin
+				religion = oriental_orthodox
+				size = 3500
+				
+			}
+			create_pop = {
+				culture = sephardic
+				religion = jewish
+				size = 520
+
+			}
+		}
+	}
+	s:STATE_YEMEN = {
+		region_state:ARA = {
+			create_pop = {
+				pop_type = slaves
+				culture = sudanese
+				religion = animist
+				size = 68800
+
+			}
+			create_pop = {
+				culture = bedouin
+				religion = shiite
+				size = 600000
+			}
+			create_pop = {
+				culture = bedouin
+				religion = sunni
+				size = 738000
+				
+			}
+			create_pop = {
+				culture = bedouin
+				religion = oriental_orthodox
+				size = 13500
+				
+			}
+			create_pop = {
+				culture = sephardic
+				religion = jewish
+				size = 20000
+
+			}
+		}
+		region_state:NEJ = {
+			create_pop = {
+				culture = bedouin
+				size = 2996
+			}
+			create_pop = {
+				culture = bedouin
+				religion = shiite
+				size = 7000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = north_caucasian
+				size = 400
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = sudanese
+				religion = animist
+				size = 1200
+			}
+		}
+		region_state:RIC = {
+			create_pop = {
+				culture = latinoi
+				size = 1500
+				pop_type = shopkeepers
+			}
+			create_pop = {
+				culture = latinoi
+				size = 1400
+				pop_type = clerks
+			}
+			create_pop = {
+				culture = bedouin
+				religion = shiite
+				pop_type = slaves
+				size = 9000
+			}
+			create_pop = {
+				culture = coptic
+				religion = oriental_orthodox
+				size = 5020
+			}
+			create_pop = {
+				culture = apoikoi
+				size = 2000
+			}
+			create_pop = {
+				culture = somali
+				pop_type = slaves
+				size = 5000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = sudanese
+				religion = animist
+				size = 4200
+			}
+			create_pop = {
+				culture = bedouin
+				religion = sunni
+				pop_type = slaves
+				size = 14380
+			}
+			create_pop = {
+				culture = bedouin
+				religion = oriental_orthodox
+				size = 18350
+			}
+			create_pop = {
+				culture = sephardic
+				religion = jewish
+				size = 2000
+
+			}
+		}
+	}
+	s:STATE_OMAN = {
+		region_state:OMA = {
+			create_pop = {
+				culture = bedouin
+				religion = shiite
+				size = 158000
+			}
+			create_pop = {
+				culture = bedouin
+				religion = oriental_orthodox
+				size = 9500
+			}
+			create_pop = {
+				culture = swahili
+				size = 8400
+			}
+			create_pop = {
+				culture = baluchi
+				size = 9200
+			}
+			create_pop = {
+				culture = bedouin
+				religion = sunni
+				size = 38000
+			}
+			create_pop = {
+				culture = persian
+				religion = shiite
+				size = 18000
+			}
+			create_pop = {
+				culture = sephardic
+				religion = jewish
+				size = 2400
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = sudanese
+				religion = animist
+				size = 17000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = lacustrine_bantu
+				size = 19000
+			}
+		}
+		region_state:NEJ = {
+			create_pop = {
+				culture = bedouin
+				size = 13996
+			}
+			create_pop = {
+				culture = bedouin
+				religion = shiite
+				size = 6000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = north_caucasian
+				size = 400
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = sudanese
+				religion = animist
+				size = 1200
+			}
+		}
+	}
+	s:STATE_ZANZIBAR = {
+		region_state:MSI = {
+			create_pop = {
+				culture = lacustrine_bantu
+				size = 2600
+			}
+			create_pop = {
+				culture = maasai
+				size = 60040
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = lacustrine_bantu
+				size = 10000
+			}
+		}
+		region_state:ZAN = {
+			create_pop = {
+				culture = bedouin
+				size = 20000
+				pop_type = aristocrats
+			}
+			create_pop = {
+				culture = bedouin
+				size = 10000
+				pop_type = clergymen
+			}
+			create_pop = {
+				culture = bedouin
+				size = 2600
+				pop_type = officers
+			}
+			create_pop = {
+				culture = bedouin
+				size = 4000
+				pop_type = bureaucrats
+			}
+			create_pop = {
+				culture = bedouin
+				size = 10000
+				pop_type = shopkeepers
+			}
+			create_pop = {
+				culture = bedouin
+				size = 10000
+				pop_type = soldiers
+			}
+			create_pop = { #Freddy Mercury is from here 
+				culture = persian
+				religion = zoroastrian
+				size = 75000
+			}
+			create_pop = {
+				culture = swahili
+				size = 382800
+			}
+			create_pop = {
+				culture = sukuma
+				religion = animist
+				pop_type = slaves
+				size = 32000
+			}
+			create_pop = {
+				culture = lacustrine_bantu
+				pop_type = slaves
+				size = 466396
+			}
+			create_pop = {
+				culture = sukuma
+				size = 28000
+				pop_type = slaves
+			}
+			create_pop = {
+				culture = unyamwezi
+				size = 92000
+				pop_type = slaves
+			}
+		}
+	}
+	s:STATE_MOCAMBIQUE = {
+		region_state:ZAN = {
+			create_pop = {
+				culture = bedouin
+				size = 2000
+				pop_type = aristocrats
+			}
+			create_pop = {
+				culture = bedouin
+				size = 1000
+				pop_type = clergymen
+			}
+			create_pop = {
+				culture = bedouin
+				size = 600
+				pop_type = bureaucrats
+			}
+			create_pop = {
+				culture = makua
+				size = 46000
+				pop_type = slaves
+			}
+			create_pop = {
+				culture = swahili
+				size = 249996
+			}
+			create_pop = {
+				culture = sena
+				size = 19600
+				pop_type = slaves
+			}
+			create_pop = {
+				culture = lacustrine_bantu
+				pop_type = slaves
+				size = 80399
+			}
+			create_pop = {
+				culture = yao
+				size = 68430
+				pop_type = slaves
+			}
+			create_pop = {
+				culture = chewa
+				size = 42800
+				pop_type = slaves
+			}
+			create_pop = {
+				culture = lomwe
+				size = 6000
+				pop_type = slaves
+			}
+		}	
+		region_state:MKU = {
+			create_pop = {
+				culture = makua
+				size = 400000
+			}
+			create_pop = {
+				culture = sena
+				size = 86004
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = lacustrine_bantu
+				size = 83996
+			}
+			create_pop = {
+				culture = yao
+				size = 244300
+			}
+			create_pop = {
+				culture = chewa
+				size = 88000
+			}
+			create_pop = {
+				culture = lomwe
+				size = 60000
+			}
+		}
+	}
+	s:STATE_ZAMBEZIA = {
+		region_state:ZAN = {
+			create_pop = {
+				culture = bedouin
+				size = 2000
+				pop_type = aristocrats
+			}
+			create_pop = {
+				culture = bedouin
+				size = 1000
+				pop_type = clergymen
+			}
+			create_pop = {
+				culture = bedouin
+				size = 600
+				pop_type = bureaucrats
+			}
+			create_pop = {
+				culture = swahili
+				size = 149996
+			}
+			create_pop = {
+				culture = sena
+				size = 38399
+				pop_type = slaves
+			}
+			create_pop = {
+				culture = shona
+				size = 96000
+				pop_type = slaves
+			}
+			create_pop = {
+				culture = lacustrine_bantu
+				pop_type = slaves
+				size = 48800
+			}
+		}	
+		region_state:MSK = {
+			create_pop = {
+				culture = shona
+				size = 96400
+			}
+			create_pop = {
+				culture = sena
+				size = 10000
+			}
+			create_pop = {
+				culture = lacustrine_bantu
+				size = 58996
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = lacustrine_bantu
+				size = 5000
+			}
+		}
+		region_state:MNC = {
+			create_pop = {
+				culture = sena
+				size = 123996
+			}
+			create_pop = {
+				culture = shona
+				size = 96004
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = lacustrine_bantu
+				size = 88000
+			}
+		}
+	}
+	s:STATE_LOURENCO_MARQUES = {	
+		region_state:BTG = {
+			create_pop = {
+				culture = swahili
+				size = 9996
+			}
+			create_pop = {
+				culture = nguni
+				size = 333804
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = lacustrine_bantu
+				size = 88000
+			}
+			create_pop = {
+				culture = shona
+				size = 260000
+			}
+			create_pop = {
+				culture = tonga
+				size = 380000
+			}
+		}
+	}
+
+	s:STATE_SOMALILAND = {
+		region_state:MJT = {
+			create_pop = {
+				culture = bedouin
+				size = 20000
+				pop_type = aristocrats
+			}
+			create_pop = {
+				culture = bedouin
+				size = 10000
+				pop_type = clergymen
+			}
+			create_pop = {
+				culture = bedouin
+				size = 2000
+				pop_type = bureaucrats
+			}
+			create_pop = {
+				culture = bedouin
+				size = 2000
+				pop_type = officers
+			}
+			create_pop = {
+				culture = somali
+				size = 689000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = somali
+				size = 35000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = oromo
+				religion = animist
+				size = 40000
+			}
+			create_pop = {
+				culture = oromo
+				religion = animist
+				size = 22000
+			}
+			create_pop = {
+				culture = swahili
+				size = 92000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = swahili
+				size = 4000
+			}
+		}
+	}
+
+}
