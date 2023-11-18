@@ -48,7 +48,7 @@ je_insult_machine_ita_button = {
 				country_has_primary_culture = cu:north_italian
 			}
 			trigger_event = {
-				id = supamap_insult_events.1
+				id = supamap_insult_events.2
 				days = 1
 			}
 		}

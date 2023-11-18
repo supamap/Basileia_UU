@@ -336,10 +336,12 @@ pentarchy.1.f: "With the heartlands of Eastern Christianity now under our contro
 pentarchy.1.a: "The [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle] shall rule in God's name."
 pentarchy.1.b: "The Partiarchate will lead the faithful."
 
-supamap_insult_events.1.t: "Idiot"
-supamap_insult_events.1.d: "Idiot"
-supamap_insult_events.1.f: "Not so funny now right?"
+supamap_insult_events.1.t: "You Idiot"
+supamap_insult_events.1.d: "How Stupid Could You Be!"
+supamap_insult_events.1.f: "Only someone of your height and low caliber skill could mess up a nation this badly, you suck Juicy"
 supamap_insult_events.1.a: "Yes, I know im an idiot..."
+
+supamap_insult_events.2.f: "Only someone of your height and low caliber skill could mess up a nation this badly, you suck Fulmi"
 
 idiot_modifier: "Being an idiot"
 
